@@ -24,13 +24,18 @@
   "paragraph": "ClicProduct permet aux détaillants et distributeurs de vendre plus efficacement tout en offrant aux clients une expérience d'achat moderne et fluide. De la visualisation 3D interactive aux devis et livraisons automatisés, tous les outils dont vous avez besoin sont intégrés dans une seule plateforme simple.",
   "button": "Réserver une démo"
 },
+"hero5": {
+  "heading": "Construisez plus intelligemment. Livrez plus rapidement. Impressionnez chaque client.",
+  "paragraph": "ClicProduct offre aux professionnels de la rénovation une boîte à outils numérique complète — vous aidant à planifier, visualiser et gérer vos projets avec précision et confiance.",
+  "button": "Réserver une démonstration"
+},
   "navbar": {
     "home": "Accueil",
     "products": "Produits",
     "marbles": "Fabricants de marbre",
     "retailers": "Détaillants et distributeurs",
     "architects": "Architectes et designers",
-    "contractors": "Entrepreneurs en rénovation",
+    "renovation": "Entrepreneurs en rénovation",
     "crazy": "Ananas Fou",
     "clicSoftware": "Logiciel ClicProduct",
     "marbleWeb": "Développement de sites Web pour les fournisseurs de marbre",
@@ -232,6 +237,14 @@
   "heading": "Transformez votre façon de vendre",
   "button": "Commencez avec Nirwana"
 },
+"ArchitechCTA": {
+  "heading": "Conçu pour les professionnels du bâtiment",
+  "button": "Commencer avec Nirwana"
+},
+"RenovationCTA": {
+  "heading": "Offrez la qualité en toute confiance",
+  "button": "Commencer avec Nirwana"
+},
   "buildForMarble": {
     "heading": "Conçu pour les opérations réelles de marbre",
     "subheading": {
@@ -272,6 +285,45 @@
     "feature1": "Générez des devis et des factures instantanément",
     "feature2": "Suivez les stocks et les livraisons en temps réel",
     "feature3": "Gérez les paiements et les clients depuis un seul endroit"
+  },
+  "architectHero": {
+    "heading": "Donnez vie à vos idées. Visualisez chaque détail en toute confiance.",
+    "description": "ClicProduct aide les architectes et les designers d’intérieur à transformer leurs concepts créatifs en expériences visuelles réalistes. De la sélection des matériaux à la présentation au client, tout se passe sur une plateforme élégante et intelligente — conçue pour inspirer la collaboration et accélérer la prise de décision.",
+    "button": "Réserver une démo"
+  },
+  "visualizeRealism": {
+    "heading": "Visualisez avec réalisme",
+    "description": "Ne devinez plus à quoi ressemblera un design une fois réalisé. Avec ClicProduct, visualisez instantanément le marbre, les carreaux et les surfaces dans des environnements 3D réalistes. Chaque texture, reflet et couleur se comporte naturellement — comme dans le monde réel.",
+    "bulletPoints": [
+      "Prévisualisez les matériaux directement sur les sols, murs ou plans de travail",
+      "Comparez instantanément les finitions et les motifs",
+      "Créez plusieurs versions de conception en quelques minutes",
+      "Exportez des visuels pour les présentations clients"
+    ]
+  },
+  "visualizeRealism1": {
+  "heading": "Visualisez avant de construire",
+  "description": "Montrez à vos clients à quoi ressemblera leur espace rénové — avant même que les travaux ne commencent. Téléversez des photos réelles des pièces, appliquez vos matériaux et prévisualisez la transformation instantanément.",
+  "bulletPoints": [
+    "Aperçus des produits en temps réel",
+    "Comparaisons côte à côte",
+    "Visuels instantanés pour approbation du client"
+  ]
+},
+  "simplifyProject": {
+    "heading": "Simplifiez la gestion de projet",
+    "description": "Restez organisé de la conception à la réalisation. ClicProduct garde vos matériaux, devis et préférences clients synchronisés en un seul endroit, pour avancer plus vite et éviter les erreurs coûteuses.",
+    "button": "Réserver une démo"
+  },
+  "simplifyProject1": {
+  "heading": "Simplifiez chaque projet",
+  "description": "Dites adieu aux fichiers éparpillés et aux longs échanges d’e-mails. ClicProduct garde vos devis, commandes et données de projet organisés dans un tableau de bord facile à utiliser.",
+  "button": "Réserver une démo"
+},
+  "collaborateSection": {
+    "heading": "Collaborez avec les clients et les fournisseurs",
+    "paragraph1": "Une communication fluide est la clé de rénovations réussies.",
+    "paragraph2": "Avec ClicProduct, les clients, les concepteurs et les fournisseurs peuvent collaborer visuellement — en examinant les conceptions, les matériaux et les modifications en temps réel."
   }
 
 }

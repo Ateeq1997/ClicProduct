@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import HeroSection from "../components/MarbleHero";
-import WhyForMarbleSeller from "../components/WhyForMarbleSeller"
-import DashboardAndFeatures from "../components/DashboardAndFeatures"
+import HeroSection from "../components/Marble/MarbleHero";
+import WhyForMarbleSeller from "../components/Marble/WhyForMarbleSeller"
+import DashboardAndFeatures from "../components/Wood/DashboardAndFeatures"
 import HowItWorks from "../components/HowItWorks";
-import MarbleCTA from "../components/MarbleCTA"
+import MarbleCTA from "../components/Marble/MarbleCTA"
 import Footer from "../components/Footer";
 
 export default function Marble(): JSX.Element {

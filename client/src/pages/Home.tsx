@@ -1,10 +1,10 @@
 import Navbar from '../components/Navbar'
-import HeroSection from '../components/HeroSection'
-import WhatDoYouSell from "../components/WhatDoYouSell";
-import PoweredByNirwana from "../components/PoweredByNirwana";
-import ExploreVisualization from "../components/ExploreVisualization";
+import HeroSection from '../components/Home/HeroSection'
+import WhatDoYouSell from "../components/Home/WhatDoYouSell";
+import PoweredByNirwana from "../components/Home/PoweredByNirwana";
+import ExploreVisualization from "../components/Home/ExploreVisualization";
 import HowItWorks from "../components/HowItWorks";
-import FAQsSection from "../components/FAQsSection";
+import FAQsSection from "../components/Home/FAQsSection";
 import Footer from "../components/Footer";
 
 import React from "react";

@@ -1,8 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { Link } from "wouter"; // ✅ correct for Wouter
-
+import { Link } from "wouter"; // ✅ correct import for Wouter
 import { ChevronDownIcon } from "lucide-react";
 import {
   DropdownMenu,
@@ -16,7 +15,6 @@ import { useTranslation } from "react-i18next";
 const Navbar = () => {
   const [openDropdown, setOpenDropdown] = useState(null);
   const { t, i18n } = useTranslation();
-
   const [language, setLanguage] = useState(i18n.language.toUpperCase());
 
   const changeLanguage = (lang) => {
@@ -33,7 +31,7 @@ const Navbar = () => {
         t("navbar.marbles"),
         t("navbar.retailers"),
         t("navbar.architects"),
-        t("navbar.contractors"),
+        t("navbar.renovation"),
       ],
     },
     {
@@ -53,20 +51,20 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="bg-[#fcfcfc] overflow-hidden w-full min-w-[1440px] relative">
+    <div className="bg-[#fcfcfc] overflow-hidden w-full relative">
       <header className="relative z-10 bg-white">
-       <div className="max-w-[1440px] mx-auto px-[92px] py-7 flex items-center justify-between">
-  {/* Logo with Text */}
-  <div className="flex items-center">
-    <img
-      src="/figmaAssets/logo.png"
-      alt="ClicProduct Logo"
-      className="w-[45px] h-[45px] object-contain"
-    />
-    <span className="[font-family:'Montserrat',Helvetica] font-bold text-[#111111] text-[31px] tracking-[0] leading-[65px]">
-      ClicProduct
-    </span>
-  </div>
+        <div className="max-w-[1440px] mx-auto px-[92px] py-7 flex items-center justify-between">
+          {/* Logo */}
+          <div className="flex items-center">
+            <img
+              src="/figmaAssets/logo.png"
+              alt="ClicProduct Logo"
+              className="w-[45px] h-[45px] object-contain"
+            />
+            <span className="font-[Montserrat] font-bold text-[#111111] text-[31px] leading-[65px]">
+              ClicProduct
+            </span>
+          </div>
 
           {/* Navigation */}
           <nav className="flex items-center gap-[42px]">
@@ -83,59 +81,62 @@ const Navbar = () => {
                     <DropdownMenuTrigger
                       onMouseEnter={() => setOpenDropdown(item.label)}
                       onMouseLeave={() => setOpenDropdown(null)}
-                      className="flex items-center gap-1 [font-family:'Poppins',Helvetica] font-medium text-[#333333] text-lg tracking-[0] leading-[normal] outline-none cursor-pointer"
+                      className="flex items-center gap-1 font-[Poppins] font-medium text-[#333333] text-lg cursor-pointer outline-none"
                     >
                       {item.label}
                       <ChevronDownIcon className="w-4 h-4 transition-transform duration-300" />
                     </DropdownMenuTrigger>
+
                     <DropdownMenuContent
                       onMouseEnter={() => setOpenDropdown(item.label)}
                       onMouseLeave={() => setOpenDropdown(null)}
                       className="bg-white shadow-lg border border-gray-200"
                     >
-               {item.dropdown.map((subItem, i) => {
-  const isManufacturers = subItem === t("navbar.marbles"); 
-  const isRetailers = subItem === t("navbar.retailers");
-  const isArchitects = subItem === t("navbar.architects");
+                      {item.dropdown.map((subItem, i) => {
+                        const isManufacturers = subItem === t("navbar.marbles");
+                        const isRetailers = subItem === t("navbar.retailers");
+                        const isArchitects = subItem === t("navbar.architects");
+                        const isRenovation = subItem === t("navbar.renovation");
 
-  return (
-    <DropdownMenuItem
-      key={i}
-      className="[font-family:'Poppins',Helvetica] font-medium text-[#333333] text-base cursor-pointer hover:bg-[#f2f2f2] transition-colors"
-    >
-      {isManufacturers ? (
-        <Link href="/Manufacturers">{subItem}</Link>
-      ) : isRetailers ? (
-        <Link href="/Retailers">{subItem}</Link>
-      ) : isArchitects ? (
-        <Link href="/Architects">{subItem}</Link>
-      ) : (
-        subItem
-      )}
-    </DropdownMenuItem>
-  );
-})}
-
+                        return (
+                          <DropdownMenuItem
+                            key={i}
+                            className="font-[Poppins] text-[#333333] text-base cursor-pointer hover:bg-[#f2f2f2] transition-colors"
+                          >
+                            {isManufacturers ? (
+                              <Link href="/Manufacturers">{subItem}</Link>
+                            ) : isRetailers ? (
+                              <Link href="/Retailers">{subItem}</Link>
+                            ) : isArchitects ? (
+                              <Link href="/Architects">{subItem}</Link>
+                            ) : isRenovation ? (
+                              <Link href="/Renovation">{subItem}</Link>
+                            ) : (
+                              subItem
+                            )}
+                          </DropdownMenuItem>
+                        );
+                      })}
                     </DropdownMenuContent>
                   </DropdownMenu>
                 );
               }
 
               return (
-                <a
+                <Link
                   key={index}
                   href={item.href}
-                  className="[font-family:'Poppins',Helvetica] font-medium text-[#333333] text-lg tracking-[0] leading-[normal] hover:text-[#111111] transition-colors"
+                  className="font-[Poppins] font-medium text-[#333333] text-lg hover:text-[#111111] transition-colors"
                 >
                   {item.label}
-                </a>
+                </Link>
               );
             })}
           </nav>
 
           {/* Buttons Section */}
           <div className="flex items-center gap-4">
-            {/* 🔒 Login Button */}
+            {/* Login Button */}
             <motion.div
               whileHover={{
                 scale: 1.05,
@@ -146,12 +147,12 @@ const Navbar = () => {
               transition={{ type: "spring", stiffness: 300 }}
               className="rounded-[200px]"
             >
-              <Button className="h-[40px] px-10 bg-[#111111] rounded-[200px] [font-family:'Poppins',Helvetica] font-semibold text-white text-[18px] tracking-[0] leading-[normal] transition-all duration-300">
+              <Button className="h-[40px] px-10 bg-[#111111] rounded-[200px] font-[Poppins] font-semibold text-white text-[18px] transition-all duration-300">
                 {t("navbar.login")}
               </Button>
             </motion.div>
 
-            {/* 🌍 Language Dropdown */}
+            {/* Language Dropdown */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <motion.div
@@ -163,7 +164,7 @@ const Navbar = () => {
                   transition={{ type: "spring", stiffness: 300 }}
                   className="rounded-[200px]"
                 >
-                  <Button className="h-[40px] px-10 bg-[#111111] rounded-[200px] [font-family:'Poppins',Helvetica] font-semibold text-white text-[18px] tracking-[0] leading-[normal] flex items-center gap-2 min-w-[140px] justify-between">
+                  <Button className="h-[40px] px-10 bg-[#111111] rounded-[200px] font-[Poppins] font-semibold text-white text-[18px] flex items-center gap-2 min-w-[140px] justify-between">
                     <span className="flex items-center gap-2">
                       {language === "EN" ? "🇬🇧" : "🇫🇷"}
                       {language === "EN" ? "English" : "Français"}
@@ -176,13 +177,13 @@ const Navbar = () => {
               <DropdownMenuContent className="bg-white shadow-lg border border-gray-200 mt-2 rounded-lg">
                 <DropdownMenuItem
                   onClick={() => changeLanguage("EN")}
-                  className="cursor-pointer hover:bg-[#f2f2f2] [font-family:'Poppins',Helvetica] text-[#333] text-base flex items-center gap-2 px-4 py-2"
+                  className="cursor-pointer hover:bg-[#f2f2f2] font-[Poppins] text-[#333] text-base flex items-center gap-2 px-4 py-2"
                 >
                   🇬🇧 English
                 </DropdownMenuItem>
                 <DropdownMenuItem
                   onClick={() => changeLanguage("FR")}
-                  className="cursor-pointer hover:bg-[#f2f2f2] [font-family:'Poppins',Helvetica] text-[#333] text-base flex items-center gap-2 px-4 py-2"
+                  className="cursor-pointer hover:bg-[#f2f2f2] font-[Poppins] text-[#333] text-base flex items-center gap-2 px-4 py-2"
                 >
                   🇫🇷 Français
                 </DropdownMenuItem>

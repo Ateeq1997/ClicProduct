@@ -37,7 +37,7 @@ const CustomerJourneySection = () => {
       <motion.div
         whileHover={{ scale: 1.05 }}
         transition={{ type: "spring", stiffness: 200 }}
-        className="w-full lg:w-[480px] h-[300px] lg:h-[340px] flex justify-center"
+        className="w-full lg:w-[480px] h-[300px] lg:h-[400px] flex justify-center"
       >
         <img
           src="/figmaAssets/video (1).png"

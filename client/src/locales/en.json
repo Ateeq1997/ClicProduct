@@ -24,13 +24,18 @@
     "paragraph": "ClicProduct empowers retailers and distributors to sell more effectively while giving customers a seamless, modern buying experience. From interactive 3D visualization to automated quotes and deliveries, every tool you need is built into one simple platform.",
     "button": "Book Demo"
   },
+    "hero5": {
+    "heading": "Build smarter Deliver faster Impress every client.",
+    "paragraph": "Clicproduct Gives Renovation Professionals A Complete Digital Toolkit — Helping You Plan, Visualize, And Manage Projects With Precision And Confidence.",
+    "button": "Book Demo"
+  },
   "navbar": {
     "home": "Home",
     "products": "Products",
     "marbles": "Marbles Manufacturers",
     "retailers": "Retailers and Distributors",
     "architects": "Architects and Designers",
-    "contractors": "Renovation Contractors",
+    "renovation": "Renovation Contractors",
     "crazy": "Crazy Pineapple",
     "clicSoftware": "ClicProduct Software",
     "marbleWeb": "Website Development for Marble Suppliers",
@@ -79,6 +84,7 @@
   "visualization_alt1": "Visualization Image 1",
   "visualization_alt2": "Visualization Image 2",
   "visualization_alt3": "Visualization Image 3",
+   "explore_heading": "Explore the Future of Visualization with Nirwana.ai",
   "how_heading": "How It Works",
   "how_step1_title": "Choose Your Product",
   "how_step1_desc": "Select what you sell (Marble, Wood, or Furniture) from the home page.",
@@ -230,10 +236,18 @@
     "heading": "Ready to Simplify Your Marble Business?",
     "button": "Get Started with Nirwana"
   },
-"RetailsCTA": {
-  "heading": "Transformez votre façon de vendre",
-  "button": "Commencez avec Nirwana"
-},
+   "RetailsCTA": {
+    "heading": "Transform the Way You Sell",
+    "button": "Get Started with Nirwana"
+  },
+    "ArchitechCTA": {
+    "heading": "Designed for Professionals Who Build",
+    "button": "Get Started with Nirwana"
+  },
+      "RenovationCTA": {
+    "heading": "Deliver Quality with Confidence",
+    "button": "Get Started with Nirwana"
+  },
   "buildForMarble": {
     "heading": "Built for Real Marble Operations",
     "subheading": {
@@ -275,7 +289,48 @@
     "feature1": "Generate quotes and invoices instantly",
     "feature2": "Track inventory and deliveries in real time",
     "feature3": "Manage payments and customers from one place"
+  },
+  "architectHero": {
+    "heading": "Bring Ideas to Life. Visualize Every Detail with Confidence.",
+    "description": "ClicProduct empowers architects and interior designers to turn creative concepts into realistic visual experiences. From material selection to client presentation, everything happens in one elegant and intelligent platform — built to inspire collaboration and speed up decision-making.",
+    "button": "Book Demo"
+  },
+  "visualizeRealism": {
+    "heading": "Visualize with Realism",
+    "description": "No more guessing how a design will look once it's built. With ClicProduct, you can instantly visualize marble, tiles, and surfaces in lifelike 3D environments. Every texture, reflection, and color behaves naturally — just like it would in the real world.",
+    "bulletPoints": [
+      "Preview materials directly on floors, walls, or countertops",
+      "Compare finishes and patterns instantly",
+      "Create multiple design versions in minutes",
+      "Export visuals for client presentations"
+    ]
+  },
+   "visualizeRealism1": {
+    "heading": "Visualize Before You Build",
+    "description": "Show clients how their renovated space will look — before the work begins. Upload real room photos, apply your materials, and preview the transformation instantly.",
+    "bulletPoints": [
+      "Real-time product previews",
+      "Side-by-side comparisons",
+      "Instant client approval visuals"
+    ]
+  },
+  "simplifyProject": {
+    "heading": "Simplify Project Management",
+    "description": "Stay organized from concept to completion. ClicProduct keeps your materials, quotes, and client preferences synced in one place, so you can move faster and avoid costly mistakes.",
+    "button": "Book Demo"
+  },
+  "simplifyProject1": {
+    "heading": "Simplify Every Project",
+    "description": "Say goodbye to scattered files and long email threads. ClicProduct keeps your quotes, orders, and project data organized in one easy-to-use dashboard.",
+    "button": "Book Demo"
+  },
+  "collaborateSection": {
+    "heading": "Collaborate with Clients and Suppliers",
+    "paragraph1": "Seamless communication is key to successful renovations.",
+    "paragraph2": "With ClicProduct, clients, designers, and suppliers can all collaborate visually — reviewing designs, materials, and changes in real time."
   }
+
+
 }
 
 

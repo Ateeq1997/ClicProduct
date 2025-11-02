@@ -3,11 +3,11 @@ import React from "react";
 import { Button } from "../components/ui/button";
 import { Card, CardContent } from "../components/ui/card";
 import Navbar from "../components/Navbar";
-import RetailersHero from "../components/RetailerHero";
-import ShowcaseProducts from "../components/ShowcaseProducts"
-import OperationsSection from "../components/OperationsSection"
-import CustomerJourneySection from "../components/CustomerJourneySection"
-import RetailsCTA from "../components/RetailsCTA"
+import RetailersHero from "../components/Retailers/RetailerHero";
+import ShowcaseProducts from "../components/Retailers/ShowcaseProducts"
+import OperationsSection from "../components/Retailers/OperationsSection"
+import CustomerJourneySection from "../components/Retailers/CustomerJourneySection"
+import RetailsCTA from "../components/Retailers/RetailsCTA"
 import Footer from "../components/Footer";
 
 
