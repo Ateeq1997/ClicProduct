@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { Link } from "wouter"; // ✅ correct import for Wouter
+import { Link } from "wouter";
 import { ChevronDownIcon } from "lucide-react";
 import {
   DropdownMenu,
@@ -47,7 +47,7 @@ const Navbar = () => {
       ],
     },
     { label: t("navbar.about"), href: "/about" },
-    { label: t("navbar.contact"), href: "/contact" },
+    { label: t("navbar.contact"), href: "/Contact" },
   ];
 
   return (
@@ -93,17 +93,33 @@ const Navbar = () => {
                       className="bg-white shadow-lg border border-gray-200"
                     >
                       {item.dropdown.map((subItem, i) => {
+                        const isClicSoftware = subItem === t("navbar.clicSoftware");
+                        const isMarbleSEO = subItem === t("navbar.marbleSeo");
+                        const isDigitalMarketing = subItem === t("navbar.marbleMarketing");
+                       const isDigitalMarketingWood = subItem === t("navbar.woodMarketing"); 
                         const isManufacturers = subItem === t("navbar.marbles");
                         const isRetailers = subItem === t("navbar.retailers");
                         const isArchitects = subItem === t("navbar.architects");
                         const isRenovation = subItem === t("navbar.renovation");
+                        const isWebDevelopment = subItem === t("navbar.marbleWeb");
+
 
                         return (
                           <DropdownMenuItem
                             key={i}
                             className="font-[Poppins] text-[#333333] text-base cursor-pointer hover:bg-[#f2f2f2] transition-colors"
                           >
-                            {isManufacturers ? (
+                            {isClicSoftware ? (
+                              <Link href="/ClicProductSoftware">{subItem}</Link>
+                              ) : isWebDevelopment ? (
+  <Link href="/WebDevelopment">{subItem}</Link>   
+  ) : isMarbleSEO ? (
+  <Link href="/MarbleSEO">{subItem}</Link>     
+  ) : isDigitalMarketing ? (
+  <Link href="/DigitalMarketing">{subItem}</Link>   
+  ) : isDigitalMarketingWood ? (
+  <Link href="/DigitalMarketingWood">{subItem}</Link> 
+                            ) : isManufacturers ? (
                               <Link href="/Manufacturers">{subItem}</Link>
                             ) : isRetailers ? (
                               <Link href="/Retailers">{subItem}</Link>
@@ -111,8 +127,12 @@ const Navbar = () => {
                               <Link href="/Architects">{subItem}</Link>
                             ) : isRenovation ? (
                               <Link href="/Renovation">{subItem}</Link>
-                            ) : (
-                              subItem
+                            ) :
+                             (
+                              // 👇 placeholders for future dropdowns under Crazy Pineapple
+                              <span className="opacity-60 cursor-not-allowed">
+                                {subItem} (Coming Soon)
+                              </span>
                             )}
                           </DropdownMenuItem>
                         );
@@ -122,6 +142,7 @@ const Navbar = () => {
                 );
               }
 
+              // Regular links (Home, About, Contact)
               return (
                 <Link
                   key={index}

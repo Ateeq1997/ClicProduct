@@ -29,6 +29,34 @@
   "paragraph": "ClicProduct offre aux professionnels de la rénovation une boîte à outils numérique complète — vous aidant à planifier, visualiser et gérer vos projets avec précision et confiance.",
   "button": "Réserver une démonstration"
 },
+"hero6": {
+  "heading": "Intelligent, simple et conçu pour l’avenir de la gestion des produits",
+  "paragraph": "ClicProduct est une plateforme tout-en-un conçue pour les fabricants, les détaillants et les distributeurs qui souhaitent gérer l’ensemble de leur activité — de l’inventaire aux ventes — en un seul endroit. Développé par Crazy Pineapple, ce logiciel intelligent connecte chaque partie de votre opération grâce à l’automatisation, à l’analyse et à une magnifique visualisation des produits.",
+  "button": "Réserver une démo"
+},
+"hero7": {
+  "heading": "Créez une présence en ligne moderne pour votre entreprise de pierre",
+  "paragraph": "Votre site web est bien plus qu’un simple catalogue numérique — c’est votre première impression. ClicProduct aide les fournisseurs, distributeurs et exportateurs de marbre à créer des sites élégants et performants qui transforment les visiteurs en acheteurs.\nNous combinons précision du design, expertise en référencement et outils de visualisation IA pour vous aider à vous démarquer dans l’industrie mondiale de la pierre.",
+  "button": "Réserver une démo"
+},
+"hero8": {
+  "heading": "SEO pour les entreprises de marbre : soyez trouvés, choisis et en avance",
+  "paragraph": "C’est pourquoi le service SEO pour les entreprises de marbre de ClicProduct a été conçu spécialement pour l’industrie de la pierre, du carrelage et des matériaux d’intérieur — afin de vous aider à apparaître plus haut sur Google, attirer des acheteurs sérieux et transformer les recherches en ventes.",
+  "button": "Réserver une démo"
+},
+"hero9": {
+  "heading": "Faites de votre marque de marbre un leader du marché — en ligne et au-delà",
+  "paragraph": "C’est là qu’intervient le marketing numérique de ClicProduct pour les entreprises de marbre. Nous aidons les fournisseurs, exportateurs et showrooms de pierre à se connecter avec le bon public grâce à une stratégie numérique intelligente, au storytelling et à l’automatisation.",
+  "button": "Réserver une démo"
+},
+"hero10": {
+  "heading": "Transformer le savoir-faire en clics, prospects et clients fidèles",
+  "paragraph": "L’industrie du bois repose sur un design intemporel — mais sa vente exige une stratégie moderne. Des fournisseurs de planchers aux fabricants de meubles sur mesure, votre entreprise mérite visibilité, crédibilité et une croissance en ligne constante.",
+  "button": "Réserver une démo"
+},
+"contacthero": {
+  "heading": "Contactez-nous"
+},
   "navbar": {
     "home": "Accueil",
     "products": "Produits",
@@ -225,6 +253,10 @@
     "heading": "Prêt à transformer vos ventes de marbre ?",
     "button": "Commencez avec Nirwana"
   },
+  "MarbleCTA": {
+  "heading": "Commencez à créer votre site web de marbre dès aujourd’hui",
+  "button": "Commencer avec Nirwana"
+},
   "WoodCTA": {
   "heading": "Prêt à transformer vos ventes de bois ?",
   "button": "Commencez avec Nirwana"
@@ -243,6 +275,18 @@
 },
 "RenovationCTA": {
   "heading": "Offrez la qualité en toute confiance",
+  "button": "Commencer avec Nirwana"
+},
+"ClicCTA": {
+  "heading": "Offrez la qualité en toute confiance",
+  "button": "Commencer avec Nirwana"
+},
+"WebCTA": {
+  "heading": "Commencez à créer votre site web de marbre dès aujourd’hui",
+  "button": "Commencer avec Nirwana"
+},
+"Wood1CTA": {
+  "heading": "Commencez à créer votre site web pour le bois dès aujourd’hui",
   "button": "Commencer avec Nirwana"
 },
   "buildForMarble": {
@@ -310,6 +354,15 @@
     "Visuels instantanés pour approbation du client"
   ]
 },
+"visualizeRealism2": {
+  "heading": "Pourquoi les entreprises de marbre ont besoin d’un website",
+  "description": "Sur le marché actuel, 90 % des acheteurs font des recherches en ligne avant de contacter les fournisseurs. Sans site web professionnel, vous risquez de perdre des clients de grande valeur et des opportunités d’exportation.",
+  "bulletPoints": [
+    "Présentez vos dalles avec des visuels HD et des filtres",
+    "Renforcez la confiance grâce à des galeries de projets et des témoignages",
+    "Attirez des acheteurs internationaux grâce à un contenu optimisé pour le référencement (SEO)"
+  ]
+},
   "simplifyProject": {
     "heading": "Simplifiez la gestion de projet",
     "description": "Restez organisé de la conception à la réalisation. ClicProduct garde vos matériaux, devis et préférences clients synchronisés en un seul endroit, pour avancer plus vite et éviter les erreurs coûteuses.",
@@ -320,13 +373,107 @@
   "description": "Dites adieu aux fichiers éparpillés et aux longs échanges d’e-mails. ClicProduct garde vos devis, commandes et données de projet organisés dans un tableau de bord facile à utiliser.",
   "button": "Réserver une démo"
 },
+"Eyword": {
+  "heading": "Stratégie de mots-clés pour les marchés de la pierre",
+  "description": "Nous recherchons les mots-clés les plus pertinents et les plus rentables utilisés par les entrepreneurs, les architectes et les distributeurs — allant de « carreaux muraux en marbre » à « exportateurs de granit à Dubaï ». Notre équipe crée une carte ciblée qui vous aide à dominer les résultats de recherche pour chaque catégorie de pierre que vous vendez.",
+  "button": "Réserver une démo"
+},
+"GrowSmarter": {
+  "heading": "Développez-vous plus intelligemment avec ClicProduct",
+  "description": "Notre mission est d'aider les entreprises axées sur les produits à aller au-delà des catalogues statiques et à entrer dans l'avenir de l'expérience numérique pilotée par l'IA.",
+  "button": "Réserver une démo"
+},
   "collaborateSection": {
     "heading": "Collaborez avec les clients et les fournisseurs",
     "paragraph1": "Une communication fluide est la clé de rénovations réussies.",
     "paragraph2": "Avec ClicProduct, les clients, les concepteurs et les fournisseurs peuvent collaborer visuellement — en examinant les conceptions, les matériaux et les modifications en temps réel."
-  }
+  },
+  "collaborateClients": {
+  "heading": "Pourquoi le SEO est important pour les fournisseurs de marbre",
+  "paragraph1": "L’optimisation pour les moteurs de recherche (SEO) rend votre entreprise visible. Lorsque les constructeurs, architectes ou propriétaires recherchent « fournisseurs de marbre près de chez moi » ou « marbre italien importé », une bonne stratégie SEO garantit que votre site web apparaisse sur la première page — et non caché derrière vos concurrents."
+},
+  "whyChoose": {
+    "heading": "Pourquoi choisir ClicProduct ?",
+    "description": "Notre plateforme combine technologie, automatisation et design pour donner à votre entreprise un avantage moderne — sans tracas techniques.",
+    "features": [
+      {
+        "title": "Gestion centralisée des produits",
+        "description": "Téléchargez, organisez et mettez à jour facilement tout votre catalogue depuis un tableau de bord intelligent.\nDites adieu aux feuilles de calcul désordonnées — tout reste synchronisé sur votre site web, application et outils de vente."
+      },
+      {
+        "title": "Interface personnalisable pour chaque industrie",
+        "description": "Que vous vendiez du marbre, du bois ou des meubles, ClicProduct s’adapte à votre marque.\nVous pouvez personnaliser les mises en page, les filtres et les vues de produits selon votre style et votre audience."
+      },
+      {
+        "title": "Support multilingue et multicurrency",
+        "description": "Touchez des clients partout dans le monde.\nNotre système ajuste automatiquement vos contenus, prix et mesures pour chaque marché et région."
+      },
+      {
+        "title": "Pages produits optimisées pour le SEO",
+        "description": "Chaque page produit est optimisée pour les moteurs de recherche, aidant vos produits à apparaître plus haut sur Google.\nAttirez plus de visiteurs qualifiés sans avoir besoin d’extensions SEO supplémentaires."
+      },
+      {
+        "title": "Catalogue et outils visuels basés sur l’IA",
+        "description": "Transformez vos images produits en une expérience d’achat interactive.\nGrâce à la visualisation par IA, les clients peuvent voir comment vos matériaux apparaissent dans des environnements réels — générant instantanément la confiance."
+      },
+      {
+        "title": "Inventaire et commandes en temps réel",
+        "description": "Suivez vos stocks, commandes et indicateurs de performance en un seul endroit.\nRecevez des notifications instantanées et prenez des décisions commerciales plus rapides et plus intelligentes basées sur des données réelles."
+      }
+    ]
+  },
+  "digitalShowroom": {
+    "heading": "La puissance d’un showroom numérique",
+    "paragraphs": [
+      "Un site web professionnel est devenu le showroom moderne pour les fournisseurs de marbre. Les acheteurs n’attendent plus de visiter les entrepôts — ils commencent leur parcours en ligne.",
+      "Avec ClicProduct, votre catalogue de marbre devient interactif. Chaque produit peut être exploré, filtré et comparé facilement — comme dans un magasin physique."
+    ],
+    "images": [
+      {
+        "text": "Le système de ClicProduct est conçu pour la croissance. Que vous opériez au Pakistan, en Inde, au Moyen-Orient ou en Europe, votre site web de marbre s’adapte aux besoins locaux tout en gardant une portée mondiale."
+      },
+      {
+        "text": "Nos sites web disposent d’un tableau de bord intégré pour gérer les messages, commandes et demandes au même endroit — afin de ne jamais manquer une opportunité."
+      }
+    ]
+  },
+  "service1_title": "1. Gestion des réseaux sociaux",
+  "service1_description": "Transformez votre Instagram, Facebook, LinkedIn et TikTok en vitrines numériques.\nNous concevons un contenu élégant et cohérent avec votre marque pour attirer les architectes, les designers d'intérieur et les propriétaires.",
+
+  "service2_title": "2. Publicité payante (Google & Meta Ads)",
+  "service2_description": "Obtenez une visibilité instantanée pour vos meilleures collections de marbre.\nNous créons des campagnes publicitaires ciblant les personnes recherchant des fournisseurs de marbre, des matériaux d'intérieur et des services de rénovation — avec un retour sur investissement mesurable.",
+
+  "service3_title": "3. Marketing par e-mail et automatisation",
+  "service3_description": "Restez connecté avec vos prospects et clients.\nDes devis automatisés aux mises à jour personnalisées sur les nouveaux arrivages de marbre, nous mettons en place des systèmes qui entretiennent les relations pendant que vous vous concentrez sur votre entreprise.",
+
+  "service4_title": "4. Création de contenu et storytelling",
+  "service4_description": "Votre marbre a une histoire — origine, texture, savoir-faire.\nNous transformons cette histoire en visuels, vidéos et articles de blog captivants qui inspirent confiance et émotion.\nUn bon design vend — un grand storytelling fidélise.",
+
+  "service5_title": "5. Ciblage international et local",
+  "service5_description": "Atteignez efficacement les audiences internationales et locales.\nNous élaborons des stratégies ciblées pour développer votre entreprise de marbre à l'échelle mondiale tout en maintenant une forte visibilité locale.",
+
+  "service6_title": "6. Analytique et optimisation",
+  "service6_description": "Chaque clic, vue et demande raconte une histoire.\nNous analysons ce qui fonctionne — et améliorons ce qui ne fonctionne pas — pour que chaque dollar dépensé apporte un rendement maximal.\nNos rapports détaillés montrent l'engagement, les prospects et les conversions en temps réel.",
+
+"service7_title": "1. Marketing des réseaux sociaux (SMM)",
+"service7_description": "Donnez vie à votre savoir-faire sur des plateformes visuelles comme Instagram, Facebook, LinkedIn et Pinterest. Nous créons des stratégies de contenu qui mettent en valeur vos textures, finitions et projets — transformant vos abonnés en clients fidèles.",
+
+"service8_title": "2. Publicité payante (Google & Meta Ads)",
+"service8_description": "Vous souhaitez une visibilité instantanée pour vos produits en bois ? Nous concevons des campagnes Google Ads hautement ciblées qui attirent des acheteurs potentiels — des grossistes B2B aux particuliers recherchant « acheter une table en noyer près de chez moi ».",
+
+"service9_title": "3. Email marketing et automatisation",
+"service9_description": "Gardez votre marque présente à l’esprit grâce à des campagnes d’e-mails au design soigné. Nous vous aidons à entretenir vos relations clients avec des newsletters, des promotions et des mises à jour inspirantes sur le design.",
+
+"service10_title": "4. Création de contenu et image de marque",
+"service10_description": "Racontez votre histoire, pas seulement vos produits. Notre équipe développe des visuels, vidéos et articles de blog professionnels qui positionnent votre marque comme une référence de confiance dans l’industrie du bois.",
+
+"service11_title": "5. Analyse, rapports et stratégie de croissance",
+"service11_description": "Chaque campagne est accompagnée d’un suivi de performance transparent. Nous vous montrons ce qui fonctionne — des sources de trafic au retour sur investissement — et ajustons continuellement les stratégies pour augmenter les conversions."
 
 }
+
+
+
 
 
 

@@ -29,6 +29,34 @@
     "paragraph": "Clicproduct Gives Renovation Professionals A Complete Digital Toolkit — Helping You Plan, Visualize, And Manage Projects With Precision And Confidence.",
     "button": "Book Demo"
   },
+   "hero6": {
+    "heading": "Smart, Simple, and Built for the Future of Product Management",
+    "paragraph": "ClicProduct is an all-in-one platform designed for manufacturers, retailers, and distributors who want to manage their entire business — from inventory to sales — in one place. Developed by Crazy Pineapple, this intelligent software connects every part of your operation with automation, analytics, and beautiful product visualization.",
+    "button": "Book Demo"
+  },
+   "hero7": {
+    "heading": "Build a Modern Online Presence for Your Stone Business",
+    "paragraph": "Your website is more than a digital catalog — it’s your first impression. ClicProduct helps marble suppliers, dealers, and exporters build elegant, high-performing websites that turn visitors into buyers.\nWe combine design precision, SEO expertise, and AI visualization tools to help you stand out in the global stone industry.",
+    "button": "Book Demo"
+  },
+   "hero8": {
+    "heading": "SEO for Marble Businesses: Get Found, Get Chosen, Get Ahead",
+    "paragraph": "That’s why ClicProduct’s SEO for Marble Businesses service was built specifically for the stone, tile, and interior materials industry — helping you appear higher on Google, attract serious buyers, and turn searches into sales.",
+    "button": "Book Demo"
+  },
+   "hero9": {
+    "heading": "Turn Your Marble Brand Into a Market Leader — Online and Beyond",
+    "paragraph": "That’s where ClicProduct’s Digital Marketing for Marble Businesses comes in. We help stone suppliers, exporters, and showrooms connect with the right audience through smart digital strategy, storytelling, and automation.",
+    "button": "Book Demo"
+  },
+   "hero10": {
+    "heading": "Turning Craftsmanship Into Clicks, Leads, and Lasting Clients",
+    "paragraph": "The wood industry is built on timeless design — but selling it requires modern strategy. From flooring suppliers to custom furniture makers, your business deserves visibility, credibility, and consistent online growth.",
+    "button": "Book Demo"
+  },
+   "contacthero": {
+    "heading": "Contact us"
+  },
   "navbar": {
     "home": "Home",
     "products": "Products",
@@ -228,6 +256,10 @@
     "heading": "Ready to transform your marble sales?",
     "button": "Get Started with Nirwana"
   },
+   "MarbleCTA": {
+    "heading": "Start Building Your Marble Website Today",
+    "button": "Get Started with Nirwana"
+  },
   "WoodCTA": {
     "heading": "Ready to transform your Wood sales?",
     "button": "Get Started with Nirwana"
@@ -246,6 +278,18 @@
   },
       "RenovationCTA": {
     "heading": "Deliver Quality with Confidence",
+    "button": "Get Started with Nirwana"
+  },
+      "ClicCTA": {
+    "heading": "Deliver Quality with Confidence",
+    "button": "Get Started with Nirwana"
+  },
+      "WebCTA": {
+    "heading": "Start Building Your Marble Website Today",
+    "button": "Get Started with Nirwana"
+  },
+     "Wood1CTA": {
+    "heading": "Start Building Your Wood Website Today",
     "button": "Get Started with Nirwana"
   },
   "buildForMarble": {
@@ -314,6 +358,15 @@
       "Instant client approval visuals"
     ]
   },
+  "visualizeRealism2": {
+    "heading": "Why Marble Businesses Need a Website",
+    "description": "In today’s market, 90% of buyers research online before contacting suppliers.Without a professional website, you risk losing high-value clients and export opportunities.",
+    "bulletPoints": [
+      "Showcase your slabs with HD visuals and filters",
+      "Build trust with project galleries and testimonials",
+      "Attract global buyers through SEO-optimized content"
+    ]
+  },
   "simplifyProject": {
     "heading": "Simplify Project Management",
     "description": "Stay organized from concept to completion. ClicProduct keeps your materials, quotes, and client preferences synced in one place, so you can move faster and avoid costly mistakes.",
@@ -324,14 +377,109 @@
     "description": "Say goodbye to scattered files and long email threads. ClicProduct keeps your quotes, orders, and project data organized in one easy-to-use dashboard.",
     "button": "Book Demo"
   },
+    "Eyword": {
+    "heading": "Eyword Strategy for Stone Markets",
+    "description": "We research the most relevant and profitable keywords used by contractors, architects, and distributors — from “marble wall tiles” to “granite exporters Dubai.” Our team builds a targeted map that helps you dominate search results for every stone category you sell.",
+    "button": "Book Demo"
+  },
+   "GrowSmarter": {
+    "heading": "Grow Smarter with ClicProduct",
+    "description": "Our mission is to help product-based companies go beyond static catalogs and move into the future of AI-driven digital experience.",
+    "button": "Book Demo"
+  },
   "collaborateSection": {
     "heading": "Collaborate with Clients and Suppliers",
-    "paragraph1": "Seamless communication is key to successful renovations.",
+    "paragraph1": "Search Engine Optimization (SEO) is what makes your business discoverable. When builders, architects, or homeowners search for “marble suppliers near me” or “imported Italian marble”, the right SEO strategy ensures that your website appears on the first page — not hidden behind your competitors.",
     "paragraph2": "With ClicProduct, clients, designers, and suppliers can all collaborate visually — reviewing designs, materials, and changes in real time."
-  }
+  },
+  "collaborateClients": {
+    "heading": "Why SEO Matters for Marble  Suppliers",
+    "paragraph1": "Search Engine Optimization (SEO) is what makes your business discoverable. When builders, architects, or homeowners search for “marble suppliers near me” or “imported Italian marble”, the right SEO strategy ensures that your website appears on the first page — not hidden behind your competitors."
+  },
+  "whyChoose": {
+    "heading": "Why Choose ClicProduct ?",
+    "description": "Our platform combines technology, automation, and design to give your business a modern edge — without the technical hassle.",
+    "features": [
+      {
+        "title": "Centralized Product Management",
+        "description": "Easily upload, organize, and update your entire catalog from one smart dashboard.\nSay goodbye to messy spreadsheets — everything stays synced across your website, app, and sales tools."
+      },
+      {
+        "title": "Customizable Interface for Every Industry",
+        "description": "Whether you sell marble, wood, or furniture, ClicProduct adapts to your brand.\nYou can customize layouts, filters, and product views to match your unique style and audience."
+      },
+      {
+        "title": "Multi-language & Multi-currency Support",
+        "description": "Reach customers anywhere in the world.\nOur system automatically adjusts your content, prices, and measurements for every market and region."
+      },
+      {
+        "title": "SEO-friendly Product Pages",
+        "description": "Each product page is optimized for search engines, helping your products appear higher on Google.\nYou'll attract more qualified visitors without needing extra SEO plugins."
+      },
+      {
+        "title": "AI-driven Catalog and Visual Tools",
+        "description": "Turn your product images into an interactive shopping experience.\nWith AI visualization, customers can preview how your materials look in real environments — building trust instantly."
+      },
+      {
+        "title": "Real-time Inventory & Order Insights",
+        "description": "Track your stock levels, orders, and performance metrics in one place.\nGet instant notifications and make faster, smarter business decisions backed by real data."
+      }
+    ]
+  },
+  "digitalShowroom": {
+    "heading": "The Power of a Digital Showroom",
+    "paragraphs": [
+      "A professional website has become the modern showroom for marble suppliers. Buyers no longer wait to visit warehouses — they start their journey online.",
+      "With ClicProduct, your marble catalog becomes interactive. Each product can be explored, filtered, and compared effortlessly — just like in a physical store."
+    ],
+    "images": [
+      {
+        "text": "ClicProduct’s system is built for growth. Whether you operate in Pakistan, India, the Middle East, or Europe, your marble website adapts to local needs while keeping a global reach."
+      },
+      {
+        "text": "Our websites come with a built-in inquiry dashboard to manage messages, orders, and requests in one place — so you never miss a lead again."
+      }
+    ]
+  },
+  "service1_title": "1. Social Media Management",
+  "service1_description": "Transform your Instagram, Facebook, LinkedIn, and TikTok into digital showrooms.\nWe design elegant, brand-consistent content that attracts architects, interior designers, and homeowners.",
 
+  "service2_title": "2. Paid Advertising (Google & Meta Ads)",
+  "service2_description": "Get instant visibility for your top marble collections.\nWe create ad campaigns that target people searching for marble suppliers, interior materials, and renovation services — with measurable ROI.",
+
+  "service3_title": "3. Email & Automation Marketing",
+  "service3_description": "Stay connected with your leads and clients.\nFrom automated quotes to personalized updates about new marble arrivals, we set up systems that nurture relationships while you focus on business.",
+
+  "service4_title": "4. Content Creation & Storytelling",
+  "service4_description": "Your marble has a story — origin, texture, craftsmanship.\nWe turn that story into stunning visuals, videos, and blog articles that inspire trust and emotion.\nGood design sells — great storytelling builds loyalty.",
+
+  "service5_title": "5. International & Local Targeting",
+  "service5_description": "Reach both international and local audiences effectively.\nWe build targeted strategies to help your marble business expand globally while maintaining strong local visibility.",
+
+  "service6_title": "6. Analytics & Optimization",
+  "service6_description": "Every click, view, and inquiry tells a story.\nWe track what works — and refine what doesn't — so every dollar spent brings maximum return.\nOur detailed reports show engagement, leads, and conversions in real time.",
+
+  "service7_title": "1. Social Media Marketing (SMM)",
+  "service7_description": "Bring your craftsmanship to life on visual platforms like Instagram, Facebook, LinkedIn, and Pinterest. We create content strategies that highlight your textures, finishes, and projects — turning followers into loyal customers.",
+
+  "service8_title": "2. Paid Advertising (Google & Meta Ads)",
+  "service8_description": "Want instant visibility for your wood products? We create highly targeted Google Ads campaigns that bring in potential buyers — from B2B wholesalers to homeowners searching “buy walnut table near me.”",
+
+  "service9_title": " 3. Email Marketing & Automation",
+  "service9_description": "Keep your brand top-of-mind with beautifully designed email campaigns. We help you nurture client relationships with newsletters, promotions, and design inspiration updates.",
+
+  "service10_title": "4. Content Creation & Branding",
+  "service10_description": "Show your story, not just your products. Our team develops professional visuals, videos, and blog articles that position your brand as a trusted authority in the wood industry.",
+
+  "service11_title": "5. Analytics, Reporting & Growth Strategy",
+  "service11_description": "Every campaign comes with transparent performance tracking. We show you what’s working — from traffic sources to ROI — and continuously refine strategies to boost conversions."
 
 }
+
+
+
+
+
 
 
 

@@ -17,12 +17,12 @@ const features = [
 export const Renovation = (): JSX.Element => {
   return (
     <div className="bg-[#fcfcfc] overflow-hidden w-full min-w-[1440px] relative">
-   <Navbar />
-   <Hero />
+    <Navbar />
+    <Hero />
     <VisualizeRealismSection />
     <SimplifyProjectSection />
-<RenovationCTA />
-<Footer />
+    <RenovationCTA />
+    <Footer />
 
     </div>
   );
