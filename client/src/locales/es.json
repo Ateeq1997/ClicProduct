@@ -1,0 +1,470 @@
+{
+  "hero": {
+    "heading": "Transforma losas en ventas",
+    "paragraph": "Clickproducts permite a los clientes previsualizar los productos en entornos reales antes de comprarlos, haciendo que la visualización sea simple y realista.",
+    "button": "Reservar demostración"
+  },
+  "hero1": {
+    "heading": "Transforma la forma en que vendes mármol",
+    "paragraph": "Optimiza tu negocio de mármol con un panel inteligente. Gestiona fácilmente envíos, informes y facturación — todo en un solo lugar, diseñado exclusivamente para vendedores de mármol.",
+    "button": "Reservar demostración"
+  },
+  "hero2": {
+    "heading": "Un panel más inteligente para vendedores de madera",
+    "paragraph": "ClicProduct está diseñado específicamente para fabricantes de mármol que desean gestionar toda su operación desde una plataforma inteligente.",
+    "button": "Reservar demostración"
+  },
+  "hero3": {
+    "heading": "Del taller al mundo. Simplifica cada paso.",
+    "paragraph": "Organiza, gestiona y haz crecer tu negocio de madera con una herramienta poderosa.",
+    "button": "Reservar demostración"
+  },
+  "hero4": {
+    "heading": "Vende de forma más inteligente. Presenta mejor. Gestiona todo en un solo lugar.",
+    "paragraph": "ClicProduct permite a minoristas y distribuidores vender de manera más efectiva mientras ofrecen a los clientes una experiencia de compra moderna y fluida. Desde visualización 3D interactiva hasta cotizaciones y entregas automatizadas, todas las herramientas que necesitas están integradas en una sola plataforma.",
+    "button": "Reservar demostración"
+  },
+  "hero5": {
+    "heading": "Construye de forma más inteligente. Entrega más rápido. Impresiona a cada cliente.",
+    "paragraph": "Clicproduct brinda a los profesionales de la renovación un conjunto completo de herramientas digitales — ayudándoles a planificar, visualizar y gestionar proyectos con precisión y confianza.",
+    "button": "Reservar demostración"
+  },
+  "hero6": {
+    "heading": "Inteligente, simple y creado para el futuro de la gestión de productos",
+    "paragraph": "ClicProduct es una plataforma todo en uno diseñada para fabricantes, minoristas y distribuidores que desean gestionar todo su negocio — desde el inventario hasta las ventas — en un solo lugar. Desarrollado por Crazy Pineapple, este software inteligente conecta cada parte de tu operación con automatización, análisis y una hermosa visualización de productos.",
+    "button": "Reservar demostración"
+  },
+  "hero7": {
+    "heading": "Crea una presencia moderna en línea para tu negocio de piedra",
+    "paragraph": "Tu sitio web es más que un catálogo digital — es tu primera impresión. ClicProduct ayuda a proveedores, distribuidores y exportadores de mármol a crear sitios web elegantes y de alto rendimiento que convierten visitantes en compradores.\nCombinamos precisión en el diseño, experiencia en SEO y herramientas de visualización con IA para ayudarte a destacar en la industria global de la piedra.",
+    "button": "Reservar demostración"
+  },
+  "hero8": {
+    "heading": "SEO para negocios de mármol: sé encontrado, sé elegido, destaca",
+    "paragraph": "Por eso, el servicio de SEO de ClicProduct para negocios de mármol fue creado específicamente para la industria de piedra, azulejos y materiales de interior — ayudándote a aparecer más alto en Google, atraer compradores serios y convertir búsquedas en ventas.",
+    "button": "Reservar demostración"
+  },
+  "hero9": {
+    "heading": "Convierte tu marca de mármol en un líder del mercado — en línea y más allá",
+    "paragraph": "Ahí es donde entra en juego el marketing digital de ClicProduct para negocios de mármol. Ayudamos a proveedores, exportadores y salas de exposición a conectar con el público adecuado mediante estrategias digitales inteligentes, narración y automatización.",
+    "button": "Reservar demostración"
+  },
+  "hero10": {
+    "heading": "Convierte la artesanía en clics, clientes potenciales y clientes duraderos",
+    "paragraph": "La industria de la madera se basa en un diseño atemporal, pero venderla requiere una estrategia moderna. Desde proveedores de pisos hasta fabricantes de muebles a medida, tu negocio merece visibilidad, credibilidad y un crecimiento constante en línea.",
+    "button": "Reservar demostración"
+  },
+  "contacthero": {
+    "heading": "Contáctanos"
+  },
+  "navbar": {
+    "home": "Inicio",
+    "products": "Productos",
+    "marbles": "Fabricantes de mármol",
+    "retailers": "Minoristas y distribuidores",
+    "architects": "Arquitectos y diseñadores",
+    "renovation": "Contratistas de renovación",
+    "crazy": "Crazy Pineapple",
+    "clicSoftware": "Software ClicProduct",
+    "marbleWeb": "Desarrollo web para proveedores de mármol",
+    "woodWeb": "Desarrollo web para proveedores de madera",
+    "marbleSeo": "SEO para negocios de mármol",
+    "marbleMarketing": "Marketing digital para negocios de mármol",
+    "woodSeo": "SEO para negocios de madera",
+    "woodMarketing": "Marketing digital para negocios de madera",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "login": "Iniciar sesión"
+  },
+  "whatDoYouSell": {
+    "heading": "¿Qué vendes?",
+    "marble": "Fabricantes de mármol",
+    "wood": "Madera",
+    "seeFullDashboard": "Ver panel completo",
+    "totalSales": "Ventas totales",
+    "activeUsers": "Usuarios activos",
+    "orders": "Pedidos",
+    "downFromYesterday": "Bajó desde ayer"
+  },
+  "poweredBy": {
+    "heading": "Desarrollado por Nirwana.ai",
+    "paragraph": "La tecnología Nirwana permite vistas previas realistas de todos tus productos sin configuraciones complejas.",
+    "rooms": {
+      "living": {
+        "title": "Sala de estar",
+        "description": "Como uno de los lugares más frecuentados del hogar, la sala de estar marca el tono del resto de la casa."
+      },
+      "bedroom": {
+        "title": "Dormitorio",
+        "description": "Desata tu creatividad para hacerlo no solo cómodo, sino también un lugar agradable para comenzar y terminar el día."
+      },
+      "office": {
+        "title": "Oficina",
+        "description": "Las ideas de diseño de oficina en casa presentadas aquí están optimizadas para la eficiencia, el espacio y la comodidad gracias a los diseñadores de Spacejoy."
+      },
+      "kitchen": {
+        "title": "Cocina",
+        "description": "La cocina es el corazón de cada hogar — un espacio donde la funcionalidad se une al estilo. Con Nirwana.ai, puedes previsualizar cómo se verán los diferentes materiales, colores y acabados antes de tomar cualquier decisión."
+      }
+    },
+    "readMore": "Leer más"
+  },
+  "visualization_alt1": "Imagen de visualización 1",
+  "visualization_alt2": "Imagen de visualización 2",
+  "visualization_alt3": "Imagen de visualización 3",
+  "explore_heading": "Explora el futuro de la visualización con Nirwana.ai",
+  "how_heading": "Cómo funciona",
+  "how_step1_title": "Elige tu producto",
+  "how_step1_desc": "Selecciona lo que vendes (Mármol, Madera o Muebles) desde la página principal.",
+  "how_step2_title": "Explora tu panel",
+  "how_step2_desc": "Obtén acceso instantáneo a un panel personalizado con Envíos, Informes y Facturación.",
+  "how_step3_title": "Gestiona y crece",
+  "how_step3_desc": "Gestiona fácilmente tus tareas, realiza un seguimiento del progreso y haz crecer tu negocio con potentes conocimientos.",
+  "faqs": {
+    "heading": "Preguntas frecuentes",
+    "paragraph": "Explora nuestras preguntas frecuentes para obtener respuestas rápidas a las consultas más comunes sobre nuestra plataforma.",
+    "items": [
+      {
+        "question": "¿Qué es ClickProducts?",
+        "answer": "ClickProducts es una plataforma que permite a los clientes visualizar materiales y productos en entornos reales antes de comprarlos."
+      },
+      {
+        "question": "¿Puedo personalizar el panel según mi tipo de producto?",
+        "answer": "¡Sí! Puedes personalizar tu panel según si vendes mármol, madera u otros materiales."
+      },
+      {
+        "question": "¿Necesito conocimientos técnicos para usar ClickProducts?",
+        "answer": "No se necesitan conocimientos técnicos. Nuestra plataforma está diseñada para ser intuitiva y fácil de usar."
+      },
+      {
+        "question": "¿Hay una prueba gratuita disponible?",
+        "answer": "Sí, hay una prueba gratuita disponible para que explores ClickProducts antes de comprometerte."
+      }
+    ]
+  },
+  "footer": {
+    "column1": {
+      "title": "ClicProduct",
+      "description": "ClicProduct es una plataforma completa para la industria del mármol, que ayuda a fabricantes, minoristas y profesionales a gestionar proyectos, pedidos y materiales en un solo lugar.",
+      "newsletterPlaceholder": "Introduce tu correo electrónico",
+      "newsletterButton": "Suscribirse al boletín"
+    },
+    "social": {
+      "facebook": "#",
+      "instagram": "#",
+      "linkedin": "#",
+      "youtube": "#",
+      "vimeo": "#"
+    },
+    "links": {
+      "title": "Enlaces",
+      "items": [
+        "Fabricantes de mármol",
+        "Minoristas y distribuidores",
+        "Arquitectos y diseñadores",
+        "Contratistas de renovación"
+      ]
+    },
+    "services": {
+      "title": "Servicios",
+      "items": [
+        "Software ClicProduct",
+        "Desarrollo web",
+        "Proveedores de madera",
+        "Proveedores de mármol",
+        "SEO"
+      ]
+    },
+    "address": {
+      "title": "Dirección",
+      "email": "info@clicproduit.com",
+      "phone": "+1 123-456-7890"
+    }
+  },
+  "whyMarbleSellers": {
+    "heading": "¿Por qué para vendedores de mármol?",
+    "features": [
+      {
+        "alt": "Joven hermosa",
+        "description": "Funciones adaptadas para losas de mármol, azulejos y productos."
+      },
+      {
+        "alt": "Joven hermosa",
+        "description": "Cargas de productos fáciles con tamaños, acabados y precios."
+      },
+      {
+        "alt": "Joven hermosa",
+        "description": "Categorización inteligente diseñada para negocios de piedra."
+      }
+    ]
+  },
+  "whyWoodSellers": {
+    "heading": "¿Por qué para vendedores de madera?",
+    "features": [
+      {
+        "alt": "Joven hermosa",
+        "description": "Funciones especiales diseñadas para productos de madera."
+      },
+      {
+        "alt": "Joven hermosa",
+        "description": "Agrega detalles del producto como tamaño, tipo (tablas, muebles) y precios."
+      },
+      {
+        "alt": "Joven hermosa",
+        "description": "Categorías fáciles para ventas más rápidas."
+      }
+    ]
+  },
+  "dashboard": {
+    "heading": "Vista previa del panel",
+    "subheading": "Tus ventas. Tus datos. Organizados en un solo lugar.",
+    "imageAlt": "Vista previa del panel",
+    "button": "Ver panel completo",
+    "featuresHeading": "Funciones",
+    "metrics": [
+      {
+        "title": "Envíos",
+        "description": "Recibe solicitudes de clientes al instante.",
+        "current": 300,
+        "total": 1000,
+        "percentage": 30
+      },
+      {
+        "title": "Vehículo de reparación",
+        "description": "Último pago el 01 de agosto de 2022",
+        "current": 900,
+        "total": 1000,
+        "percentage": 90
+      },
+      {
+        "title": "Donación",
+        "description": "Último pago el 20 de agosto de 2022",
+        "current": 200,
+        "total": 1000,
+        "percentage": 20
+      }
+    ]
+  },
+  "marbleCTA": {
+    "heading": "¿Listo para transformar tus ventas de mármol?",
+    "button": "Comenzar con Nirwana"
+  },
+  "MarbleCTA": {
+    "heading": "Comienza a construir tu sitio web de mármol hoy",
+    "button": "Comenzar con Nirwana"
+  },
+  "WoodCTA": {
+    "heading": "¿Listo para transformar tus ventas de madera?",
+    "button": "Comenzar con Nirwana"
+  },
+  "ManufacturerCTA": {
+    "heading": "¿Listo para simplificar tu negocio de mármol?",
+    "button": "Comenzar con Nirwana"
+  },
+  "RetailsCTA": {
+    "heading": "Transforma la forma en que vendes",
+    "button": "Comenzar con Nirwana"
+  },
+  "ArchitechCTA": {
+    "heading": "Diseñado para profesionales que construyen",
+    "button": "Comenzar con Nirwana"
+  },
+  "RenovationCTA": {
+    "heading": "Entrega calidad con confianza",
+    "button": "Comenzar con Nirwana"
+  },
+  "ClicCTA": {
+    "heading": "Entrega calidad con confianza",
+    "button": "Comenzar con Nirwana"
+  },
+  "WebCTA": {
+    "heading": "Comienza a construir tu sitio web de mármol hoy",
+    "button": "Comenzar con Nirwana"
+  },
+  "Wood1CTA": {
+    "heading": "Comienza a construir tu sitio web de madera hoy",
+    "button": "Comenzar con Nirwana"
+  },
+  "buildForMarble": {
+    "heading": "Diseñado para operaciones reales de mármol",
+    "subheading": {
+      "line1": "Olvídate de hojas de cálculo y actualizaciones manuales",
+      "line2": "ClicProduct te ayuda a:"
+    },
+    "features": [
+      "Rastrea inventario y disponibilidad de losas en tiempo real",
+      "Gestiona los cronogramas de producción y controles de calidad",
+      "Crea cotizaciones y facturas al instante",
+      "Monitorea entregas y proyectos de clientes",
+      "Reduce errores humanos y ahorra tiempo"
+    ]
+  },
+  "visualizer": {
+    "heading": "Visualiza tu mármol en 3D",
+    "description": {
+      "line1": "Permite que tus clientes exploren tus losas de mármol en 3D realista directamente desde tu catálogo.",
+      "line2": "Nuestro visualizador integrado muestra:"
+    },
+    "features": [
+      { "icon": "/figmaAssets/Vector.png", "text": "Texturas a escala real y vetas naturales" },
+      { "icon": "/figmaAssets/Vector (1).png", "text": "Color, luz y reflejo de superficie precisos" },
+      { "icon": "/figmaAssets/Vector (2).png", "text": "Mapeo instantáneo de pisos, paredes y encimeras" }
+    ]
+  },
+  "videoSection": {
+    "heading": "Una plataforma que crece contigo",
+    "description": "Ya produzcas 100 losas a la semana o 10,000, ClicProduct se adapta fácilmente a tu negocio, integrándose perfectamente con tus sistemas y flujos de trabajo existentes.",
+    "button": "Comenzar"
+  },
+  "showcase": {
+    "heading": "Muestra tus productos",
+    "description": "Convierte tu catálogo en una experiencia que tus clientes amarán.\nCon el visor 3D interactivo de ClicProduct, pueden explorar cada textura, color y patrón de mármol — como si estuvieran en tu showroom.\nEsta experiencia visual genera confianza y ayuda a los clientes a tomar decisiones con seguridad más rápido."
+  },
+  "operations": {
+    "heading": "Simplifica las operaciones diarias",
+    "feature1": "Genera cotizaciones y facturas al instante",
+    "feature2": "Rastrea inventario y entregas en tiempo real",
+    "feature3": "Gestiona pagos y clientes desde un solo lugar"
+  },
+  "architectHero": {
+    "heading": "Da vida a las ideas. Visualiza cada detalle con confianza.",
+    "description": "ClicProduct permite a arquitectos y diseñadores de interiores convertir conceptos creativos en experiencias visuales realistas. Desde la selección de materiales hasta la presentación al cliente, todo ocurre en una plataforma elegante e inteligente — diseñada para inspirar colaboración y acelerar la toma de decisiones.",
+    "button": "Reservar demostración"
+  },
+  "visualizeRealism": {
+    "heading": "Visualiza con realismo",
+    "description": "No más adivinanzas sobre cómo se verá un diseño una vez construido. Con ClicProduct, puedes visualizar al instante mármol, azulejos y superficies en entornos 3D realistas. Cada textura, reflejo y color se comporta de manera natural — tal como en el mundo real.",
+    "bulletPoints": [
+      "Previsualiza materiales directamente en pisos, paredes o encimeras",
+      "Compara acabados y patrones al instante",
+      "Crea múltiples versiones de diseño en minutos",
+      "Exporta visuales para presentaciones a clientes"
+    ]
+  },
+  "visualizeRealism1": {
+    "heading": "Visualiza antes de construir",
+    "description": "Muestra a los clientes cómo se verá su espacio renovado — antes de que comience el trabajo. Sube fotos reales de la habitación, aplica tus materiales y previsualiza la transformación al instante.",
+    "bulletPoints": [
+      "Previsualizaciones de productos en tiempo real",
+      "Comparaciones lado a lado",
+      "Visuales de aprobación instantánea del cliente"
+    ]
+  },
+  "visualizeRealism2": {
+    "heading": "Por qué los negocios de mármol necesitan un sitio web",
+    "description": "En el mercado actual, el 90% de los compradores investigan en línea antes de contactar proveedores. Sin un sitio web profesional, corres el riesgo de perder clientes valiosos y oportunidades de exportación.",
+    "bulletPoints": [
+      "Muestra tus losas con visuales HD y filtros",
+      "Genera confianza con galerías de proyectos y testimonios",
+      "Atrae compradores globales mediante contenido optimizado para SEO"
+    ]
+  },
+  "simplifyProject": {
+    "heading": "Simplifica la gestión de proyectos",
+    "description": "Mantente organizado desde el concepto hasta la finalización. ClicProduct mantiene tus materiales, cotizaciones y preferencias del cliente sincronizados en un solo lugar, para que avances más rápido y evites errores costosos.",
+    "button": "Reservar demostración"
+  },
+  "simplifyProject1": {
+    "heading": "Simplifica cada proyecto",
+    "description": "Di adiós a archivos dispersos y largas cadenas de correos electrónicos. ClicProduct mantiene tus cotizaciones, pedidos y datos de proyectos organizados en un panel fácil de usar.",
+    "button": "Reservar demostración"
+  },
+  "Eyword": {
+    "heading": "Estrategia de palabras clave para mercados de piedra",
+    "description": "Investigamos las palabras clave más relevantes y rentables utilizadas por contratistas, arquitectos y distribuidores — desde “azulejos de mármol para paredes” hasta “exportadores de granito Dubái”. Nuestro equipo crea un mapa específico que te ayuda a dominar los resultados de búsqueda para cada categoría de piedra que vendas.",
+    "button": "Reservar demostración"
+  },
+  "GrowSmarter": {
+    "heading": "Crece de manera inteligente con ClicProduct",
+    "description": "Nuestra misión es ayudar a las empresas basadas en productos a ir más allá de los catálogos estáticos y avanzar hacia el futuro de la experiencia digital impulsada por IA.",
+    "button": "Reservar demostración"
+  },
+  "collaborateSection": {
+    "heading": "Colabora con clientes y proveedores",
+    "paragraph1": "La optimización de motores de búsqueda (SEO) es lo que hace que tu negocio sea visible. Cuando constructores, arquitectos o propietarios buscan “proveedores de mármol cerca de mí” o “mármol italiano importado”, la estrategia SEO correcta asegura que tu sitio aparezca en la primera página — no oculto detrás de la competencia.",
+    "paragraph2": "Con ClicProduct, clientes, diseñadores y proveedores pueden colaborar visualmente — revisando diseños, materiales y cambios en tiempo real."
+  },
+  "collaborateClients": {
+    "heading": "Por qué el SEO importa para proveedores de mármol",
+    "paragraph1": "La optimización de motores de búsqueda (SEO) es lo que hace que tu negocio sea visible. Cuando constructores, arquitectos o propietarios buscan “proveedores de mármol cerca de mí” o “mármol italiano importado”, la estrategia SEO correcta asegura que tu sitio aparezca en la primera página — no oculto detrás de la competencia."
+  },
+  "whyChoose": {
+    "heading": "¿Por qué elegir ClicProduct?",
+    "description": "Nuestra plataforma combina tecnología, automatización y diseño para darle a tu negocio una ventaja moderna — sin complicaciones técnicas.",
+    "features": [
+      {
+        "title": "Gestión centralizada de productos",
+        "description": "Sube, organiza y actualiza fácilmente todo tu catálogo desde un panel inteligente.\nDi adiós a hojas de cálculo desordenadas — todo permanece sincronizado entre tu sitio web, aplicación y herramientas de ventas."
+      },
+      {
+        "title": "Interfaz personalizable para cada industria",
+        "description": "Ya vendas mármol, madera o muebles, ClicProduct se adapta a tu marca.\nPuedes personalizar diseños, filtros y vistas de productos para que coincidan con tu estilo único y audiencia."
+      },
+      {
+        "title": "Soporte multilingüe y multicurrency",
+        "description": "Llega a clientes en cualquier parte del mundo.\nNuestro sistema ajusta automáticamente tu contenido, precios y medidas para cada mercado y región."
+      },
+      {
+        "title": "Páginas de productos optimizadas para SEO",
+        "description": "Cada página de producto está optimizada para motores de búsqueda, ayudando a que tus productos aparezcan más alto en Google.\nAtraerás visitantes calificados sin necesidad de plugins SEO adicionales."
+      },
+      {
+        "title": "Catálogo y herramientas visuales impulsadas por IA",
+        "description": "Convierte las imágenes de tus productos en una experiencia de compra interactiva.\nCon visualización por IA, los clientes pueden previsualizar cómo se ven tus materiales en entornos reales — generando confianza al instante."
+      },
+      {
+        "title": "Inventario y pedidos en tiempo real",
+        "description": "Rastrea niveles de stock, pedidos y métricas de desempeño en un solo lugar.\nRecibe notificaciones instantáneas y toma decisiones más rápidas y inteligentes respaldadas por datos reales."
+      }
+    ]
+  },
+  "digitalShowroom": {
+    "heading": "El poder de un showroom digital",
+    "paragraphs": [
+      "Un sitio web profesional se ha convertido en el showroom moderno para proveedores de mármol. Los compradores ya no esperan visitar almacenes — comienzan su recorrido en línea.",
+      "Con ClicProduct, tu catálogo de mármol se vuelve interactivo. Cada producto puede explorarse, filtrarse y compararse sin esfuerzo — tal como en una tienda física."
+    ],
+    "images": [
+      {
+        "text": "El sistema de ClicProduct está diseñado para crecer. Ya operes en Pakistán, India, Medio Oriente o Europa, tu sitio web de mármol se adapta a las necesidades locales mientras mantiene un alcance global."
+      },
+      {
+        "text": "Nuestros sitios web incluyen un panel de consultas integrado para gestionar mensajes, pedidos y solicitudes en un solo lugar — para que nunca pierdas un cliente potencial."
+      }
+    ]
+  },
+  "service1_title": "1. Gestión de redes sociales",
+  "service1_description": "Transforma tu Instagram, Facebook, LinkedIn y TikTok en showrooms digitales.\nDiseñamos contenido elegante y coherente con tu marca que atrae a arquitectos, diseñadores de interiores y propietarios de viviendas.",
+  
+  "service2_title": "2. Publicidad pagada (Google y Meta Ads)",
+  "service2_description": "Obtén visibilidad instantánea para tus principales colecciones de mármol.\nCreamos campañas publicitarias que apuntan a personas que buscan proveedores de mármol, materiales de interior y servicios de renovación — con ROI medible.",
+
+  "service3_title": "3. Email Marketing y Automatización",
+  "service3_description": "Mantente conectado con tus clientes potenciales y actuales.\nDesde cotizaciones automatizadas hasta actualizaciones personalizadas sobre nuevas llegadas de mármol, configuramos sistemas que fomentan relaciones mientras tú te concentras en el negocio.",
+
+  "service4_title": "4. Creación de contenido y storytelling",
+  "service4_description": "Tu mármol tiene una historia — origen, textura, artesanía.\nConvertimos esa historia en impresionantes visuales, videos y artículos de blog que inspiran confianza y emoción.\nUn buen diseño vende — un gran storytelling construye lealtad.",
+
+  "service5_title": "5. Segmentación internacional y local",
+  "service5_description": "Alcanza de manera efectiva tanto a audiencias internacionales como locales.\nCreamos estrategias dirigidas para ayudar a que tu negocio de mármol se expanda globalmente mientras mantiene una fuerte visibilidad local.",
+
+  "service6_title": "6. Analítica y optimización",
+  "service6_description": "Cada clic, visualización y consulta cuenta una historia.\nRastreemos lo que funciona — y refinamos lo que no — para que cada dólar invertido genere el máximo retorno.\nNuestros informes detallados muestran participación, clientes potenciales y conversiones en tiempo real.",
+
+  "service7_title": "1. Marketing en redes sociales (SMM)",
+  "service7_description": "Da vida a tu artesanía en plataformas visuales como Instagram, Facebook, LinkedIn y Pinterest. Creamos estrategias de contenido que destacan tus texturas, acabados y proyectos — convirtiendo seguidores en clientes leales.",
+
+  "service8_title": "2. Publicidad pagada (Google y Meta Ads)",
+  "service8_description": "¿Deseas visibilidad instantánea para tus productos de madera? Creamos campañas de Google Ads altamente segmentadas que atraen compradores potenciales — desde mayoristas B2B hasta propietarios que buscan “comprar mesa de nogal cerca de mí”.",
+
+  "service9_title": "3. Email Marketing y Automatización",
+  "service9_description": "Mantén tu marca en la mente de tus clientes con campañas de correo electrónico bellamente diseñadas. Te ayudamos a fortalecer relaciones con boletines, promociones y actualizaciones de inspiración de diseño.",
+
+  "service10_title": "4. Creación de contenido y branding",
+  "service10_description": "Muestra tu historia, no solo tus productos. Nuestro equipo desarrolla visuales profesionales, videos y artículos de blog que posicionan tu marca como una autoridad confiable en la industria de la madera.",
+
+  "service11_title": "5. Analítica, informes y estrategia de crecimiento",
+  "service11_description": "Cada campaña viene con un seguimiento transparente del rendimiento. Te mostramos lo que funciona — desde fuentes de tráfico hasta ROI — y refinamos continuamente las estrategias para aumentar las conversiones."
+
+}
+

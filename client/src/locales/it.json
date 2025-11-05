@@ -1,0 +1,474 @@
+{
+  "hero": {
+    "heading": "Trasforma le Lastre in Vendite",
+    "paragraph": "Clickproducts consente ai clienti di visualizzare i prodotti in ambienti reali prima dell'acquisto, rendendo la visualizzazione semplice e realistica.",
+    "button": "Prenota Demo"
+  },
+  "hero1": {
+    "heading": "Trasforma il modo in cui vendi il marmo",
+    "paragraph": "Ottimizza il tuo business del marmo con una dashboard intelligente. Gestisci facilmente invii, report e fatturazione — tutto in un unico posto, costruito esclusivamente per i venditori di marmo.",
+    "button": "Prenota Demo"
+  },
+  "hero2": {
+    "heading": "Una dashboard più intelligente per i venditori di legno",
+    "paragraph": "ClicProduct è progettato specificamente per i produttori di marmo che vogliono gestire l'intera operazione da un'unica piattaforma intelligente.",
+    "button": "Prenota Demo"
+  },
+  "hero3": {
+    "heading": "Dal laboratorio al mondo, semplifica ogni passo.",
+    "paragraph": "Organizza, gestisci e fai crescere il tuo business del legno con un unico strumento potente.",
+    "button": "Prenota Demo"
+  },
+  "hero4": {
+    "heading": "Vendi in modo più intelligente. Presenta meglio. Gestisci tutto in un unico posto.",
+    "paragraph": "ClicProduct permette a rivenditori e distributori di vendere in modo più efficace offrendo ai clienti un'esperienza di acquisto moderna e senza interruzioni. Dalla visualizzazione 3D interattiva a preventivi e consegne automatizzate, ogni strumento necessario è integrato in un'unica piattaforma semplice.",
+    "button": "Prenota Demo"
+  },
+  "hero5": {
+    "heading": "Costruisci in modo intelligente, consegna più veloce, impressiona ogni cliente.",
+    "paragraph": "ClicProduct offre ai professionisti delle ristrutturazioni un toolkit digitale completo — aiutandoti a pianificare, visualizzare e gestire progetti con precisione e sicurezza.",
+    "button": "Prenota Demo"
+  },
+  "hero6": {
+    "heading": "Intelligente, semplice e progettato per il futuro della gestione dei prodotti",
+    "paragraph": "ClicProduct è una piattaforma all-in-one progettata per produttori, rivenditori e distributori che vogliono gestire l'intera attività — dall'inventario alle vendite — in un unico posto. Sviluppato da Crazy Pineapple, questo software intelligente collega ogni parte della tua operazione con automazione, analisi e una splendida visualizzazione dei prodotti.",
+    "button": "Prenota Demo"
+  },
+  "hero7": {
+    "heading": "Costruisci una presenza online moderna per il tuo business della pietra",
+    "paragraph": "Il tuo sito web è più di un catalogo digitale — è la tua prima impressione. ClicProduct aiuta fornitori, rivenditori ed esportatori di marmo a creare siti web eleganti e performanti che trasformano i visitatori in acquirenti.\nCombiniamo precisione nel design, competenze SEO e strumenti di visualizzazione AI per aiutarti a distinguerti nell'industria globale della pietra.",
+    "button": "Prenota Demo"
+  },
+  "hero8": {
+    "heading": "SEO per aziende di marmo: farsi trovare, essere scelti, avere successo",
+    "paragraph": "Per questo il servizio SEO di ClicProduct per aziende di marmo è stato creato specificamente per l'industria della pietra, piastrelle e materiali per interni — aiutandoti a comparire più in alto su Google, attrarre acquirenti seri e trasformare le ricerche in vendite.",
+    "button": "Prenota Demo"
+  },
+  "hero9": {
+    "heading": "Trasforma il tuo brand di marmo in un leader di mercato — online e oltre",
+    "paragraph": "Qui entra in gioco il Digital Marketing di ClicProduct per aziende di marmo. Aiutiamo fornitori, esportatori e showroom a connettersi con il pubblico giusto tramite strategie digitali intelligenti, storytelling e automazione.",
+    "button": "Prenota Demo"
+  },
+  "hero10": {
+    "heading": "Trasforma l'artigianato in clic, contatti e clienti duraturi",
+    "paragraph": "L'industria del legno si basa su design senza tempo — ma venderla richiede strategie moderne. Dai fornitori di pavimenti ai produttori di mobili su misura, la tua attività merita visibilità, credibilità e crescita online costante.",
+    "button": "Prenota Demo"
+  },
+  "contacthero": {
+    "heading": "Contattaci"
+  },
+  "navbar": {
+    "home": "Home",
+    "products": "Prodotti",
+    "marbles": "Produttori di Marmo",
+    "retailers": "Rivenditori e Distributori",
+    "architects": "Architetti e Designer",
+    "renovation": "Appaltatori di Ristrutturazioni",
+    "crazy": "Crazy Pineapple",
+    "clicSoftware": "Software ClicProduct",
+    "marbleWeb": "Sviluppo Siti Web per Fornitori di Marmo",
+    "woodWeb": "Sviluppo Siti Web per Fornitori di Legno",
+    "marbleSeo": "SEO per Aziende di Marmo",
+    "marbleMarketing": "Marketing Digitale per Aziende di Marmo",
+    "woodSeo": "SEO per Aziende di Legno",
+    "woodMarketing": "Marketing Digitale per Aziende di Legno",
+    "about": "Chi Siamo",
+    "contact": "Contatto",
+    "login": "Accedi"
+  },
+  "whatDoYouSell": {
+    "heading": "Cosa vendi?",
+    "marble": "Produttori di Marmo",
+    "wood": "Legno",
+    "seeFullDashboard": "Vedi Dashboard Completa",
+    "totalSales": "Vendite Totali",
+    "activeUsers": "Utenti Attivi",
+    "orders": "Ordini",
+    "downFromYesterday": "In calo rispetto a ieri"
+  },
+  "poweredBy": {
+    "heading": "Alimentato da Nirwana.ai",
+    "paragraph": "La tecnologia Nirwana consente anteprime realistiche dei tuoi prodotti senza configurazioni complesse.",
+    "rooms": {
+      "living": {
+        "title": "Soggiorno",
+        "description": "Essendo uno degli spazi più frequentati della casa, il soggiorno dà il tono al resto della casa."
+      },
+      "bedroom": {
+        "title": "Camera da Letto",
+        "description": "Libera la tua creatività per renderla non solo confortevole ma anche un luogo piacevole per iniziare e terminare la giornata."
+      },
+      "office": {
+        "title": "Ufficio",
+        "description": "Le idee di design per ufficio domestico qui presentate sono ottimizzate per efficienza, spazio e comfort dai designer di Spacejoy."
+      },
+      "kitchen": {
+        "title": "Cucina",
+        "description": "La cucina è il cuore di ogni casa — uno spazio dove funzionalità e stile si incontrano. Con Nirwana.ai puoi visualizzare come diversi materiali, colori e finiture appariranno nella tua cucina prima di prendere decisioni."
+      }
+    },
+    "readMore": "Leggi di più"
+  },
+  "visualization_alt1": "Immagine di Visualizzazione 1",
+  "visualization_alt2": "Immagine di Visualizzazione 2",
+  "visualization_alt3": "Immagine di Visualizzazione 3",
+  "explore_heading": "Esplora il Futuro della Visualizzazione con Nirwana.ai",
+  "how_heading": "Come Funziona",
+  "how_step1_title": "Scegli il tuo prodotto",
+  "how_step1_desc": "Seleziona cosa vendi (Marmo, Legno o Mobili) dalla home page.",
+  "how_step2_title": "Esplora la tua dashboard",
+  "how_step2_desc": "Accedi istantaneamente a una dashboard personalizzata con invii, report e fatturazione.",
+  "how_step3_title": "Gestisci e Cresci",
+  "how_step3_desc": "Gestisci facilmente i tuoi compiti, monitora i progressi e fai crescere la tua attività con potenti informazioni.",
+
+  "faqs": {
+    "heading": "Domande Frequenti",
+    "paragraph": "Consulta le nostre FAQ per risposte rapide alle domande comuni sulla nostra piattaforma.",
+    "items": [
+      {
+        "question": "Cos'è ClickProducts?",
+        "answer": "ClickProducts è una piattaforma che consente ai clienti di visualizzare materiali e prodotti in ambienti reali prima dell'acquisto."
+      },
+      {
+        "question": "Posso personalizzare la dashboard in base al mio tipo di prodotto?",
+        "answer": "Sì! Puoi personalizzare la tua dashboard in base a ciò che vendi, sia marmo, legno o altri materiali."
+      },
+      {
+        "question": "Ho bisogno di competenze tecniche per usare ClickProducts?",
+        "answer": "Non sono necessarie competenze tecniche. La nostra piattaforma è progettata per essere intuitiva e facile da usare."
+      },
+      {
+        "question": "È disponibile una prova gratuita?",
+        "answer": "Sì, è disponibile una prova gratuita in modo da poter esplorare ClickProducts prima di impegnarti."
+      }
+    ]
+  },
+
+  "footer": {
+    "column1": {
+      "title": "ClicProduct",
+      "description": "ClicProduct è una piattaforma completa per l'industria del marmo, aiutando produttori, rivenditori e professionisti a gestire progetti, ordini e materiali in un unico posto.",
+      "newsletterPlaceholder": "Inserisci la tua email",
+      "newsletterButton": "Iscriviti alla Newsletter"
+    },
+    "social": {
+      "facebook": "#",
+      "instagram": "#",
+      "linkedin": "#",
+      "youtube": "#",
+      "vimeo": "#"
+    },
+    "links": {
+      "title": "Link",
+      "items": [
+        "Produttori di Marmo",
+        "Rivenditori e Distributori",
+        "Architetti e Designer",
+        "Appaltatori di Ristrutturazioni"
+      ]
+    },
+    "services": {
+      "title": "Servizi",
+      "items": [
+        "Software ClicProduct",
+        "Sviluppo Web",
+        "Fornitori di Legno",
+        "Fornitori di Marmo",
+        "SEO"
+      ]
+    },
+    "address": {
+      "title": "Indirizzo",
+      "email": "info@clicproduit.com",
+      "phone": "+1 123-456-7890"
+    }
+  },
+
+  "whyMarbleSellers": {
+    "heading": "Perché per i venditori di marmo?",
+    "features": [
+      {
+        "alt": "Bellissimo giovane",
+        "description": "Funzionalità personalizzate per lastre, piastrelle e prodotti in marmo."
+      },
+      {
+        "alt": "Bellissimo giovane",
+        "description": "Caricamento facile dei prodotti con dimensioni, finiture e prezzi."
+      },
+      {
+        "alt": "Bellissimo giovane",
+        "description": "Categorie intelligenti progettate per le aziende del settore pietre."
+      }
+    ]
+  },
+
+  "whyWoodSellers": {
+    "heading": "Perché per i venditori di legno?",
+    "features": [
+      {
+        "alt": "Bellissimo giovane",
+        "description": "Funzionalità speciali progettate per prodotti in legno."
+      },
+      {
+        "alt": "Bellissimo giovane",
+        "description": "Aggiungi dettagli dei prodotti come dimensioni, tipo (assi, mobili) e prezzi."
+      },
+      {
+        "alt": "Bellissimo giovane",
+        "description": "Categorie facili per vendite più rapide."
+      }
+    ]
+  },
+
+  "dashboard": {
+    "heading": "Anteprima della Dashboard",
+    "subheading": "Le tue vendite. I tuoi dati. Tutto organizzato in un unico posto.",
+    "imageAlt": "Anteprima della dashboard",
+    "button": "Vedi Dashboard Completa",
+    "featuresHeading": "Funzionalità",
+    "metrics": [
+      {
+        "title": "Invii",
+        "description": "Ricevi richieste dei clienti istantaneamente.",
+        "current": 300,
+        "total": 1000,
+        "percentage": 30
+      },
+      {
+        "title": "Veicolo in Riparazione",
+        "description": "Ultimo pagamento il 01 Agosto 2022",
+        "current": 900,
+        "total": 1000,
+        "percentage": 90
+      },
+      {
+        "title": "Donazioni",
+        "description": "Ultimo pagamento il 20 Agosto 2022",
+        "current": 200,
+        "total": 1000,
+        "percentage": 20
+      }
+    ]
+  },
+  "marbleCTA": {
+    "heading": "Pronto a trasformare le tue vendite di marmo?",
+    "button": "Inizia con Nirwana"
+  },
+  "MarbleCTA": {
+    "heading": "Inizia a costruire oggi il tuo sito web per il marmo",
+    "button": "Inizia con Nirwana"
+  },
+  "WoodCTA": {
+    "heading": "Pronto a trasformare le tue vendite di legno?",
+    "button": "Inizia con Nirwana"
+  },
+  "ManufacturerCTA": {
+    "heading": "Pronto a semplificare il tuo business del marmo?",
+    "button": "Inizia con Nirwana"
+  },
+  "RetailsCTA": {
+    "heading": "Trasforma il modo in cui vendi",
+    "button": "Inizia con Nirwana"
+  },
+  "ArchitechCTA": {
+    "heading": "Progettato per professionisti che costruiscono",
+    "button": "Inizia con Nirwana"
+  },
+  "RenovationCTA": {
+    "heading": "Offri qualità con fiducia",
+    "button": "Inizia con Nirwana"
+  },
+  "ClicCTA": {
+    "heading": "Offri qualità con fiducia",
+    "button": "Inizia con Nirwana"
+  },
+  "WebCTA": {
+    "heading": "Inizia a costruire oggi il tuo sito web per il marmo",
+    "button": "Inizia con Nirwana"
+  },
+  "Wood1CTA": {
+    "heading": "Inizia a costruire oggi il tuo sito web per il legno",
+    "button": "Inizia con Nirwana"
+  },
+  "buildForMarble": {
+    "heading": "Progettato per operazioni reali di marmo",
+    "subheading": {
+      "line1": "Dimentica fogli di calcolo e aggiornamenti manuali",
+      "line2": "ClicProduct ti aiuta a:"
+    },
+    "features": [
+      "Traccia inventario e disponibilità delle lastre in tempo reale",
+      "Gestisci programmi di produzione e controlli di qualità",
+      "Crea preventivi e fatture istantaneamente",
+      "Monitora consegne e progetti dei clienti",
+      "Riduci errori umani e risparmia tempo"
+    ]
+  },
+  "visualizer": {
+    "heading": "Visualizza il tuo marmo in 3D",
+    "description": {
+      "line1": "Permetti ai tuoi clienti di esplorare le lastre di marmo in 3D realistico direttamente dal catalogo.",
+      "line2": "Il nostro visualizzatore integrato mostra:"
+    },
+    "features": [
+      { "icon": "/figmaAssets/Vector.png", "text": "Texture in scala reale e venature naturali" },
+      { "icon": "/figmaAssets/Vector (1).png", "text": "Colori, luci e riflessi accurati" },
+      { "icon": "/figmaAssets/Vector (2).png", "text": "Mappatura immediata di pavimenti, pareti e piani di lavoro" }
+    ]
+  },
+  "videoSection": {
+    "heading": "Una piattaforma che cresce con te",
+    "description": "Che tu produca 100 lastre a settimana o 10.000, ClicProduct si adatta senza sforzo alla tua attività, integrandosi perfettamente con i sistemi e i flussi di lavoro esistenti.",
+    "button": "Inizia"
+  },
+  "showcase": {
+    "heading": "Mostra i prodotti",
+    "description": "Trasforma il tuo catalogo in un'esperienza che i tuoi clienti adoreranno. Con il visualizzatore 3D interattivo di ClicProduct, possono esplorare ogni texture, colore e motivo del marmo come se fossero nel tuo showroom. Questa esperienza visiva costruisce fiducia e aiuta i clienti a prendere decisioni più rapide e sicure."
+  },
+  "operations": {
+    "heading": "Semplifica le operazioni quotidiane",
+    "feature1": "Genera preventivi e fatture istantaneamente",
+    "feature2": "Monitora inventario e consegne in tempo reale",
+    "feature3": "Gestisci pagamenti e clienti da un unico posto"
+  },
+  "architectHero": {
+    "heading": "Dai vita alle idee. Visualizza ogni dettaglio con fiducia.",
+    "description": "ClicProduct permette ad architetti e interior designer di trasformare concetti creativi in esperienze visive realistiche. Dalla selezione dei materiali alla presentazione ai clienti, tutto avviene in un'unica piattaforma elegante e intelligente — progettata per ispirare collaborazione e velocizzare le decisioni.",
+    "button": "Prenota Demo"
+  },
+  "visualizeRealism": {
+    "heading": "Visualizza con realismo",
+    "description": "Non più ipotesi su come apparirà un progetto una volta realizzato. Con ClicProduct puoi visualizzare istantaneamente marmo, piastrelle e superfici in ambienti 3D realistici. Ogni texture, riflesso e colore si comporta naturalmente — proprio come nel mondo reale.",
+    "bulletPoints": [
+      "Anteprima dei materiali su pavimenti, pareti o piani di lavoro",
+      "Confronto immediato di finiture e motivi",
+      "Crea più versioni di design in pochi minuti",
+      "Esporta visualizzazioni per presentazioni ai clienti"
+    ]
+  },
+  "visualizeRealism1": {
+    "heading": "Visualizza prima di costruire",
+    "description": "Mostra ai clienti come apparirà il loro spazio ristrutturato prima dell'inizio dei lavori. Carica foto reali delle stanze, applica i materiali e visualizza subito la trasformazione.",
+    "bulletPoints": [
+      "Anteprime dei prodotti in tempo reale",
+      "Confronti affiancati",
+      "Visualizzazioni per approvazioni immediate dei clienti"
+    ]
+  },
+  "visualizeRealism2": {
+    "heading": "Perché le aziende di marmo hanno bisogno di un sito web",
+    "description": "Nel mercato odierno, il 90% degli acquirenti fa ricerche online prima di contattare i fornitori. Senza un sito web professionale rischi di perdere clienti di alto valore e opportunità di export.",
+    "bulletPoints": [
+      "Mostra le tue lastre con immagini HD e filtri",
+      "Costruisci fiducia con gallerie di progetti e testimonianze",
+      "Attira acquirenti globali tramite contenuti ottimizzati SEO"
+    ]
+  },
+  "simplifyProject": {
+    "heading": "Semplifica la gestione dei progetti",
+    "description": "Rimani organizzato dal concetto alla realizzazione. ClicProduct mantiene materiali, preventivi e preferenze dei clienti sincronizzati in un unico posto, così puoi lavorare più velocemente ed evitare errori costosi.",
+    "button": "Prenota Demo"
+  },
+  "simplifyProject1": {
+    "heading": "Semplifica ogni progetto",
+    "description": "Dì addio a file sparsi e lunghe catene di email. ClicProduct mantiene preventivi, ordini e dati dei progetti organizzati in un'unica dashboard facile da usare.",
+    "button": "Prenota Demo"
+  },
+  "Eyword": {
+    "heading": "Strategia di parole chiave per il mercato della pietra",
+    "description": "Analizziamo le parole chiave più rilevanti e redditizie utilizzate da appaltatori, architetti e distributori — da “piastrelle in marmo” a “esportatori di granito Dubai”. Il nostro team crea una mappa mirata per aiutarti a dominare i risultati di ricerca per ogni categoria di pietra che vendi.",
+    "button": "Prenota Demo"
+  },
+  "GrowSmarter": {
+    "heading": "Cresci in modo intelligente con ClicProduct",
+    "description": "La nostra missione è aiutare le aziende basate sui prodotti a superare i cataloghi statici e a entrare nel futuro dell'esperienza digitale guidata dall'IA.",
+    "button": "Prenota Demo"
+  },
+  "collaborateSection": {
+    "heading": "Collabora con clienti e fornitori",
+    "paragraph1": "La Search Engine Optimization (SEO) è ciò che rende il tuo business scoperto. Quando costruttori, architetti o privati cercano “fornitori di marmo vicino a me” o “marmo italiano importato”, la giusta strategia SEO assicura che il tuo sito compaia nella prima pagina — e non nascosto dai concorrenti.",
+    "paragraph2": "Con ClicProduct, clienti, designer e fornitori possono collaborare visivamente — rivedendo progetti, materiali e modifiche in tempo reale."
+  },
+  "collaborateClients": {
+    "heading": "Perché la SEO è importante per i fornitori di marmo",
+    "paragraph1": "La Search Engine Optimization (SEO) è ciò che rende il tuo business scoperto. Quando costruttori, architetti o privati cercano “fornitori di marmo vicino a me” o “marmo italiano importato”, la giusta strategia SEO assicura che il tuo sito compaia nella prima pagina — e non nascosto dai concorrenti."
+  },
+  "whyChoose": {
+    "heading": "Perché scegliere ClicProduct?",
+    "description": "La nostra piattaforma combina tecnologia, automazione e design per dare al tuo business un vantaggio moderno — senza complicazioni tecniche.",
+    "features": [
+      {
+        "title": "Gestione centralizzata dei prodotti",
+        "description": "Carica, organizza e aggiorna facilmente l'intero catalogo da un'unica dashboard intelligente.\nDì addio ai fogli di calcolo disordinati — tutto rimane sincronizzato tra sito web, app e strumenti di vendita."
+      },
+      {
+        "title": "Interfaccia personalizzabile per ogni settore",
+        "description": "Che tu venda marmo, legno o mobili, ClicProduct si adatta al tuo brand.\nPuoi personalizzare layout, filtri e visualizzazioni dei prodotti per rispecchiare il tuo stile unico e il tuo pubblico."
+      },
+      {
+        "title": "Supporto multilingua e multicurrency",
+        "description": "Raggiungi clienti in tutto il mondo.\nIl nostro sistema adatta automaticamente contenuti, prezzi e misure per ogni mercato e regione."
+      },
+      {
+        "title": "Pagine prodotto ottimizzate per SEO",
+        "description": "Ogni pagina prodotto è ottimizzata per i motori di ricerca, aiutando i tuoi prodotti a posizionarsi più in alto su Google.\nAttirerai visitatori qualificati senza bisogno di plugin SEO aggiuntivi."
+      },
+      {
+        "title": "Catalogo e strumenti visivi guidati dall’IA",
+        "description": "Trasforma le immagini dei tuoi prodotti in un'esperienza di acquisto interattiva.\nCon la visualizzazione AI, i clienti possono vedere come i materiali appaiono in ambienti reali — costruendo fiducia immediata."
+      },
+      {
+        "title": "Inventario e ordini in tempo reale",
+        "description": "Monitora stock, ordini e metriche di performance in un unico posto.\nRicevi notifiche istantanee e prendi decisioni aziendali più rapide e intelligenti basate su dati reali."
+      }
+    ]
+  },
+  "digitalShowroom": {
+    "heading": "Il potere di uno showroom digitale",
+    "paragraphs": [
+      "Un sito web professionale è diventato lo showroom moderno per i fornitori di marmo. Gli acquirenti non aspettano più di visitare i magazzini — iniziano il loro percorso online.",
+      "Con ClicProduct, il tuo catalogo di marmo diventa interattivo. Ogni prodotto può essere esplorato, filtrato e confrontato senza sforzo — proprio come in un negozio fisico."
+    ],
+    "images": [
+      {
+        "text": "Il sistema di ClicProduct è progettato per crescere. Che operi in Pakistan, India, Medio Oriente o Europa, il tuo sito web per il marmo si adatta alle esigenze locali mantenendo una portata globale."
+      },
+      {
+        "text": "I nostri siti web includono una dashboard integrata per gestire messaggi, ordini e richieste in un unico posto — così non perderai mai più un contatto."
+      }
+    ]
+  },
+  "service1_title": "1. Gestione dei social media",
+  "service1_description": "Trasforma Instagram, Facebook, LinkedIn e TikTok in showroom digitali.\nCreiamo contenuti eleganti e coerenti con il brand che attraggono architetti, interior designer e proprietari di casa.",
+
+  "service2_title": "2. Pubblicità a pagamento (Google e Meta Ads)",
+  "service2_description": "Ottieni visibilità immediata per le tue migliori collezioni di marmo.\nCreiamo campagne pubblicitarie che raggiungono persone alla ricerca di fornitori di marmo, materiali per interni e servizi di ristrutturazione — con ROI misurabile.",
+
+  "service3_title": "3. Email Marketing e Automazione",
+  "service3_description": "Rimani connesso con lead e clienti.\nDai preventivi automatici agli aggiornamenti personalizzati sulle nuove arrivi di marmo, impostiamo sistemi che coltivano relazioni mentre ti concentri sul business.",
+
+  "service4_title": "4. Creazione di contenuti e storytelling",
+  "service4_description": "Il tuo marmo ha una storia — origine, texture, lavorazione.\nTrasformiamo quella storia in immagini, video e articoli di blog sorprendenti che ispirano fiducia ed emozione.\nUn buon design vende — un grande storytelling crea fidelizzazione.",
+
+  "service5_title": "5. Targeting internazionale e locale",
+  "service5_description": "Raggiungi efficacemente sia il pubblico internazionale che locale.\nCreiamo strategie mirate per aiutare il tuo business del marmo a espandersi globalmente mantenendo una forte visibilità locale.",
+
+  "service6_title": "6. Analisi e ottimizzazione",
+  "service6_description": "Ogni clic, visualizzazione e richiesta racconta una storia.\nTracciamo ciò che funziona — e miglioriamo ciò che non funziona — così ogni euro speso porta il massimo ritorno.\nI nostri report dettagliati mostrano engagement, lead e conversioni in tempo reale.",
+
+  "service7_title": "1. Social Media Marketing (SMM)",
+  "service7_description": "Dai vita alla tua artigianalità su piattaforme visive come Instagram, Facebook, LinkedIn e Pinterest. Creiamo strategie di contenuto che mettono in risalto texture, finiture e progetti — trasformando i follower in clienti fedeli.",
+
+  "service8_title": "2. Pubblicità a pagamento (Google e Meta Ads)",
+  "service8_description": "Vuoi visibilità immediata per i tuoi prodotti in legno? Creiamo campagne Google Ads altamente mirate che attraggono potenziali acquirenti — dai grossisti B2B ai privati che cercano “acquista tavolo in noce vicino a me.”",
+
+  "service9_title": "3. Email Marketing e Automazione",
+  "service9_description": "Mantieni il tuo brand al centro dell’attenzione con campagne email ben progettate. Ti aiutiamo a coltivare relazioni con newsletter, promozioni e aggiornamenti di ispirazione sul design.",
+
+  "service10_title": "4. Creazione di contenuti e branding",
+  "service10_description": "Mostra la tua storia, non solo i tuoi prodotti. Il nostro team sviluppa immagini professionali, video e articoli di blog che posizionano il tuo brand come un'autorità affidabile nel settore del legno.",
+
+  "service11_title": "5. Analisi, report e strategia di crescita",
+  "service11_description": "Ogni campagna include monitoraggio trasparente delle performance. Ti mostriamo cosa funziona — dalle fonti di traffico al ROI — e affinamo continuamente le strategie per aumentare le conversioni."
+}
+
