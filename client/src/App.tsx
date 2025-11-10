@@ -9,14 +9,7 @@ import Marble from "@/pages/Marble"; // ✅ Default export
 import Manufacturers from "./pages/Manufacturers";
 import { Architects } from "./pages/Architects";
 import { Retailers } from "./pages/Retailers";
-import { Renovation } from "./pages/Renovation";
-import { WebDevelopment } from "./pages/WebDevelopment";
-import { MarbleSEO } from "./pages/MarbleSEO";
-import {DigitalMarketing} from "./pages/DigitalMarketing";
 import Wood from "@/pages/Wood"
-import {ClicproductSoftware} from "@/pages/ClicproductSoftware"
-import { DigitalMarketingWood } from "./pages/DigitalMarketingWood";
-import {Contact} from "./pages/Contact";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import "@/i18n";
@@ -30,13 +23,7 @@ function AppRoutes() {
       <Route path="/Manufacturers" component={Manufacturers} />
        <Route path="/Architects" component={Architects} />
       <Route path="/Retailers" component={Retailers} />
-      <Route path="/Renovation" component={Renovation} />
-       <Route path="/ClicproductSoftware" component={ClicproductSoftware} />
-      <Route path="/WebDevelopment" component={WebDevelopment} />
-      <Route path="/MarbleSEO" component={MarbleSEO} />
-      <Route path="/DigitalMarketing" component={DigitalMarketing} />
-      <Route path="/DigitalMarketingWood" component={DigitalMarketingWood} />
-        <Route path="/Contact" component={Contact} />
+
       <Route component={NotFound} />
     </Switch>
   );
