@@ -1,7 +1,7 @@
 {
   "hero": {
     "heading": "Transformez les dalles en ventes",
-    "paragraph": "Clickproducts permet aux clients de visualiser les produits dans des environnements réels avant d'acheter, rendant la visualisation simple et réaliste.",
+    "paragraph": "ClicProduct permet aux clients de visualiser les produits dans des environnements réels avant d'acheter, rendant la visualisation simple et réaliste.",
     "button": "Réserver une démonstration"
   },
   "hero1": {
@@ -125,20 +125,20 @@
     "paragraph": "Découvrez nos FAQs pour des réponses rapides aux questions les plus courantes sur notre plateforme.",
     "items": [
       {
-        "question": "Qu'est-ce que ClickProducts ?",
-        "answer": "ClickProducts est une plateforme qui permet aux clients de visualiser des matériaux et des produits dans des environnements réels avant l'achat."
+        "question": "Qu'est-ce que ClicProduct ?",
+        "answer": "ClicProduct est une plateforme qui permet aux clients de visualiser des matériaux et des produits dans des environnements réels avant l'achat."
       },
       {
         "question": "Puis-je personnaliser le tableau de bord selon mon type de produit ?",
         "answer": "Oui ! Vous pouvez personnaliser votre tableau de bord selon que vous vendez du marbre, du bois ou d'autres matériaux."
       },
       {
-        "question": "Ai-je besoin de compétences techniques pour utiliser ClickProducts ?",
+        "question": "Ai-je besoin de compétences techniques pour utiliser ClicProduct ?",
         "answer": "Aucune compétence technique n'est nécessaire. Notre plateforme est conçue pour être intuitive et facile à utiliser."
       },
       {
         "question": "Y a-t-il un essai gratuit disponible ?",
-        "answer": "Oui, un essai gratuit est disponible pour explorer ClickProducts avant de vous engager."
+        "answer": "Oui, un essai gratuit est disponible pour explorer ClicProduct avant de vous engager."
       }
     ]
   },
@@ -436,6 +436,12 @@
         "text": "Nos sites web disposent d’un tableau de bord intégré pour gérer les messages, commandes et demandes au même endroit — afin de ne jamais manquer une opportunité."
       }
     ]
+  },
+  
+  "customerJourney": {
+    "title": "Améliorez le parcours client",
+    "description": "Les clients d’aujourd’hui attendent de la rapidité, de la clarté et de la personnalisation. ClicProduct vous aide à offrir les trois. Du premier clic à la livraison finale, vos clients bénéficient d’une expérience professionnelle, transparente et engageante qui les incite à revenir.",
+    "button": "Réserver une démo"
   },
   "service1_title": "1. Gestion des réseaux sociaux",
   "service1_description": "Transformez votre Instagram, Facebook, LinkedIn et TikTok en vitrines numériques.\nNous concevons un contenu élégant et cohérent avec votre marque pour attirer les architectes, les designers d'intérieur et les propriétaires.",

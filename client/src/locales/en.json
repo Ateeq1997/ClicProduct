@@ -1,7 +1,7 @@
 {
   "hero": {
     "heading": "Transform Slabs Into Sales",
-    "paragraph": "Clickproducts allows customers to preview products in real-world environments before buying, making visualization simple and realistic.",
+    "paragraph": "ClicProduct allows customers to preview products in real-world environments before buying, making visualization simple and realistic.",
     "button": "Book Demo"
   },
   "hero1": {
@@ -126,20 +126,20 @@
     "paragraph": "Explore our FAQs for quick answers to common queries about our platform.",
     "items": [
       {
-        "question": "What is ClickProducts?",
-        "answer": "ClickProducts is a platform that allows customers to visualize materials and products in real environments before purchasing."
+        "question": "What is ClicProduct?",
+        "answer": "ClicProduct is a platform that allows customers to visualize materials and products in real environments before purchasing."
       },
       {
         "question": "Can I customize the dashboard for my product type?",
         "answer": "Yes! You can personalize your dashboard based on whether you sell marble, wood, or other materials."
       },
       {
-        "question": "Do I need technical skills to use ClickProducts?",
+        "question": "Do I need technical skills to use ClicProduct?",
         "answer": "No technical expertise is needed. Our platform is designed to be intuitive and user-friendly."
       },
       {
         "question": "Is there a free trial available?",
-        "answer": "Yes, a free trial is available so you can explore ClickProducts before committing."
+        "answer": "Yes, a free trial is available so you can explore ClicProduct before committing."
       }
     ]
   
@@ -441,6 +441,13 @@
       }
     ]
   },
+  
+  "customerJourney": {
+    "title": "Enhance the Customer Journey",
+    "description": "Customers today expect speed, clarity, and personalization. ClicProduct helps you provide all three. From first click to final delivery, your clients get a professional, transparent, and engaging experience that keeps them coming back.",
+    "button": "Book Demo"
+  },
+
   "service1_title": "1. Social Media Management",
   "service1_description": "Transform your Instagram, Facebook, LinkedIn, and TikTok into digital showrooms.\nWe design elegant, brand-consistent content that attracts architects, interior designers, and homeowners.",
 
@@ -475,6 +482,7 @@
   "service11_description": "Every campaign comes with transparent performance tracking. We show you what’s working — from traffic sources to ROI — and continuously refine strategies to boost conversions."
 
 }
+
 
 
 

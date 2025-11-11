@@ -1,7 +1,7 @@
 {
   "hero": {
     "heading": "Trasforma le Lastre in Vendite",
-    "paragraph": "Clickproducts consente ai clienti di visualizzare i prodotti in ambienti reali prima dell'acquisto, rendendo la visualizzazione semplice e realistica.",
+    "paragraph": "ClicProduct consente ai clienti di visualizzare i prodotti in ambienti reali prima dell'acquisto, rendendo la visualizzazione semplice e realistica.",
     "button": "Prenota Demo"
   },
   "hero1": {
@@ -126,20 +126,20 @@
     "paragraph": "Consulta le nostre FAQ per risposte rapide alle domande comuni sulla nostra piattaforma.",
     "items": [
       {
-        "question": "Cos'è ClickProducts?",
-        "answer": "ClickProducts è una piattaforma che consente ai clienti di visualizzare materiali e prodotti in ambienti reali prima dell'acquisto."
+        "question": "Cos'è ClicProduct?",
+        "answer": "ClicProduct è una piattaforma che consente ai clienti di visualizzare materiali e prodotti in ambienti reali prima dell'acquisto."
       },
       {
         "question": "Posso personalizzare la dashboard in base al mio tipo di prodotto?",
         "answer": "Sì! Puoi personalizzare la tua dashboard in base a ciò che vendi, sia marmo, legno o altri materiali."
       },
       {
-        "question": "Ho bisogno di competenze tecniche per usare ClickProducts?",
+        "question": "Ho bisogno di competenze tecniche per usare ClicProduct?",
         "answer": "Non sono necessarie competenze tecniche. La nostra piattaforma è progettata per essere intuitiva e facile da usare."
       },
       {
         "question": "È disponibile una prova gratuita?",
-        "answer": "Sì, è disponibile una prova gratuita in modo da poter esplorare ClickProducts prima di impegnarti."
+        "answer": "Sì, è disponibile una prova gratuita in modo da poter esplorare ClicProduct prima di impegnarti."
       }
     ]
   },
@@ -437,6 +437,11 @@
         "text": "I nostri siti web includono una dashboard integrata per gestire messaggi, ordini e richieste in un unico posto — così non perderai mai più un contatto."
       }
     ]
+  },
+  "customerJourney": {
+    "title": "Migliora il percorso del cliente",
+    "description": "I clienti di oggi si aspettano velocità, chiarezza e personalizzazione. ClicProduct ti aiuta a offrire tutto questo. Dal primo clic alla consegna finale, i tuoi clienti vivono un’esperienza professionale, trasparente e coinvolgente che li fa tornare.",
+    "button": "Prenota demo"
   },
   "service1_title": "1. Gestione dei social media",
   "service1_description": "Trasforma Instagram, Facebook, LinkedIn e TikTok in showroom digitali.\nCreiamo contenuti eleganti e coerenti con il brand che attraggono architetti, interior designer e proprietari di casa.",
