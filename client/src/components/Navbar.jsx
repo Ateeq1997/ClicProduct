@@ -46,7 +46,6 @@ const Navbar = () => {
         t("navbar.woodMarketing"),
       ],
     },
-    { label: t("navbar.about"), href: "/about" },
     { label: t("navbar.contact"), href: "/Contact" },
   ];
 

@@ -10,6 +10,8 @@ import Manufacturers from "./pages/Manufacturers";
 import { Architects } from "./pages/Architects";
 import { Retailers } from "./pages/Retailers";
 import { Renovation } from "./pages/Renovation";
+import { MarbleSEO } from "./pages/MarbleSEO";
+import { WebDevelopment } from "./pages/WebDevelopment";
 import {ClicproductSoftware} from "@/pages/ClicproductSoftware"
 import Wood from "@/pages/Wood"
 import { useEffect } from "react";
@@ -27,6 +29,8 @@ function AppRoutes() {
       <Route path="/Retailers" component={Retailers} />
       <Route path="/Renovation" component={Renovation} />
        <Route path="/ClicproductSoftware" component={ClicproductSoftware} />
+       <Route path="/WebDevelopment" component={WebDevelopment} />
+      <Route path="/MarbleSEO" component={MarbleSEO} />
       <Route component={NotFound} />
     </Switch>
   );

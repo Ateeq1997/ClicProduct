@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "../components/ui/button";
 import { Card, CardContent } from "../components/ui/card";
 import Navbar from "../components/Navbar";
-import RetailerHero from "../components/Retailers/RetailerHero"
+import ManufacturerHero from "../components/MarbleManufacturers/ManufacturerHero"
 import BuildForMarble from "../components/MarbleManufacturers/BuiltforMarble"
 import VisualizerSection from "../components/MarbleManufacturers/VisualizerSection"
 import VideoSection from "../components/MarbleManufacturers/VideoSection"
@@ -14,7 +14,7 @@ const Manufacturers = (): JSX.Element => {
   return (
     <div className="bg-[#fcfcfc] overflow-hidden w-full min-w-[1440px] relative">
  <Navbar />
-<RetailerHero />
+<ManufacturerHero />
 <BuildForMarble />
 <VisualizerSection />
 <VideoSection />
