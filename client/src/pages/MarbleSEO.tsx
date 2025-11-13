@@ -3,7 +3,7 @@ import { Button } from "../components/ui/button";
 import { Card, CardContent } from "../components/ui/card";
 import Navbar from "../components/Navbar";
 import SeoHero from "../components/MarbleSEO/SeoHero"
-import Eyword from "../components/MarbleSEO/Eyword"
+import Keyword from "../components/MarbleSEO/Keyword"
 import CollaborateClients from "../components/MarbleSEO/CollaborateClients"
 import MarbleCTA from "../components/MarbleSEO/MarbleCTA"
 import Footer from "../components/Footer";
@@ -14,7 +14,7 @@ export const MarbleSEO = (): JSX.Element => {
     <Navbar />
 <SeoHero />
 <CollaborateClients />
-<Eyword />
+<Keyword />
 
 <MarbleCTA />
 <Footer />

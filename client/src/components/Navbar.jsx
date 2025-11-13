@@ -94,6 +94,7 @@ const Navbar = () => {
                       {item.dropdown.map((subItem, i) => {
                         const isClicSoftware = subItem === t("navbar.clicSoftware");
                         const isMarbleSEO = subItem === t("navbar.marbleSeo");
+                        const isWoodSEO = subItem === t("navbar.woodSeo");
                         const isDigitalMarketing = subItem === t("navbar.marbleMarketing");
                         const isDigitalMarketingWood = subItem === t("navbar.woodMarketing");
                         const isManufacturers = subItem === t("navbar.marbles");
@@ -101,6 +102,7 @@ const Navbar = () => {
                         const isArchitects = subItem === t("navbar.architects");
                         const isRenovation = subItem === t("navbar.renovation");
                         const isWebDevelopment = subItem === t("navbar.marbleWeb");
+                        const isWoodWebDevelopment = subItem === t("navbar.woodWeb");
 
                         return (
                           <DropdownMenuItem
@@ -111,8 +113,12 @@ const Navbar = () => {
                               <Link href="/ClicProductSoftware">{subItem}</Link>
                             ) : isWebDevelopment ? (
                               <Link href="/WebDevelopment">{subItem}</Link>
+                               ) : isWoodWebDevelopment ? (
+                              <Link href="/WoodWebDevelopment">{subItem}</Link>
                             ) : isMarbleSEO ? (
                               <Link href="/MarbleSEO">{subItem}</Link>
+                                ) : isWoodSEO ? (
+                              <Link href="/WoodSEO">{subItem}</Link>
                             ) : isDigitalMarketing ? (
                               <Link href="/DigitalMarketing">{subItem}</Link>
                             ) : isDigitalMarketingWood ? (
@@ -125,7 +131,8 @@ const Navbar = () => {
                               <Link href="/Architects">{subItem}</Link>
                             ) : isRenovation ? (
                               <Link href="/Renovation">{subItem}</Link>
-                            ) : (
+                            ) :
+                             (
                               <span className="opacity-60 cursor-not-allowed">
                                 {subItem} (Coming Soon)
                               </span>

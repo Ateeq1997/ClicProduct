@@ -54,6 +54,16 @@
   "paragraph": "L’industrie du bois repose sur un design intemporel — mais sa vente exige une stratégie moderne. Des fournisseurs de planchers aux fabricants de meubles sur mesure, votre entreprise mérite visibilité, crédibilité et une croissance en ligne constante.",
   "button": "Réserver une démo"
 },
+"hero11": {
+  "heading": "SEO pour les entreprises du bois : soyez trouvé, choisi et en avance",
+  "paragraph": "C’est pourquoi le service SEO pour les entreprises du bois de ClicProduct est spécialement conçu pour l’industrie du bois, du mobilier et des matériaux d’intérieur — vous aidant à mieux vous classer sur Google, à attirer des acheteurs sérieux et à transformer les recherches en ligne en ventes réelles.",
+  "button": "Réserver une démo"
+},
+"hero12": {
+  "heading": "Créez une présence en ligne moderne pour votre entreprise de bois",
+  "paragraph": "Votre site web est bien plus qu'un simple catalogue en ligne — c'est la première impression de votre marque. ClicProduct aide les fournisseurs, distributeurs et exportateurs de bois à créer des sites web modernes et performants qui transforment les visiteurs en acheteurs fidèles.\nNous combinons design esthétique, expertise SEO et outils de visualisation basés sur l'IA pour aider votre entreprise à se démarquer sur le marché compétitif du bois et des matériaux d'intérieur.",
+  "button": "Réserver une démo"
+},
 "contacthero": {
   "heading": "Contactez-nous"
 },
@@ -261,6 +271,10 @@
   "heading": "Prêt à transformer vos ventes de bois ?",
   "button": "Commencez avec Nirwana"
 },
+"WoodCTA1": {
+  "heading": "Commencez à créer votre site Web sur le bois dès aujourd'hui",
+  "button": "Commencer avec Nirwana"
+},
 "ManufacturerCTA": {
   "heading": "Prêt à simplifier votre entreprise de marbre ?",
   "button": "Commencez avec Nirwana"
@@ -363,6 +377,14 @@
     "Attirez des acheteurs internationaux grâce à un contenu optimisé pour le référencement (SEO)"
   ]
 },
+"visualizeRealism3": {
+  "heading": "Pourquoi les entreprises de bois ont besoin d'un site web",
+  "description": "Dans le marché numérique actuel, plus de 90 % des acheteurs effectuent des recherches en ligne avant de contacter un fournisseur. Sans site web professionnel, votre entreprise risque de perdre des clients à forte valeur, des partenaires de détail et des opportunités d'exportation.",
+  "bulletPoints": [
+    "Mettez en valeur vos types de bois et finitions avec des visuels HD et des filtres intelligents",
+    "Renforcez la confiance avec des galeries de projets, des certifications et des témoignages clients"
+  ]
+},
   "simplifyProject": {
     "heading": "Simplifiez la gestion de projet",
     "description": "Restez organisé de la conception à la réalisation. ClicProduct garde vos matériaux, devis et préférences clients synchronisés en un seul endroit, pour avancer plus vite et éviter les erreurs coûteuses.",
@@ -373,9 +395,14 @@
   "description": "Dites adieu aux fichiers éparpillés et aux longs échanges d’e-mails. ClicProduct garde vos devis, commandes et données de projet organisés dans un tableau de bord facile à utiliser.",
   "button": "Réserver une démo"
 },
-"Eyword": {
+"Keyyword": {
   "heading": "Stratégie de mots-clés pour les marchés de la pierre",
   "description": "Nous recherchons les mots-clés les plus pertinents et les plus rentables utilisés par les entrepreneurs, les architectes et les distributeurs — allant de « carreaux muraux en marbre » à « exportateurs de granit à Dubaï ». Notre équipe crée une carte ciblée qui vous aide à dominer les résultats de recherche pour chaque catégorie de pierre que vous vendez.",
+  "button": "Réserver une démo"
+},
+"Keyword1": {
+  "heading": "Stratégie de mots-clés pour les marchés du bois",
+  "description": "Nous identifions les mots-clés les plus pertinents et à forte valeur recherchés par les constructeurs, les designers d’intérieur, les fabricants de meubles et les distributeurs — allant de « planches de chêne massif » à « fournisseurs de meubles en bois sur mesure ». Notre équipe crée une carte de mots-clés ciblée qui aide votre entreprise à dominer les résultats de recherche pour chaque catégorie de produits en bois que vous proposez.",
   "button": "Réserver une démo"
 },
 "GrowSmarter": {
@@ -391,6 +418,10 @@
   "collaborateClients": {
   "heading": "Pourquoi le SEO est important pour les fournisseurs de marbre",
   "paragraph1": "L’optimisation pour les moteurs de recherche (SEO) rend votre entreprise visible. Lorsque les constructeurs, architectes ou propriétaires recherchent « fournisseurs de marbre près de chez moi » ou « marbre italien importé », une bonne stratégie SEO garantit que votre site web apparaisse sur la première page — et non caché derrière vos concurrents."
+},
+"collaborateClients1": {
+  "heading": "Pourquoi le SEO est important pour les fournisseurs de bois",
+  "paragraph1": "L’optimisation pour les moteurs de recherche (SEO) est ce qui rend votre entreprise de bois visible auprès du bon public. Lorsque des entrepreneurs, des designers d’intérieur ou des propriétaires recherchent des expressions comme « fournisseurs de bois près de chez moi », « planches de chêne haut de gamme » ou « matériaux pour meubles sur mesure », une bonne stratégie SEO garantit que votre site Web apparaisse en première page de Google — et non caché sous vos concurrents."
 },
   "whyChoose": {
     "heading": "Pourquoi choisir ClicProduct ?",
@@ -437,7 +468,18 @@
       }
     ]
   },
-  
+  "digitalShowroom1": {
+  "heading": "La puissance d’un showroom numérique",
+  "paragraphs": [
+    "Un site web professionnel est désormais le showroom moderne pour les fournisseurs de bois. Les acheteurs n’attendent plus de visiter les scieries ou les showrooms — ils commencent leur recherche en ligne.\nUn site bien conçu vous permet d’afficher vos collections de bois, grains, textures et finitions en haute définition, aidant les clients potentiels à visualiser les projets avant même de vous contacter.\nAvec ClicProduct, votre catalogue de bois devient interactif. Les visiteurs peuvent filtrer, explorer et comparer différents types de bois — du chêne et teck au noyer et acajou — comme s’ils étaient dans un showroom physique, mais depuis n’importe où dans le monde."
+  ],
+  "images": [
+    {
+      "text": "Nous ne créons pas seulement des sites web — nous construisons des fondations numériques pour la croissance. À mesure que votre entreprise de bois s’étend à de nouvelles régions ou gammes de produits, votre site peut facilement évoluer avec elle. De l’intégration de fonctionnalités eCommerce à la présentation de nouvelles collections de bois, votre plateforme reste flexible et pérenne. Chaque décision de conception se concentre sur la rapidité, l’ergonomie et la conversion, garantissant que votre site continue de performer — aujourd’hui et pour les années à venir."
+    }
+  ]
+},
+
   "customerJourney": {
     "title": "Améliorez le parcours client",
     "description": "Les clients d’aujourd’hui attendent de la rapidité, de la clarté et de la personnalisation. ClicProduct vous aide à offrir les trois. Du premier clic à la livraison finale, vos clients bénéficient d’une expérience professionnelle, transparente et engageante qui les incite à revenir.",

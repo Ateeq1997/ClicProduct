@@ -54,6 +54,16 @@
     "paragraph": "The wood industry is built on timeless design — but selling it requires modern strategy. From flooring suppliers to custom furniture makers, your business deserves visibility, credibility, and consistent online growth.",
     "button": "Book Demo"
   },
+   "hero11": {
+    "heading": "SEO for Wood Businesses: Get Found, Get Chosen, Get Ahead",
+    "paragraph": "That’s why ClicProduct’s SEO for Wood Businesses service is built specifically for the timber, furniture, and interior wood materials industry — helping you rank higher on Google, attract serious buyers, and turn online searches into real sales.",
+    "button": "Book Demo"
+  },
+   "hero12": {
+    "heading": "Build a Modern Online Presence for Your Wood Business",
+    "paragraph": "Your website is more than an online catalog — it’s your brand’s first impression.ClicProduct helps wood suppliers, dealers, and exporters build modern, high-performing websites that turn visitors into long-term buyers.\nWe combine aesthetic design, SEO expertise, and AI-driven visualization tools to help your business stand out in the competitive wood and interior materials market.",
+    "button": "Book Demo"
+  },
    "contacthero": {
     "heading": "Contact us"
   },
@@ -264,6 +274,10 @@
     "heading": "Ready to transform your Wood sales?",
     "button": "Get Started with Nirwana"
   },
+  "WoodCTA1": {
+    "heading": "Start Building Your Wood Website Today",
+    "button": "Get Started with Nirwana"
+  },
    "ManufacturerCTA": {
     "heading": "Ready to Simplify Your Marble Business?",
     "button": "Get Started with Nirwana"
@@ -367,6 +381,14 @@
       "Attract global buyers through SEO-optimized content"
     ]
   },
+   "visualizeRealism3": {
+    "heading": "Why Wood Businesses Need a Website",
+    "description": "In today’s digital market, more than 90% of buyers research online before contacting a supplier. Without a professional website, your business risks losing high-value clients, retail partners, and export opportunities.",
+    "bulletPoints": [
+      "Showcase your wood types and finishes with HD visuals and smart filters",
+      "Build trust with project galleries, certifications, and client testimonials"
+    ]
+  },
   "simplifyProject": {
     "heading": "Simplify Project Management",
     "description": "Stay organized from concept to completion. ClicProduct keeps your materials, quotes, and client preferences synced in one place, so you can move faster and avoid costly mistakes.",
@@ -377,9 +399,14 @@
     "description": "Say goodbye to scattered files and long email threads. ClicProduct keeps your quotes, orders, and project data organized in one easy-to-use dashboard.",
     "button": "Book Demo"
   },
-    "Eyword": {
-    "heading": "Eyword Strategy for Stone Markets",
+    "Keyword": {
+    "heading": "Keyword Strategy for Stone Markets",
     "description": "We research the most relevant and profitable keywords used by contractors, architects, and distributors — from “marble wall tiles” to “granite exporters Dubai.” Our team builds a targeted map that helps you dominate search results for every stone category you sell.",
+    "button": "Book Demo"
+  },
+  "Keyword1": {
+    "heading": "Keyword Strategy for Wood Markets",
+    "description": "We identify the most relevant and high-value keywords searched by builders, interior designers, furniture manufacturers, and distributors — from “solid oak planks” to “custom wood furniture suppliers.” Our team creates a targeted keyword map that helps your business dominate search results across every wood product category you offer.",
     "button": "Book Demo"
   },
    "GrowSmarter": {
@@ -395,6 +422,10 @@
   "collaborateClients": {
     "heading": "Why SEO Matters for Marble  Suppliers",
     "paragraph1": "Search Engine Optimization (SEO) is what makes your business discoverable. When builders, architects, or homeowners search for “marble suppliers near me” or “imported Italian marble”, the right SEO strategy ensures that your website appears on the first page — not hidden behind your competitors."
+  },
+   "collaborateClients1": {
+    "heading": "Why SEO Matters for Wood Suppliers",
+    "paragraph1": "Search Engine Optimization (SEO) is what makes your wood business visible to the right audience. When contractors, interior designers, or homeowners search for phrases like “wood suppliers near me”, “premium oak wood planks”, or “custom wood furniture materials”, the right SEO strategy ensures your website shows up on the first page of Google — not buried under your competitors."
   },
   "whyChoose": {
     "heading": "Why Choose ClicProduct ?",
@@ -441,7 +472,17 @@
       }
     ]
   },
-  
+    "digitalShowroom1": {
+    "heading": "The Power of a Digital Showroom",
+    "paragraphs": [
+      "A professional website is now the modern showroom for wood suppliers. Buyers no longer wait to visit lumber yards or showrooms — they begin their search online.\nA well-crafted website lets you display your wood collections, grains, textures, and finishes in high definition, helping potential customers visualize projects before they even reach out.\nWith ClicProduct, your wood catalog becomes interactive. Visitors can filter, explore, and compare different wood types — from oak and teak to walnut and mahogany — just like they would in a physical showroom, but from anywhere in the world."
+    ],
+    "images": [
+      {
+        "text": "We don’t just build websites — we build digital foundations for growth. As your wood business expands into new regions or product lines, your website can easily scale with it. From integrating eCommerce functionality to showcasing new timber collections, your platform stays flexible and future-proof. Every design decision we make focuses on speed, usability, and conversion, ensuring your website continues to perform — today, and for years to come."
+      }
+    ]
+  },
   "customerJourney": {
     "title": "Enhance the Customer Journey",
     "description": "Customers today expect speed, clarity, and personalization. ClicProduct helps you provide all three. From first click to final delivery, your clients get a professional, transparent, and engaging experience that keeps them coming back.",

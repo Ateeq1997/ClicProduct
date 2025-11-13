@@ -54,6 +54,16 @@
     "paragraph": "L'industria del legno si basa su design senza tempo — ma venderla richiede strategie moderne. Dai fornitori di pavimenti ai produttori di mobili su misura, la tua attività merita visibilità, credibilità e crescita online costante.",
     "button": "Prenota Demo"
   },
+  "hero11": {
+  "heading": "SEO per le aziende del legno: fatti trovare, scegli e distinguiti",
+  "paragraph": "Ecco perché il servizio SEO di ClicProduct per le aziende del legno è progettato specificamente per il settore del legno, dei mobili e dei materiali d’interni — aiutandoti a posizionarti meglio su Google, ad attirare acquirenti seri e a trasformare le ricerche online in vere vendite.",
+  "button": "Prenota demo"
+},
+"hero12": {
+  "heading": "Costruisci una presenza online moderna per la tua attività di legno",
+  "paragraph": "Il tuo sito web è più di un semplice catalogo online — è la prima impressione del tuo marchio. ClicProduct aiuta fornitori, rivenditori ed esportatori di legno a creare siti web moderni e performanti che trasformano i visitatori in acquirenti a lungo termine.\nCombiniamo design estetico, competenza SEO e strumenti di visualizzazione basati sull’IA per aiutare la tua azienda a distinguersi nel competitivo mercato del legno e dei materiali per interni.",
+  "button": "Prenota demo"
+},
   "contacthero": {
     "heading": "Contattaci"
   },
@@ -262,6 +272,10 @@
     "heading": "Pronto a trasformare le tue vendite di legno?",
     "button": "Inizia con Nirwana"
   },
+"WoodCTA1": {
+  "heading": "Inizia a costruire il tuo sito web sul legno oggi",
+  "button": "Inizia con Nirwana"
+},
   "ManufacturerCTA": {
     "heading": "Pronto a semplificare il tuo business del marmo?",
     "button": "Inizia con Nirwana"
@@ -364,6 +378,14 @@
       "Attira acquirenti globali tramite contenuti ottimizzati SEO"
     ]
   },
+  "visualizeRealism3": {
+  "heading": "Perché le aziende del settore legno hanno bisogno di un sito web",
+  "description": "Nel mercato digitale odierno, oltre il 90% degli acquirenti ricerca online prima di contattare un fornitore. Senza un sito web professionale, la tua azienda rischia di perdere clienti di alto valore, partner retail e opportunità di esportazione.",
+  "bulletPoints": [
+    "Mostra i tuoi tipi di legno e finiture con immagini HD e filtri intelligenti",
+    "Costruisci fiducia con gallerie di progetti, certificazioni e testimonianze dei clienti"
+  ]
+},
   "simplifyProject": {
     "heading": "Semplifica la gestione dei progetti",
     "description": "Rimani organizzato dal concetto alla realizzazione. ClicProduct mantiene materiali, preventivi e preferenze dei clienti sincronizzati in un unico posto, così puoi lavorare più velocemente ed evitare errori costosi.",
@@ -374,11 +396,16 @@
     "description": "Dì addio a file sparsi e lunghe catene di email. ClicProduct mantiene preventivi, ordini e dati dei progetti organizzati in un'unica dashboard facile da usare.",
     "button": "Prenota Demo"
   },
-  "Eyword": {
+  "Keyword": {
     "heading": "Strategia di parole chiave per il mercato della pietra",
     "description": "Analizziamo le parole chiave più rilevanti e redditizie utilizzate da appaltatori, architetti e distributori — da “piastrelle in marmo” a “esportatori di granito Dubai”. Il nostro team crea una mappa mirata per aiutarti a dominare i risultati di ricerca per ogni categoria di pietra che vendi.",
     "button": "Prenota Demo"
   },
+  "Keyword1": {
+  "heading": "Strategia delle parole chiave per i mercati del legno",
+  "description": "Identifichiamo le parole chiave più pertinenti e di alto valore ricercate da costruttori, designer d’interni, produttori di mobili e distributori — da “assi di rovere massiccio” a “fornitori di mobili in legno su misura”. Il nostro team crea una mappa di parole chiave mirata che aiuta la tua azienda a dominare i risultati di ricerca in ogni categoria di prodotti in legno che offri.",
+  "button": "Prenota una demo"
+},
   "GrowSmarter": {
     "heading": "Cresci in modo intelligente con ClicProduct",
     "description": "La nostra missione è aiutare le aziende basate sui prodotti a superare i cataloghi statici e a entrare nel futuro dell'esperienza digitale guidata dall'IA.",
@@ -393,6 +420,10 @@
     "heading": "Perché la SEO è importante per i fornitori di marmo",
     "paragraph1": "La Search Engine Optimization (SEO) è ciò che rende il tuo business scoperto. Quando costruttori, architetti o privati cercano “fornitori di marmo vicino a me” o “marmo italiano importato”, la giusta strategia SEO assicura che il tuo sito compaia nella prima pagina — e non nascosto dai concorrenti."
   },
+  "collaborateClients1": {
+  "heading": "Perché la SEO è importante per i fornitori di legno",
+  "paragraph1": "L’ottimizzazione per i motori di ricerca (SEO) è ciò che rende visibile la tua azienda di legno al pubblico giusto. Quando appaltatori, designer d’interni o proprietari di case cercano frasi come “fornitori di legno vicino a me”, “assi di rovere di alta qualità” o “materiali per mobili su misura”, la giusta strategia SEO assicura che il tuo sito web compaia nella prima pagina di Google — e non nascosto sotto i tuoi concorrenti."
+},
   "whyChoose": {
     "heading": "Perché scegliere ClicProduct?",
     "description": "La nostra piattaforma combina tecnologia, automazione e design per dare al tuo business un vantaggio moderno — senza complicazioni tecniche.",
@@ -438,6 +469,17 @@
       }
     ]
   },
+  "digitalShowroom1": {
+  "heading": "Il potere di uno showroom digitale",
+  "paragraphs": [
+    "Un sito web professionale è ora lo showroom moderno per i fornitori di legno. Gli acquirenti non aspettano più di visitare segherie o showroom — iniziano la loro ricerca online.\nUn sito ben progettato consente di mostrare le vostre collezioni di legno, venature, texture e finiture in alta definizione, aiutando i potenziali clienti a visualizzare i progetti prima ancora di contattarvi.\nCon ClicProduct, il vostro catalogo di legno diventa interattivo. I visitatori possono filtrare, esplorare e confrontare diversi tipi di legno — da quercia e teak a noce e mogano — proprio come farebbero in uno showroom fisico, ma da qualsiasi parte del mondo."
+  ],
+  "images": [
+    {
+      "text": "Non costruiamo solo siti web — creiamo fondamenta digitali per la crescita. Man mano che la tua azienda del legno si espande in nuove regioni o linee di prodotti, il tuo sito web può scalare facilmente con essa. Dall’integrazione delle funzionalità eCommerce alla presentazione di nuove collezioni di legno, la tua piattaforma rimane flessibile e a prova di futuro. Ogni decisione di design si concentra sulla velocità, l’usabilità e la conversione, garantendo che il tuo sito continui a performare — oggi e negli anni a venire."
+    }
+  ]
+},
   "customerJourney": {
     "title": "Migliora il percorso del cliente",
     "description": "I clienti di oggi si aspettano velocità, chiarezza e personalizzazione. ClicProduct ti aiuta a offrire tutto questo. Dal primo clic alla consegna finale, i tuoi clienti vivono un’esperienza professionale, trasparente e coinvolgente che li fa tornare.",
