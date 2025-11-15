@@ -479,7 +479,15 @@
     }
   ]
 },
-
+  "contact": {
+    "heading": "Contactez-nous",
+    "fullName": "Nom complet",
+    "email": "E-mail",
+    "phone": "Numéro de téléphone",
+    "subject": "Sujet",
+    "message": "Message",
+    "submit": "Envoyer"
+  },
   "customerJourney": {
     "title": "Améliorez le parcours client",
     "description": "Les clients d’aujourd’hui attendent de la rapidité, de la clarté et de la personnalisation. ClicProduct vous aide à offrir les trois. Du premier clic à la livraison finale, vos clients bénéficient d’une expérience professionnelle, transparente et engageante qui les incite à revenir.",

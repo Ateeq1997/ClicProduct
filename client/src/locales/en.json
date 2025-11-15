@@ -489,6 +489,17 @@
     "button": "Book Demo"
   },
 
+   "contact": {
+    "heading": "Get In Touch",
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Submit"
+  },
+
+
   "service1_title": "1. Social Media Management",
   "service1_description": "Transform your Instagram, Facebook, LinkedIn, and TikTok into digital showrooms.\nWe design elegant, brand-consistent content that attracts architects, interior designers, and homeowners.",
 

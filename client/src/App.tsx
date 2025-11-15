@@ -14,7 +14,10 @@ import { MarbleSEO } from "./pages/MarbleSEO";
 import { WoodSEO } from "./pages/WoodSEO";
 import { WebDevelopment } from "./pages/WebDevelopment";
 import { WoodWebDevelopment } from "./pages/WoodWebDevelopment";
-import {ClicproductSoftware} from "@/pages/ClicproductSoftware"
+import {DigitalMarketing} from "./pages/DigitalMarketing";
+import { DigitalMarketingWood } from "./pages/DigitalMarketingWood";
+import {ClicproductSoftware} from "@/pages/ClicproductSoftware";
+import {Contact} from "./pages/Contact";
 import Wood from "@/pages/Wood"
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
@@ -34,7 +37,10 @@ function AppRoutes() {
        <Route path="/WebDevelopment" component={WebDevelopment} />
        <Route path="/WoodWebDevelopment" component={WoodWebDevelopment} />
       <Route path="/MarbleSEO" component={MarbleSEO} />
+       <Route path="/DigitalMarketing" component={DigitalMarketing} />
+      <Route path="/DigitalMarketingWood" component={DigitalMarketingWood} />
       <Route path="/WoodSEO" component={WoodSEO} />
+      <Route path="/Contact" component={Contact} />
       <Route component={NotFound} />
     </Switch>
   );

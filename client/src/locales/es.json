@@ -475,6 +475,17 @@
     }
   ]
 },
+
+ 
+  "contact": {
+    "heading": "Ponte en Contacto",
+    "fullName": "Nombre Completo",
+    "email": "Correo Electrónico",
+    "phone": "Número de Teléfono",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "submit": "Enviar"
+  },
   "customerJourney": {
     "title": "Mejora el recorrido del cliente",
     "description": "Los clientes de hoy esperan rapidez, claridad y personalización. ClicProduct te ayuda a ofrecer las tres. Desde el primer clic hasta la entrega final, tus clientes obtienen una experiencia profesional, transparente y atractiva que los hace volver.",
