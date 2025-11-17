@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
-import { ChevronDownIcon } from "lucide-react";
+import { ChevronDownIcon, Menu, X } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -14,6 +14,7 @@ import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
   const [openDropdown, setOpenDropdown] = useState(null);
+  const [mobileOpen, setMobileOpen] = useState(false);
   const { t, i18n } = useTranslation();
   const [language, setLanguage] = useState(i18n.language.toUpperCase());
 
@@ -49,24 +50,48 @@ const Navbar = () => {
     { label: t("navbar.contact"), href: "/Contact" },
   ];
 
+  // Mobile dropdown states for Products and Crazy
+  const [mobileDropdownOpen, setMobileDropdownOpen] = useState({
+    products: false,
+    crazy: false,
+  });
+
+  const toggleMobileDropdown = (name) => {
+    setMobileDropdownOpen((prev) => ({
+      ...prev,
+      [name]: !prev[name],
+    }));
+  };
+
   return (
     <div className="bg-[#fcfcfc] w-full relative overflow-hidden">
       <header className="relative z-10 bg-white shadow-sm">
-        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12 py-4 flex flex-wrap items-center justify-between">
-          {/* Logo */}
-          <div className="flex items-center gap-2 flex-shrink-0">
-            <img
-              src="/figmaAssets/logo.png"
-              alt="ClicProduct Logo"
-              className="w-12 h-12 object-contain"
-            />
-            <span className="font-[Montserrat] font-bold text-[#111111] text-2xl sm:text-3xl leading-none">
-              ClicProduct
-            </span>
-          </div>
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12 py-4 flex items-center justify-between">
 
-          {/* Navigation */}
-          <nav className="flex flex-wrap items-center gap-4 md:gap-8 mt-2 md:mt-0">
+          {/* LOGO */}
+          <Link href="/">
+            <div className="flex items-center gap-2 flex-shrink-0 cursor-pointer">
+              <img
+                src="/figmaAssets/logo.png"
+                alt="ClicProduct Logo"
+                className="w-12 h-12 object-contain"
+              />
+              <span className="font-[Montserrat] font-bold text-[#111111] text-2xl sm:text-3xl leading-none">
+                ClicProduct
+              </span>
+            </div>
+          </Link>
+
+          {/* MOBILE TOGGLE BUTTON */}
+          <button
+            className="md:hidden block"
+            onClick={() => setMobileOpen(!mobileOpen)}
+          >
+            {mobileOpen ? <X size={32} /> : <Menu size={32} />}
+          </button>
+
+          {/* DESKTOP NAVIGATION */}
+          <nav className="hidden md:flex items-center gap-8 ml-52">
             {navigationItems.map((item, index) => {
               if (item.dropdown) {
                 return (
@@ -80,7 +105,7 @@ const Navbar = () => {
                     <DropdownMenuTrigger
                       onMouseEnter={() => setOpenDropdown(item.label)}
                       onMouseLeave={() => setOpenDropdown(null)}
-                      className="flex items-center gap-1 font-[Poppins] font-medium text-[#333333] text-base md:text-lg cursor-pointer outline-none whitespace-nowrap"
+                      className="flex items-center gap-1 font-[Poppins] font-medium text-[#333333] text-lg cursor-pointer outline-none whitespace-nowrap"
                     >
                       {item.label}
                       <ChevronDownIcon className="w-4 h-4 transition-transform duration-300" />
@@ -96,7 +121,8 @@ const Navbar = () => {
                         const isMarbleSEO = subItem === t("navbar.marbleSeo");
                         const isWoodSEO = subItem === t("navbar.woodSeo");
                         const isDigitalMarketing = subItem === t("navbar.marbleMarketing");
-                        const isDigitalMarketingWood = subItem === t("navbar.woodMarketing");
+                        const isDigitalMarketingWood =
+                          subItem === t("navbar.woodMarketing");
                         const isManufacturers = subItem === t("navbar.marbles");
                         const isRetailers = subItem === t("navbar.retailers");
                         const isArchitects = subItem === t("navbar.architects");
@@ -113,11 +139,11 @@ const Navbar = () => {
                               <Link href="/ClicProductSoftware">{subItem}</Link>
                             ) : isWebDevelopment ? (
                               <Link href="/WebDevelopment">{subItem}</Link>
-                               ) : isWoodWebDevelopment ? (
+                            ) : isWoodWebDevelopment ? (
                               <Link href="/WoodWebDevelopment">{subItem}</Link>
                             ) : isMarbleSEO ? (
                               <Link href="/MarbleSEO">{subItem}</Link>
-                                ) : isWoodSEO ? (
+                            ) : isWoodSEO ? (
                               <Link href="/WoodSEO">{subItem}</Link>
                             ) : isDigitalMarketing ? (
                               <Link href="/DigitalMarketing">{subItem}</Link>
@@ -131,8 +157,7 @@ const Navbar = () => {
                               <Link href="/Architects">{subItem}</Link>
                             ) : isRenovation ? (
                               <Link href="/Renovation">{subItem}</Link>
-                            ) :
-                             (
+                            ) : (
                               <span className="opacity-60 cursor-not-allowed">
                                 {subItem} (Coming Soon)
                               </span>
@@ -149,7 +174,7 @@ const Navbar = () => {
                 <Link
                   key={index}
                   href={item.href}
-                  className="font-[Poppins] font-medium text-[#333333] text-base md:text-lg hover:text-[#111111] transition-colors whitespace-nowrap"
+                  className="font-[Poppins] font-medium text-[#333333] text-lg hover:text-[#111111] transition-colors whitespace-nowrap"
                 >
                   {item.label}
                 </Link>
@@ -157,9 +182,10 @@ const Navbar = () => {
             })}
           </nav>
 
-          {/* Buttons Section */}
-          <div className="flex flex-wrap items-center gap-2 sm:gap-4 mt-2 md:mt-0">
-            {/* Login Button */}
+          {/* DESKTOP BUTTONS */}
+          <div className="hidden md:flex items-center gap-4">
+
+            {/* LOGIN BUTTON */}
             <motion.div
               whileHover={{
                 scale: 1.05,
@@ -170,12 +196,12 @@ const Navbar = () => {
               transition={{ type: "spring", stiffness: 300 }}
               className="rounded-full"
             >
-              <Button className="h-10 sm:h-12 px-6 sm:px-10 bg-[#111111] rounded-full font-[Poppins] font-semibold text-white text-sm sm:text-base whitespace-nowrap">
+              <Button className="h-14 px-10 bg-[#111111] rounded-full font-[Poppins] font-semibold text-white text-base whitespace-nowrap">
                 {t("navbar.login")}
               </Button>
             </motion.div>
 
-            {/* Language Dropdown */}
+            {/* LANGUAGE DROPDOWN */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <motion.div
@@ -184,43 +210,61 @@ const Navbar = () => {
                   transition={{ type: "spring", stiffness: 300 }}
                   className="rounded-full"
                 >
-                  <Button className="h-10 sm:h-12 px-6 sm:px-10 bg-[#111111] rounded-full font-[Poppins] font-semibold text-white text-sm sm:text-base flex items-center gap-2 min-w-[140px] sm:min-w-[160px] justify-between whitespace-nowrap">
+                  <Button className="h-14 px-10 bg-[#111111] rounded-full font-[Poppins] font-semibold text-white text-base flex items-center gap-2 min-w-[160px] justify-between whitespace-nowrap">
                     <span className="flex items-center gap-2">
-                      {language === "EN" && "🇬🇧 English"}
-                      {language === "FR" && "🇫🇷 Français"}
-                      {language === "ES" && "🇪🇸 Español"}
-                      {language === "IT" && "🇮🇹 Italiano"}
+                      {language === "EN" && (
+                        <>
+                          <img src="/figmaAssets/f1.png" className="w-5 h-5 rounded-sm" />
+                          English
+                        </>
+                      )}
+                      {language === "FR" && (
+                        <>
+                          <img src="/figmaAssets/f2.png" className="w-5 h-5 rounded-sm" />
+                          Français
+                        </>
+                      )}
+                      {language === "ES" && (
+                        <>
+                          <img src="/figmaAssets/f3.png" className="w-5 h-5 rounded-sm" />
+                          Español
+                        </>
+                      )}
+                      {language === "IT" && (
+                        <>
+                          <img src="/figmaAssets/f4.png" className="w-5 h-5 rounded-sm" />
+                          Italiano
+                        </>
+                      )}
                     </span>
                     <ChevronDownIcon className="w-4 h-4" />
                   </Button>
                 </motion.div>
               </DropdownMenuTrigger>
 
-              <DropdownMenuContent className="bg-white shadow-lg border border-gray-200 mt-2 rounded-lg">
+              {/* Language dropdown width matches button */}
+              <DropdownMenuContent className="bg-white shadow-lg border border-gray-200 mt-2 rounded-lg min-w-[160px]">
                 <DropdownMenuItem
                   onClick={() => changeLanguage("EN")}
-                  className="cursor-pointer hover:bg-[#f2f2f2] font-[Poppins] text-[#333] text-base flex items-center gap-2 px-4 py-2 whitespace-nowrap"
+                  className="cursor-pointer hover:bg-[#f2f2f2] font-[Poppins] text-base flex items-center gap-2 px-4 py-2 whitespace-nowrap"
                 >
                   🇬🇧 English
                 </DropdownMenuItem>
-
                 <DropdownMenuItem
                   onClick={() => changeLanguage("FR")}
-                  className="cursor-pointer hover:bg-[#f2f2f2] font-[Poppins] text-[#333] text-base flex items-center gap-2 px-4 py-2 whitespace-nowrap"
+                  className="cursor-pointer hover:bg-[#f2f2f2] font-[Poppins] text-base flex items-center gap-2 px-4 py-2 whitespace-nowrap"
                 >
                   🇫🇷 Français
                 </DropdownMenuItem>
-
                 <DropdownMenuItem
                   onClick={() => changeLanguage("ES")}
-                  className="cursor-pointer hover:bg-[#f2f2f2] font-[Poppins] text-[#333] text-base flex items-center gap-2 px-4 py-2 whitespace-nowrap"
+                  className="cursor-pointer hover:bg-[#f2f2f2] font-[Poppins] text-base flex items-center gap-2 px-4 py-2 whitespace-nowrap"
                 >
                   🇪🇸 Español
                 </DropdownMenuItem>
-
                 <DropdownMenuItem
                   onClick={() => changeLanguage("IT")}
-                  className="cursor-pointer hover:bg-[#f2f2f2] font-[Poppins] text-[#333] text-base flex items-center gap-2 px-4 py-2 whitespace-nowrap"
+                  className="cursor-pointer hover:bg-[#f2f2f2] font-[Poppins] text-base flex items-center gap-2 px-4 py-2 whitespace-nowrap"
                 >
                   🇮🇹 Italiano
                 </DropdownMenuItem>
@@ -228,6 +272,109 @@ const Navbar = () => {
             </DropdownMenu>
           </div>
         </div>
+
+        {/* MOBILE MENU PANEL */}
+        {mobileOpen && (
+          <div className="md:hidden px-4 pb-6 space-y-4 bg-white border-t">
+
+            {/* MOBILE NAV LIST */}
+            {navigationItems.map((item, index) => (
+              <div key={index}>
+                {!item.dropdown ? (
+                  <Link
+                    href={item.href}
+                    className="block font-[Poppins] text-[#333] text-base py-2"
+                  >
+                    {item.label}
+                  </Link>
+                ) : (
+                  <div>
+                    {/* Clickable for mobile dropdown */}
+                    <p
+                      onClick={() =>
+                        toggleMobileDropdown(item.label.toLowerCase())
+                      }
+                      className="font-[Poppins] text-[#333] text-base py-2 flex items-center justify-between cursor-pointer"
+                    >
+                      {item.label}
+                      <ChevronDownIcon
+                        className={`w-4 h-4 transition-transform duration-300 ${
+                          mobileDropdownOpen[item.label.toLowerCase()]
+                            ? "rotate-180"
+                            : ""
+                        }`}
+                      />
+                    </p>
+
+                    {/* Only open if clicked */}
+                    {mobileDropdownOpen[item.label.toLowerCase()] && (
+                      <div className="ml-4 space-y-1">
+                        {item.dropdown.map((subItem, i) => (
+                          <p
+                            key={i}
+                            className="font-[Poppins] text-[#555] text-sm py-1"
+                          >
+                            {subItem}
+                          </p>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+            ))}
+
+            {/* MOBILE LOGIN BUTTON */}
+            <Button className="w-full h-12 bg-[#111111] rounded-full font-[Poppins] font-semibold text-white">
+              {t("navbar.login")}
+            </Button>
+
+            {/* MOBILE LANGUAGE BUTTON */}
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button className="w-full h-12 bg-[#111111] rounded-full font-[Poppins] text-white flex justify-between items-center">
+                  <span>
+                    {language === "EN" && "English"}
+                    {language === "FR" && "Français"}
+                    {language === "ES" && "Español"}
+                    {language === "IT" && "Italiano"}
+                  </span>
+                  <ChevronDownIcon />
+                </Button>
+              </DropdownMenuTrigger>
+
+              <DropdownMenuContent className="bg-white shadow-lg border border-gray-200 mt-2 rounded-lg w-full min-w-full">
+                <DropdownMenuItem
+                  onClick={() => changeLanguage("EN")}
+                  className="font-[Poppins] px-4 py-2"
+                >
+                  🇬🇧 English
+                </DropdownMenuItem>
+
+                <DropdownMenuItem
+                  onClick={() => changeLanguage("FR")}
+                  className="font-[Poppins] px-4 py-2"
+                >
+                  🇫🇷 Français
+                </DropdownMenuItem>
+
+                <DropdownMenuItem
+                  onClick={() => changeLanguage("ES")}
+                  className="font-[Poppins] px-4 py-2"
+                >
+                  🇪🇸 Español
+                </DropdownMenuItem>
+
+                <DropdownMenuItem
+                  onClick={() => changeLanguage("IT")}
+                  className="font-[Poppins] px-4 py-2"
+                >
+                  🇮🇹 Italiano
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </div>
+        )}
       </header>
     </div>
   );

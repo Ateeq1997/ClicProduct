@@ -1,12 +1,11 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { useTranslation } from "react-i18next"; // ✅ Import i18n hook
+import { useTranslation } from "react-i18next";
 
 const HowItWorks = () => {
-  const { t } = useTranslation(); // ✅ Initialize translation
+  const { t } = useTranslation();
 
-  // ✅ Translated steps
   const howItWorksSteps = [
     {
       image: "/figmaAssets/Purchase Securely.jpg",
@@ -26,13 +25,13 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section className="max-w-[1440px] mx-auto px-[92px] py-16">
-      <h2 className="[font-family:'Poppins',Helvetica] font-bold text-[#333333] text-[52px] tracking-[0] leading-[normal] text-center mb-16">
+    <section className="max-w-[1440px] mx-auto px-4 md:px-8 lg:px-[92px] py-16">
+      <h2 className="[font-family:'Poppins',Helvetica] font-bold text-[#333333] text-3xl sm:text-4xl md:text-5xl text-center mb-12 sm:mb-16 leading-tight">
         {t("how_heading")}
       </h2>
 
-      {/* ✅ Animated Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {/* Cards Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
         {howItWorksSteps.map((step, index) => (
           <motion.div
             key={index}
@@ -45,17 +44,17 @@ const HowItWorks = () => {
             <motion.img
               src={step.image}
               alt={step.title}
-              className="w-[381px] h-[445px] mb-6 rounded-lg object-cover"
+              className="w-full max-w-[280px] sm:max-w-[340px] md:max-w-[381px] h-auto sm:h-[445px] mb-6 rounded-lg object-cover"
               whileHover={{
                 scale: 1.07,
                 boxShadow: "0 10px 30px rgba(0,0,0,0.2)",
               }}
               transition={{ type: "spring", stiffness: 200 }}
             />
-            <h3 className="[font-family:'Poppins',Helvetica] font-bold text-[#333333] text-2xl tracking-[0] leading-[normal] mb-4 text-center">
+            <h3 className="[font-family:'Poppins',Helvetica] font-bold text-[#333333] text-xl sm:text-2xl md:text-2xl text-center mb-4 leading-snug">
               {step.title}
             </h3>
-            <p className="[font-family:'Poppins',Helvetica] font-normal text-[#4b4b4b] text-lg text-center tracking-[0] leading-7">
+            <p className="[font-family:'Poppins',Helvetica] font-normal text-[#4b4b4b] text-base sm:text-lg text-center leading-7">
               {step.description}
             </p>
           </motion.div>

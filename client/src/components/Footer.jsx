@@ -12,10 +12,11 @@ const Footer = () => {
   const services = t("footer.services.items", { returnObjects: true });
 
   return (
-    <footer className="bg-[#111111] text-white py-16 px-[92px]">
-      <div className="max-w-[1440px] mx-auto flex justify-between gap-12">
+    <footer className="bg-[#111111] text-white py-16 px-6 sm:px-10 lg:px-[92px]">
+      <div className="max-w-[1440px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1fr_1px_180px_180px_1px_1fr] gap-12">
+
         {/* Column 1 */}
-        <div className="flex-1 max-w-[320px]">
+        <div className="max-w-[320px]">
           <h2 className="text-white font-bold text-[26px] leading-[36px] mb-4 [font-family:'Poppins',Helvetica]">
             {t("footer.column1.title")}
           </h2>
@@ -24,7 +25,7 @@ const Footer = () => {
           </p>
 
           {/* Newsletter */}
-          <div className="flex mb-8 overflow-hidden rounded-full border border-[#ffffff40]">
+          <div className="flex flex-col sm:flex-row mb-8 overflow-hidden rounded-full border border-[#ffffff40]">
             <Input
               type="email"
               placeholder={t("footer.column1.newsletterPlaceholder")}
@@ -50,37 +51,39 @@ const Footer = () => {
         </div>
 
         {/* Vertical Line */}
-        <div className="w-[1px] bg-[#FFFFFF33]"></div>
+        <div className="hidden lg:block w-[1px] bg-[#FFFFFF33]"></div>
 
         {/* Column 2: Links */}
-        <div className="flex flex-col min-w-[180px]">
+        <div>
           <h3 className="font-semibold text-white text-[18px] mb-5 [font-family:'Poppins',Helvetica]">
             {t("footer.links.title")}
           </h3>
-          <ul className="flex flex-col gap-3 text-[#DADADA] text-[15px] [font-family:'Poppins',Helvetica]">
-            {links.map((link, index) => (
-              <li key={index}>{link}</li>
-            ))}
-          </ul>
+         <ul className="flex flex-col gap-3 text-[#DADADA] text-[15px] [font-family:'Poppins',Helvetica]">
+  {services.map((service, index) => (
+    <li key={index}>{service}</li>
+  ))}
+</ul>
+
         </div>
 
         {/* Column 3: Services */}
-        <div className="flex flex-col min-w-[180px]">
+        <div>
           <h3 className="font-semibold text-white text-[18px] mb-5 [font-family:'Poppins',Helvetica]">
             {t("footer.services.title")}
           </h3>
-          <ul className="flex flex-col gap-3 text-[#DADADA] text-[15px] [font-family:'Poppins',Helvetica]">
-            {services.map((service, index) => (
-              <li key={index}>{service}</li>
-            ))}
-          </ul>
+       <ul className="flex flex-col gap-3 text-[#DADADA] text-[15px] [font-family:'Poppins',Helvetica]">
+  {services.map((service, index) => (
+    <li key={index}>{service}</li>
+  ))}
+</ul>
+
         </div>
 
         {/* Vertical Line */}
-        <div className="w-[1px] bg-[#FFFFFF33]"></div>
+        <div className="hidden lg:block w-[1px] bg-[#FFFFFF33]"></div>
 
         {/* Column 4: Address */}
-        <div className="flex flex-col justify-start">
+        <div>
           <h3 className="font-semibold text-white text-[18px] mb-5 [font-family:'Poppins',Helvetica]">
             {t("footer.address.title")}
           </h3>

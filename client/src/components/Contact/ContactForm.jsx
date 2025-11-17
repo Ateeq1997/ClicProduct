@@ -1,48 +1,45 @@
 "use client";
 import React from "react";
-import "../../i18n"; // IMPORTANT: load i18n config
+import "../../i18n"; // load i18n config
 import { useTranslation } from "react-i18next";
 
 const ContactForm = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="max-w-[1440px] mx-auto px-[92px] py-[128px]">
+    <section className="w-full px-4 sm:px-6 md:px-10 lg:px-[92px] py-16 sm:py-24">
       {/* Heading */}
-      <h2 className="text-5xl font-bold text-[#333333] mb-10 text-left">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#333333] mb-8 sm:mb-10 text-left">
         {t("contact.heading")}
       </h2>
 
       {/* Form */}
-      <form className="w-full space-y-10">
-
+      <form className="w-full space-y-6 sm:space-y-8">
         {/* Row 1 */}
-        <div className="flex flex-col md:flex-row gap-10">
+        <div className="flex flex-col md:flex-row gap-4 md:gap-6">
           <input
             type="text"
             placeholder={t("contact.fullName")}
-            className="w-full md:w-[48%] px-8 py-5 bg-gray-100 text-black placeholder-black text-lg rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400"
+            className="w-full md:w-1/2 px-4 sm:px-6 py-3 sm:py-5 bg-gray-100 text-black placeholder-black text-base sm:text-lg rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400"
           />
-
           <input
             type="email"
             placeholder={t("contact.email")}
-            className="w-full md:w-[48%] px-8 py-5 bg-gray-100 text-black placeholder-black text-lg rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400"
+            className="w-full md:w-1/2 px-4 sm:px-6 py-3 sm:py-5 bg-gray-100 text-black placeholder-black text-base sm:text-lg rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400"
           />
         </div>
 
         {/* Row 2 */}
-        <div className="flex flex-col md:flex-row gap-10">
+        <div className="flex flex-col md:flex-row gap-4 md:gap-6">
           <input
             type="tel"
             placeholder={t("contact.phone")}
-            className="w-full md:w-[48%] px-8 py-5 bg-gray-100 text-black placeholder-black text-lg rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400"
+            className="w-full md:w-1/2 px-4 sm:px-6 py-3 sm:py-5 bg-gray-100 text-black placeholder-black text-base sm:text-lg rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400"
           />
-
           <input
             type="text"
             placeholder={t("contact.subject")}
-            className="w-full md:w-[48%] px-8 py-5 bg-gray-100 text-black placeholder-black text-lg rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400"
+            className="w-full md:w-1/2 px-4 sm:px-6 py-3 sm:py-5 bg-gray-100 text-black placeholder-black text-base sm:text-lg rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400"
           />
         </div>
 
@@ -50,16 +47,16 @@ const ContactForm = () => {
         <div>
           <textarea
             placeholder={t("contact.message")}
-            rows={8}
-            className="w-full px-8 py-5 bg-gray-100 text-black placeholder-black text-lg rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400"
+            rows={6}
+            className="w-full px-4 sm:px-6 py-3 sm:py-5 bg-gray-100 text-black placeholder-black text-base sm:text-lg rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400"
           ></textarea>
         </div>
 
         {/* Submit */}
-        <div className="flex justify-end">
+        <div className="flex justify-start md:justify-end">
           <button
             type="submit"
-            className="relative overflow-hidden bg-[#333333] text-white px-12 py-5 text-lg rounded-full font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl"
+            className="relative overflow-hidden bg-[#333333] text-white px-8 sm:px-12 py-3 sm:py-5 text-base sm:text-lg rounded-full font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl"
           >
             <span className="relative z-10">{t("contact.submit")}</span>
             <span className="absolute inset-0 bg-gray-700 scale-x-0 origin-left transition-transform duration-300 hover:scale-x-100 z-0"></span>
