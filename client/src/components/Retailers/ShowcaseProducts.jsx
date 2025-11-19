@@ -24,19 +24,19 @@ const ShowcaseProducts = () => {
   };
 
   return (
-    <section className="relative w-full py-20 bg-white flex flex-col items-center">
+    <section className="relative w-full py-20 bg-white flex flex-col items-center px-4 sm:px-8 md:px-16">
       {/* ===== Heading ===== */}
-      <h2 className="text-[52px] font-bold text-[#333333] text-center [font-family:'Poppins',Helvetica] mb-4">
+      <h2 className="text-[36px] sm:text-[44px] md:text-[52px] font-bold text-[#333333] text-center [font-family:'Poppins',Helvetica] mb-4">
         {t("showcase.heading")}
       </h2>
 
       {/* ===== Paragraph ===== */}
-      <p className="max-w-[1024px] text-[22px] text-[#4b4b4b] text-center leading-[30.8px] [font-family:'Poppins',Helvetica] mb-10">
+      <p className="max-w-full sm:max-w-[720px] md:max-w-[1024px] text-[16px] sm:text-[20px] md:text-[22px] text-[#4b4b4b] text-center leading-[24px] sm:leading-[28px] md:leading-[30.8px] [font-family:'Poppins',Helvetica] mb-10">
         {t("showcase.description")}
       </p>
 
       {/* ===== Image Slider ===== */}
-      <div className="relative w-[1130px] h-[700px]">
+      <div className="relative w-full max-w-[1130px] h-[400px] sm:h-[550px] md:h-[700px]">
         <img
           src={images[currentIndex]}
           alt={`Showcase ${currentIndex + 1}`}
@@ -46,17 +46,17 @@ const ShowcaseProducts = () => {
         {/* Left Arrow */}
         <button
           onClick={prevImage}
-          className="absolute top-1/2 -left-[70px] transform -translate-y-1/2 w-[60px] h-[60px] flex items-center justify-center bg-white rounded-full shadow-md hover:bg-gray-100 transition"
+          className="absolute top-1/2 left-2 sm:left-[-20px] md:left-[-70px] transform -translate-y-1/2 w-[50px] sm:w-[55px] md:w-[60px] h-[50px] sm:h-[55px] md:h-[60px] flex items-center justify-center bg-white rounded-full shadow-md hover:bg-gray-100 transition"
         >
-          <ChevronLeft className="w-8 h-8 text-[#333333]" />
+          <ChevronLeft className="w-6 sm:w-7 md:w-8 h-6 sm:h-7 md:h-8 text-[#333333]" />
         </button>
 
         {/* Right Arrow */}
         <button
           onClick={nextImage}
-          className="absolute top-1/2 -right-[70px] transform -translate-y-1/2 w-[60px] h-[60px] flex items-center justify-center bg-white rounded-full shadow-md hover:bg-gray-100 transition"
+          className="absolute top-1/2 right-2 sm:right-[-20px] md:right-[-70px] transform -translate-y-1/2 w-[50px] sm:w-[55px] md:w-[60px] h-[50px] sm:h-[55px] md:h-[60px] flex items-center justify-center bg-white rounded-full shadow-md hover:bg-gray-100 transition"
         >
-          <ChevronRight className="w-8 h-8 text-[#333333]" />
+          <ChevronRight className="w-6 sm:w-7 md:w-8 h-6 sm:h-7 md:h-8 text-[#333333]" />
         </button>
       </div>
 

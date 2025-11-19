@@ -1,10 +1,10 @@
 "use client";
 
 import React from "react";
-import { useTranslation } from "react-i18next"; // ✅ old i18n.js method
+import { useTranslation } from "react-i18next";
 
 const ServicesSection = () => {
-  const { t } = useTranslation(); // ✅ enable translations
+  const { t } = useTranslation();
 
   const services = [
     {
@@ -52,19 +52,19 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section className="max-w-[1440px] mx-auto px-[92px] md:px-[221px] py-20">
+    <section className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-[221px] py-20">
       <div className="flex flex-col gap-16">
         {services.map((service) => (
           <div
             key={service.id}
-            className={`flex flex-col md:flex-row items-start gap-10 ${
+            className={`flex flex-col md:flex-row items-start gap-6 md:gap-10 ${
               service.imagePosition === "right" ? "md:flex-row-reverse" : ""
             }`}
           >
             {/* Image */}
             <div className="flex-shrink-0 w-full md:w-[461px]">
               <img
-                className="w-full h-[250px] md:h-[202px] rounded-lg object-cover shadow-md"
+                className="w-full h-[250px] sm:h-[280px] md:h-[202px] lg:h-[250px] rounded-lg object-cover shadow-md"
                 alt={service.title}
                 src={service.image}
               />
@@ -72,10 +72,10 @@ const ServicesSection = () => {
 
             {/* Text */}
             <div className="flex flex-col gap-4 flex-1">
-              <h3 className="[font-family:'Poppins',Helvetica] font-bold text-[#4b4b4b] text-2xl tracking-[0.24px] leading-[33.6px]">
+              <h3 className="[font-family:'Poppins',Helvetica] font-bold text-[#4b4b4b] text-xl sm:text-2xl md:text-2xl tracking-[0.24px] leading-[28px] sm:leading-[33.6px]">
                 {service.title}
               </h3>
-              <p className="[font-family:'Poppins',Helvetica] font-normal text-[#4b4b4b] text-lg tracking-[0] leading-[25.2px] whitespace-pre-line">
+              <p className="[font-family:'Poppins',Helvetica] font-normal text-[#4b4b4b] text-base sm:text-lg md:text-lg tracking-[0] leading-[24px] sm:leading-[25.2px] whitespace-pre-line">
                 {service.description}
               </p>
             </div>

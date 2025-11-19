@@ -8,7 +8,7 @@ const HeroSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="relative h-[641px] flex items-center justify-center overflow-hidden">
+    <section className="relative h-[641px] sm:h-[550px] md:h-[600px] lg:h-[641px] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 w-full h-full">
         <img
@@ -41,8 +41,8 @@ const HeroSection = () => {
             before:[mask-composite:exclude]
             before:z-[1] 
             before:pointer-events-none 
-            p-6 sm:p-10 md:p-12
-            "
+            p-4 sm:p-6 md:p-10
+          "
         >
           {/* Heading */}
           <h1 className="
@@ -54,10 +54,7 @@ const HeroSection = () => {
             tracking-[0]
             leading-[1.1]
             mb-4
-            text-[38px] 
-            sm:text-[55px] 
-            md:text-[70px] 
-            lg:text-[85px]
+            text-[28px] sm:text-[38px] md:text-[55px] lg:text-[70px] xl:text-[85px]
           ">
             {t("hero.heading")}
           </h1>
@@ -70,19 +67,16 @@ const HeroSection = () => {
             text-center
             tracking-[0]
             leading-[1.3]
-            max-w-[728px] 
+            max-w-[95%] sm:max-w-[728px] 
             mx-auto 
             mb-6
-            text-[14px]
-            sm:text-[16px]
-            md:text-[19px]
-            lg:text-[22px]
+            text-[12px] sm:text-[14px] md:text-[16px] lg:text-[19px] xl:text-[22px]
           ">
             {t("hero.paragraph")}
           </p>
 
           {/* Button */}
-          <div className="flex justify-center gap-3">
+          <div className="flex justify-center gap-3 flex-wrap">
             <motion.div
               whileHover={{
                 scale: 1.05,
@@ -95,16 +89,14 @@ const HeroSection = () => {
             >
               <Button className="
                 h-auto 
-                px-6 py-3 
-                sm:px-8 sm:py-[15px]
+                px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-[15px]
                 bg-white 
                 rounded-[200px] 
                 border border-solid border-[#00000061] 
                 [font-family:'Poppins',Helvetica] 
                 font-semibold 
                 text-[#111111] 
-                text-[16px]
-                sm:text-[22px] 
+                text-[14px] sm:text-[16px] md:text-[20px] lg:text-[22px]
                 tracking-[0] 
                 transition-all duration-300
               ">

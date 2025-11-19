@@ -9,14 +9,12 @@ const DigitalShowroom = () => {
     {
       src: "figmaAssets/Image.png",
       alt: "Showroom image",
-      className: "w-[470px] h-[359px] bg-cover bg-center rounded-2xl",
       isBackground: true,
       belowText: t("digitalShowroom.images.0.text"),
     },
     {
       src: "figmaAssets/image 15 (1).png",
       alt: "Image",
-      className: "w-[471px] h-[360px] object-cover rounded-2xl",
       isBackground: false,
       belowText: t("digitalShowroom.images.1.text"),
     },
@@ -25,7 +23,7 @@ const DigitalShowroom = () => {
   const digitalShowroomText = t("digitalShowroom.paragraphs", { returnObjects: true });
 
   return (
-    <section className="w-full max-w-[1140px] mx-auto text-center py-16">
+    <section className="w-full max-w-[1140px] mx-auto text-center py-16 px-4 sm:px-0">
       {/* Heading */}
       <h2 className="[font-family:'Poppins',Helvetica] font-bold text-[#333333] text-5xl leading-[62px]">
         {t("digitalShowroom.heading")}
@@ -44,22 +42,22 @@ const DigitalShowroom = () => {
       </div>
 
       {/* Images Row */}
-      <div className="flex justify-center gap-[50px] mt-16 flex-wrap">
+      <div className="flex flex-col sm:flex-row justify-center gap-8 sm:gap-[50px] mt-16">
         {showroomImages.map((image, index) => (
-          <div key={index} className="flex flex-col items-center w-[470px]">
+          <div key={index} className="flex flex-col items-center w-full sm:w-[470px]">
             {image.isBackground ? (
               <div
-                className={image.className}
+                className="w-full rounded-2xl bg-cover bg-center aspect-[470/359]"
                 style={{ backgroundImage: `url(${image.src})` }}
               />
             ) : (
               <img
                 src={image.src}
                 alt={image.alt}
-                className={image.className}
+                className="w-full h-auto rounded-2xl"
               />
             )}
-            <p className="mt-6 [font-family:'Poppins',Helvetica] text-[#4b4b4b] text-[20px] leading-[30px] text-center">
+            <p className="mt-6 [font-family:'Poppins',Helvetica] text-[#4b4b4b] text-[18px] sm:text-[20px] leading-[28px] sm:leading-[30px] text-center">
               {image.belowText}
             </p>
           </div>

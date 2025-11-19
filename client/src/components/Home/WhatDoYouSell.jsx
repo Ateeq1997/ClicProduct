@@ -43,7 +43,7 @@ const WhatDoYouSell = () => {
       <h2 className="
         [font-family:'Poppins',Helvetica] 
         font-bold text-[#111111] 
-        text-[32px] sm:text-[48px] md:text-[58px] lg:text-[68px]
+        text-[28px] sm:text-[32px] md:text-[48px] lg:text-[58px] xl:text-[68px]
         text-center tracking-[0] 
         leading-tight mb-12
       ">
@@ -52,7 +52,7 @@ const WhatDoYouSell = () => {
 
       {/* Buttons */}
       <div className="flex justify-center mb-16">
-        <div className="bg-[#a380620a] rounded-[51px] p-6 sm:p-[35px] inline-flex flex-col sm:flex-row gap-6 sm:gap-[58px] w-full max-w-[950px]">
+        <div className="bg-[#a380620a] rounded-[51px] p-4 sm:p-[35px] inline-flex flex-col sm:flex-row gap-4 sm:gap-[58px] w-full max-w-[950px]">
           
           {/* Marble Button */}
           <Link href="/Marble" className="w-full">
@@ -65,11 +65,11 @@ const WhatDoYouSell = () => {
               <Button className="
                 h-auto 
                 w-full 
-                px-6 sm:px-8 py-[15px] 
+                px-4 sm:px-6 md:px-8 py-[12px] sm:py-[15px] 
                 bg-[#111111] 
                 rounded-[200px] 
                 [font-family:'Poppins',Helvetica] font-semibold 
-                text-white text-[18px] sm:text-[22px] 
+                text-white text-[16px] sm:text-[18px] md:text-[22px] 
                 tracking-[0] leading-[normal]
               ">
                 {t("whatDoYouSell.marble")}
@@ -90,12 +90,12 @@ const WhatDoYouSell = () => {
                 className="
                   h-auto 
                   w-full 
-                  px-6 sm:px-8 py-[15px] 
+                  px-4 sm:px-6 md:px-8 py-[12px] sm:py-[15px] 
                   bg-white 
                   rounded-[200px] 
                   border border-solid border-[#00000033] 
                   [font-family:'Poppins',Helvetica] font-semibold 
-                  text-[#111111] text-[18px] sm:text-[22px] 
+                  text-[#111111] text-[16px] sm:text-[18px] md:text-[22px] 
                   tracking-[0] leading-[normal]
                 "
               >
@@ -114,19 +114,19 @@ const WhatDoYouSell = () => {
           backdrop-blur-[2px] 
           overflow-hidden
         ">
-          <CardContent className="p-6 sm:p-10 md:p-12 flex flex-col lg:flex-row gap-8">
+          <CardContent className="p-4 sm:p-6 md:p-10 lg:p-12 flex flex-col lg:flex-row gap-6 lg:gap-8">
 
             {/* Image */}
-            <div className="flex-1">
+            <div className="flex-1 mb-6 lg:mb-0">
               <img
-                className="w-full h-auto max-h-[500px] object-cover rounded-lg"
+                className="w-full h-auto max-h-[400px] sm:max-h-[450px] md:max-h-[500px] object-cover rounded-lg"
                 alt="Dashboard Preview"
                 src="/figmaAssets/image 99.jpg"
               />
             </div>
 
             {/* Right Panel */}
-            <div className="w-full lg:w-[320px] flex flex-col gap-6">
+            <div className="w-full lg:w-[320px] flex flex-col gap-4 sm:gap-6">
 
               {dashboardCards.map((card, index) => (
                 <motion.div
@@ -142,24 +142,22 @@ const WhatDoYouSell = () => {
                   <Card
                     className={`${card.bgColor} border-[#313d4f] shadow-md rounded-[14px] border transition-transform`}
                   >
-                    <CardContent className="p-5">
+                    <CardContent className="p-4 sm:p-5">
                       
-                      <div className="mb-2">
-                        <span className={`${card.labelOpacity} ${card.valueColor} [font-family:'Poppins',Helvetica] font-semibold text-base`}>
+                      <div className="mb-1 sm:mb-2">
+                        <span className={`${card.labelOpacity} ${card.valueColor} [font-family:'Poppins',Helvetica] font-semibold text-sm sm:text-base`}>
                           {card.value}
                         </span>
                       </div>
 
-                      <div className={`${card.textColor} [font-family:'Poppins',Helvetica] font-bold text-[22px] sm:text-[26px] md:text-[28px] mb-2`}>
+                      <div className={`${card.textColor} [font-family:'Poppins',Helvetica] font-bold text-[18px] sm:text-[22px] md:text-[26px] mb-1 sm:mb-2`}>
                         {card.title}
                       </div>
 
-                      <div className="flex items-center gap-2">
-                        <TrendingDownIcon className="w-4 h-4 text-[#f93c65]" />
-                        <span className="text-[#f93c65] font-semibold text-sm">
-                          4.3%
-                        </span>
-                        <span className="text-[#111111] font-semibold text-sm">
+                      <div className="flex items-center gap-1 sm:gap-2 text-sm sm:text-base">
+                        <TrendingDownIcon className="w-3 h-3 sm:w-4 sm:h-4 text-[#f93c65]" />
+                        <span className="text-[#f93c65] font-semibold">4.3%</span>
+                        <span className="text-[#111111] font-semibold">
                           {t("whatDoYouSell.downFromYesterday")}
                         </span>
                       </div>
@@ -174,16 +172,16 @@ const WhatDoYouSell = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 transition={{ type: "spring", stiffness: 300 }}
-                className="rounded-[200px] inline-block mx-auto w-full text-center"
+                className="rounded-[200px] inline-block mx-auto w-full text-center mt-4 sm:mt-6"
               >
                 <Button
                   className="
                     h-auto w-full 
-                    px-6 py-[15px] 
+                    px-4 sm:px-6 py-[12px] sm:py-[15px] 
                     bg-[#111111] 
                     rounded-[200px] 
                     text-white 
-                    text-[18px] sm:text-[22px] font-semibold
+                    text-[16px] sm:text-[18px] md:text-[22px] font-semibold
                     [font-family:'Poppins',Helvetica]
                   "
                 >

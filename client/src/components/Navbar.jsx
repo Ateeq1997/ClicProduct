@@ -91,7 +91,7 @@ const Navbar = () => {
           </button>
 
           {/* DESKTOP NAVIGATION */}
-          <nav className="hidden md:flex items-center gap-8 ml-52">
+          <nav className="hidden md:flex items-center gap-8 ml-32">
             {navigationItems.map((item, index) => {
               if (item.dropdown) {
                 return (
@@ -307,18 +307,60 @@ const Navbar = () => {
                     </p>
 
                     {/* Only open if clicked */}
-                    {mobileDropdownOpen[item.label.toLowerCase()] && (
-                      <div className="ml-4 space-y-1">
-                        {item.dropdown.map((subItem, i) => (
-                          <p
-                            key={i}
-                            className="font-[Poppins] text-[#555] text-sm py-1"
-                          >
-                            {subItem}
-                          </p>
-                        ))}
-                      </div>
-                    )}
+                  {mobileDropdownOpen[item.label.toLowerCase()] && (
+  <div className="ml-4 space-y-1">
+    {item.dropdown.map((subItem, i) => {
+      const isClicSoftware = subItem === t("navbar.clicSoftware");
+      const isMarbleSEO = subItem === t("navbar.marbleSeo");
+      const isWoodSEO = subItem === t("navbar.woodSeo");
+      const isDigitalMarketing = subItem === t("navbar.marbleMarketing");
+      const isDigitalMarketingWood =
+        subItem === t("navbar.woodMarketing");
+      const isManufacturers = subItem === t("navbar.marbles");
+      const isRetailers = subItem === t("navbar.retailers");
+      const isArchitects = subItem === t("navbar.architects");
+      const isRenovation = subItem === t("navbar.renovation");
+      const isWebDevelopment = subItem === t("navbar.marbleWeb");
+      const isWoodWebDevelopment = subItem === t("navbar.woodWeb");
+
+      return (
+        <Link
+          key={i}
+          href={
+            isClicSoftware
+              ? "/ClicProductSoftware"
+              : isWebDevelopment
+              ? "/WebDevelopment"
+              : isWoodWebDevelopment
+              ? "/WoodWebDevelopment"
+              : isMarbleSEO
+              ? "/MarbleSEO"
+              : isWoodSEO
+              ? "/WoodSEO"
+              : isDigitalMarketing
+              ? "/DigitalMarketing"
+              : isDigitalMarketingWood
+              ? "/DigitalMarketingWood"
+              : isManufacturers
+              ? "/Manufacturers"
+              : isRetailers
+              ? "/Retailers"
+              : isArchitects
+              ? "/Architects"
+              : isRenovation
+              ? "/Renovation"
+              : "#"
+          }
+          className="block font-[Poppins] text-[#555] text-sm py-1"
+          onClick={() => setMobileOpen(false)} // close mobile menu on click
+        >
+          {subItem}
+        </Link>
+      );
+    })}
+  </div>
+)}
+
                   </div>
                 )}
               </div>

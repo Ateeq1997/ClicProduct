@@ -9,11 +9,11 @@ const VideoSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="relative w-full py-[92px] px-[111px]">
-      <div className="flex gap-[60px] items-center">
+    <section className="relative w-full py-[92px] px-4 sm:px-10 md:px-16 lg:px-[111px]">
+      <div className="flex flex-col lg:flex-row gap-10 lg:gap-[60px] items-center">
         {/* ===== Left Image with Play Icon ===== */}
         <motion.div
-          className="relative w-[545px] h-[400px] rounded-md overflow-hidden"
+          className="relative w-full max-w-[545px] h-[400px] rounded-md overflow-hidden"
           whileHover={{ scale: 1.03 }}
           transition={{ duration: 0.4, ease: "easeInOut" }}
         >
@@ -37,16 +37,16 @@ const VideoSection = () => {
         </motion.div>
 
         {/* ===== Right Text Section ===== */}
-        <div className="flex flex-col justify-center flex-1">
-          <h2 className="w-[634px] [font-family:'Poppins',Helvetica] font-bold text-[#333333] text-[52px] tracking-[0.52px] leading-[64px] mb-[24px]">
+        <div className="flex flex-col justify-center flex-1 text-center lg:text-left">
+          <h2 className="w-full lg:w-[634px] [font-family:'Poppins',Helvetica] font-bold text-[#333333] text-[40px] sm:text-[48px] lg:text-[52px] tracking-[0.52px] leading-[1.2] mb-[24px]">
             {t("videoSection.heading")}
           </h2>
-          <p className="w-[604px] [font-family:'Poppins',Helvetica] font-normal text-[#4b4b4b] text-[22px] leading-[30.8px] mb-[40px]">
+          <p className="w-full lg:w-[604px] [font-family:'Poppins',Helvetica] font-normal text-[#4b4b4b] text-[18px] sm:text-[20px] lg:text-[22px] leading-[28.8px] mb-[40px]">
             {t("videoSection.description")}
           </p>
 
           {/* ===== Animated Button ===== */}
-          <div className="flex justify-start gap-3">
+          <div className="flex justify-center lg:justify-start gap-3">
             <motion.div
               whileHover={{
                 scale: 1.05,
