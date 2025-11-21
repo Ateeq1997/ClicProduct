@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 export const Contact = (): JSX.Element => {
   return (
-    <div className="bg-[#fcfcfc] w-full min-h-screen flex flex-col">
+   <div className="bg-[#fcfcfc] overflow-hidden w-full relative">
      
 <Navbar />
 <ContactHero />

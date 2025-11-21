@@ -10,7 +10,8 @@ import Footer from "../components/Footer";
 
 export const MarbleSEO = (): JSX.Element => {
   return (
-    <div className="bg-[#fcfcfc] overflow-hidden w-full min-w-[1440px] relative">
+    <div className="bg-[#fcfcfc] overflow-hidden w-full relative">
+
     <Navbar />
 <SeoHero />
 <CollaborateClients />

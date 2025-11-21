@@ -13,7 +13,8 @@ import Footer from "../components/Footer";
 
 export const Retailers = (): JSX.Element => {
   return (
-    <div className="bg-[#fcfcfc] overflow-hidden w-full min-w-[1440px] min-h-screen relative">
+    <div className="bg-[#fcfcfc] overflow-hidden w-full relative">
+
     <Navbar />
     <RetailersHero /> 
 <ShowcaseProducts />

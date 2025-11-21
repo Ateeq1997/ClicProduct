@@ -12,7 +12,8 @@ import Footer from "../components/Footer";
 
 const Manufacturers = (): JSX.Element => {
   return (
-    <div className="bg-[#fcfcfc] overflow-hidden w-full min-w-[1440px] relative">
+  <div className="bg-[#fcfcfc] overflow-hidden w-full relative">
+
  <Navbar />
 <ManufacturerHero />
 <BuildForMarble />

@@ -10,7 +10,7 @@ import Footer from "../components/Footer";
 
 export const WoodWebDevelopment = (): JSX.Element => {
   return (
-    <div className="bg-[#fcfcfc] overflow-hidden w-full min-w-[1440px] min-h-[3335px] relative">
+   <div className="bg-[#fcfcfc] overflow-hidden w-full relative">
 
 <Navbar />
 <WebHero />

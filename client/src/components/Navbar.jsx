@@ -186,7 +186,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center gap-4">
 
             {/* LOGIN BUTTON */}
-            <motion.div
+            {/* <motion.div
               whileHover={{
                 scale: 1.05,
                 backgroundColor: "#333333",
@@ -199,7 +199,7 @@ const Navbar = () => {
               <Button className="h-14 px-10 bg-[#111111] rounded-full font-[Poppins] font-semibold text-white text-base whitespace-nowrap">
                 {t("navbar.login")}
               </Button>
-            </motion.div>
+            </motion.div> */}
 
             {/* LANGUAGE DROPDOWN */}
             <DropdownMenu>
@@ -367,9 +367,9 @@ const Navbar = () => {
             ))}
 
             {/* MOBILE LOGIN BUTTON */}
-            <Button className="w-full h-12 bg-[#111111] rounded-full font-[Poppins] font-semibold text-white">
+            {/* <Button className="w-full h-12 bg-[#111111] rounded-full font-[Poppins] font-semibold text-white">
               {t("navbar.login")}
-            </Button>
+            </Button> */}
 
             {/* MOBILE LANGUAGE BUTTON */}
             <DropdownMenu>

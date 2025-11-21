@@ -16,7 +16,8 @@ const features = [
 
 export const Renovation = (): JSX.Element => {
   return (
-    <div className="bg-[#fcfcfc] overflow-hidden w-full min-w-[1440px] relative">
+    <div className="bg-[#fcfcfc] overflow-hidden w-full relative">
+
     <Navbar />
     <Hero />
     <VisualizeRealismSection />

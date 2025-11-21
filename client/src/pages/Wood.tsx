@@ -9,7 +9,8 @@ import Footer from "../components/Footer";
 
 export default function Wood(): JSX.Element {
   return (
-    <div className="bg-[#fcfcfc] overflow-hidden w-full min-h-screen">
+    <div className="bg-[#fcfcfc] overflow-hidden w-full relative">
+
       <Navbar />
       <HeroSection />
       <WhyForWoodSeller />
