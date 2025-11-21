@@ -90,36 +90,41 @@
     "heading": "Que vendez-vous ?",
     "marble": "Fabricants de marbre",
     "wood": "Bois",
-    "seeFullDashboard": "Voir le tableau de bord complet",
+    "seeFullDashboard": "Voir le tableau complet",
     "totalSales": "Ventes totales",
     "activeUsers": "Utilisateurs actifs",
     "orders": "Commandes",
     "downFromYesterday": "En baisse par rapport à hier"
   },
-  "poweredBy": {
-    "heading": "Propulsé par Nirwana.ai",
-    "paragraph": "La technologie Nirwana permet des aperçus réalistes et en temps réel de tous vos produits, sans configurations complexes.",
-    "rooms": {
-      "living": {
-        "title": "Salon",
-        "description": "En tant qu'une des pièces les plus fréquentées de la maison, le salon donne le ton au reste de l'habitation."
-      },
-      "bedroom": {
-        "title": "Chambre",
-        "description": "Libérez votre créativité pour la rendre non seulement confortable, mais aussi agréable pour commencer et terminer votre journée."
-      },
-      "office": {
-        "title": "Bureau",
-        "description": "Les idées de conception de bureau à domicile présentées ici sont optimisées pour l'efficacité, l'espace et le confort grâce aux designers de Spacejoy."
-      },
-      "kitchen": {
-        "title": "Cuisine",
-        "description": "La cuisine est le cœur de chaque maison — un espace où la fonctionnalité rencontre le style. Avec Nirwana.ai, vous pouvez visualiser les matériaux, les couleurs et les finitions avant de prendre une décision."
-      }
+ "poweredBy": {
+  "heading": "Propulsé par ClicProduct",
+  "paragraph": "La technologie ClicProduct permet des aperçus réalistes de tous vos produits sans configurations complexes.",
+  "readMore": "En savoir plus",
+  "showLess": "Voir moins",
+  "rooms": {
+    "living": {
+      "title": "Salon",
+      "description": "En tant que l’un des endroits les plus fréquentés de la maison, le salon donne le ton pour le reste de la maison.",
+      "moreText": "Le salon est le centre de votre maison, conçu pour la détente et les rassemblements. Visualisez les meubles, l’éclairage et la décoration en temps réel pour créer un espace que vous aimez."
     },
-    "readMore": "Lire la suite"
+    "bedroom": {
+      "title": "Chambre",
+      "description": "Libérez votre créativité pour la rendre non seulement confortable mais aussi agréable pour commencer et terminer votre journée.",
+      "moreText": "Votre chambre doit être confortable et inspirante. Prévisualisez les agencements, les couleurs et la décoration pour en faire votre refuge personnel parfait."
+    },
+    "office": {
+      "title": "Bureau",
+      "description": "Les idées de conception de bureau à domicile présentées ici sont maximisées pour l’efficacité, optimisées pour l’espace et adaptées pour le confort par les designers de Spacejoy.",
+      "moreText": "Un bureau à domicile doit équilibrer productivité et style. Visualisez meubles et éclairage pour maximiser l’efficacité et le confort."
+    },
+    "kitchen": {
+      "title": "Cuisine",
+      "description": "La cuisine est le cœur de chaque maison — un espace où la fonctionnalité rencontre le style. Avec ClicProduct, vous pouvez prévisualiser l’apparence des matériaux, couleurs et finitions avant de prendre une décision.",
+      "moreText": "La cuisine allie fonctionnalité et style. Prévisualisez matériaux, couleurs et finitions pour créer un espace beau et pratique."
+    }
+  }
   },
-  "explore_heading": "Découvrez l'avenir de la visualisation avec Nirwana.ai",
+  "explore_heading": "Découvrez l'avenir de la visualisation avec ClicProduct",
   "visualization_alt1": "Image de visualisation 1",
   "visualization_alt2": "Image de visualisation 2",
   "visualization_alt3": "Image de visualisation 3",
@@ -232,7 +237,7 @@
     "heading": "Aperçu du tableau de bord",
     "subheading": "Vos ventes. Vos données. Organisées en un seul endroit.",
     "imageAlt": "Aperçu du tableau de bord",
-    "button": "Voir le tableau de bord complet",
+    "button": "Voir le tableau complet",
     "featuresHeading": "Fonctionnalités",
     "metrics": [
       {
@@ -261,47 +266,47 @@
   
   "marbleCTA": {
     "heading": "Prêt à transformer vos ventes de marbre ?",
-    "button": "Commencez avec Nirwana"
+    "button": "Démarrer ClicProduct"
   },
   "MarbleCTA": {
   "heading": "Commencez à créer votre site web de marbre dès aujourd’hui",
-  "button": "Commencer avec Nirwana"
+  "button": "Démarrer ClicProduct"
 },
   "WoodCTA": {
   "heading": "Prêt à transformer vos ventes de bois ?",
-  "button": "Commencez avec Nirwana"
+  "button": "Démarrer ClicProduct"
 },
 "WoodCTA1": {
   "heading": "Commencez à créer votre site Web sur le bois dès aujourd'hui",
-  "button": "Commencer avec Nirwana"
+  "button": "Démarrer ClicProduct"
 },
 "ManufacturerCTA": {
   "heading": "Prêt à simplifier votre entreprise de marbre ?",
-  "button": "Commencez avec Nirwana"
+  "button": "Démarrer ClicProduct"
 },
 "RetailsCTA": {
   "heading": "Transformez votre façon de vendre",
-  "button": "Commencez avec Nirwana"
+  "button": "Démarrer ClicProduct"
 },
 "ArchitechCTA": {
   "heading": "Conçu pour les professionnels du bâtiment",
-  "button": "Commencer avec Nirwana"
+  "button": "Démarrer ClicProduct"
 },
 "RenovationCTA": {
   "heading": "Offrez la qualité en toute confiance",
-  "button": "Commencer avec Nirwana"
+  "button": "Démarrer ClicProduct"
 },
 "ClicCTA": {
   "heading": "Offrez la qualité en toute confiance",
-  "button": "Commencer avec Nirwana"
+  "button": "Démarrer ClicProduct"
 },
 "WebCTA": {
   "heading": "Commencez à créer votre site web de marbre dès aujourd’hui",
-  "button": "Commencer avec Nirwana"
+  "button": "Démarrer ClicProduct"
 },
 "Wood1CTA": {
   "heading": "Commencez à créer votre site web pour le bois dès aujourd’hui",
-  "button": "Commencer avec Nirwana"
+  "button": "Démarrer ClicProduct"
 },
   "buildForMarble": {
     "heading": "Conçu pour les opérations réelles de marbre",

@@ -97,32 +97,37 @@
     "downFromYesterday": "In calo rispetto a ieri"
   },
   "poweredBy": {
-    "heading": "Alimentato da Nirwana.ai",
-    "paragraph": "La tecnologia Nirwana consente anteprime realistiche dei tuoi prodotti senza configurazioni complesse.",
-    "rooms": {
-      "living": {
-        "title": "Soggiorno",
-        "description": "Essendo uno degli spazi più frequentati della casa, il soggiorno dà il tono al resto della casa."
-      },
-      "bedroom": {
-        "title": "Camera da Letto",
-        "description": "Libera la tua creatività per renderla non solo confortevole ma anche un luogo piacevole per iniziare e terminare la giornata."
-      },
-      "office": {
-        "title": "Ufficio",
-        "description": "Le idee di design per ufficio domestico qui presentate sono ottimizzate per efficienza, spazio e comfort dai designer di Spacejoy."
-      },
-      "kitchen": {
-        "title": "Cucina",
-        "description": "La cucina è il cuore di ogni casa — uno spazio dove funzionalità e stile si incontrano. Con Nirwana.ai puoi visualizzare come diversi materiali, colori e finiture appariranno nella tua cucina prima di prendere decisioni."
-      }
+  "heading": "Supportato da ClicProduct",
+  "paragraph": "La tecnologia ClicProduct consente anteprime realistiche di tutti i tuoi prodotti senza configurazioni complesse.",
+  "readMore": "Leggi di più",
+  "showLess": "Mostra meno",
+  "rooms": {
+    "living": {
+      "title": "Soggiorno",
+      "description": "Essendo uno degli spazi più frequentati della casa, il soggiorno dà il tono al resto dell’abitazione.",
+      "moreText": "Il soggiorno è il cuore della tua casa, progettato per il relax e gli incontri. Visualizza mobili, illuminazione e decorazioni in tempo reale per creare uno spazio che ami."
     },
-    "readMore": "Leggi di più"
+    "bedroom": {
+      "title": "Camera da letto",
+      "description": "Libera la tua creatività per renderla non solo confortevole, ma anche un luogo piacevole per iniziare e terminare la giornata.",
+      "moreText": "La tua camera da letto dovrebbe essere confortevole e ispirante. Anteprima di layout, colori e decorazioni per farne il tuo rifugio personale perfetto."
+    },
+    "office": {
+      "title": "Ufficio",
+      "description": "Le idee di progettazione dell’ufficio in casa presentate qui sono massimizzate per l’efficienza, ottimizzate per lo spazio e migliorate per il comfort dai designer di Spacejoy.",
+      "moreText": "Un ufficio domestico deve bilanciare produttività e stile. Visualizza mobili e illuminazione per massimizzare efficienza e comfort."
+    },
+    "kitchen": {
+      "title": "Cucina",
+      "description": "La cucina è il cuore di ogni casa — uno spazio dove funzionalità e stile si incontrano. Con ClicProduct, puoi vedere come appariranno materiali, colori e finiture prima di prendere qualsiasi decisione.",
+      "moreText": "La cucina unisce funzionalità e stile. Anteprima di materiali, colori e finiture per creare uno spazio bello e pratico."
+    }
+    }
   },
   "visualization_alt1": "Immagine di Visualizzazione 1",
   "visualization_alt2": "Immagine di Visualizzazione 2",
   "visualization_alt3": "Immagine di Visualizzazione 3",
-  "explore_heading": "Esplora il Futuro della Visualizzazione con Nirwana.ai",
+  "explore_heading": "Esplora il Futuro della Visualizzazione con ClicProduct",
   "how_heading": "Come Funziona",
   "how_step1_title": "Scegli il tuo prodotto",
   "how_step1_desc": "Seleziona cosa vendi (Marmo, Legno o Mobili) dalla home page.",
@@ -262,47 +267,47 @@
   },
   "marbleCTA": {
     "heading": "Pronto a trasformare le tue vendite di marmo?",
-    "button": "Inizia con Nirwana"
+    "button": "Inizia con ClicProduct"
   },
   "MarbleCTA": {
     "heading": "Inizia a costruire oggi il tuo sito web per il marmo",
-    "button": "Inizia con Nirwana"
+    "button": "Inizia con ClicProduct"
   },
   "WoodCTA": {
     "heading": "Pronto a trasformare le tue vendite di legno?",
-    "button": "Inizia con Nirwana"
+    "button": "Inizia con ClicProduct"
   },
 "WoodCTA1": {
   "heading": "Inizia a costruire il tuo sito web sul legno oggi",
-  "button": "Inizia con Nirwana"
+  "button": "Inizia con ClicProduct"
 },
   "ManufacturerCTA": {
     "heading": "Pronto a semplificare il tuo business del marmo?",
-    "button": "Inizia con Nirwana"
+    "button": "Inizia con ClicProduct"
   },
   "RetailsCTA": {
     "heading": "Trasforma il modo in cui vendi",
-    "button": "Inizia con Nirwana"
+    "button": "Inizia con ClicProduct"
   },
   "ArchitechCTA": {
     "heading": "Progettato per professionisti che costruiscono",
-    "button": "Inizia con Nirwana"
+    "button": "Inizia con ClicProduct"
   },
   "RenovationCTA": {
     "heading": "Offri qualità con fiducia",
-    "button": "Inizia con Nirwana"
+    "button": "Inizia con ClicProduct"
   },
   "ClicCTA": {
     "heading": "Offri qualità con fiducia",
-    "button": "Inizia con Nirwana"
+    "button": "Inizia con ClicProduct"
   },
   "WebCTA": {
     "heading": "Inizia a costruire oggi il tuo sito web per il marmo",
-    "button": "Inizia con Nirwana"
+    "button": "Inizia con ClicProduct"
   },
   "Wood1CTA": {
     "heading": "Inizia a costruire oggi il tuo sito web per il legno",
-    "button": "Inizia con Nirwana"
+    "button": "Inizia con ClicProduct"
   },
   "buildForMarble": {
     "heading": "Progettato per operazioni reali di marmo",

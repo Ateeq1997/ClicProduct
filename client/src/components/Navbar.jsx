@@ -62,6 +62,13 @@ const Navbar = () => {
       [name]: !prev[name],
     }));
   };
+  const languages = [
+  { code: "EN", label: "English", flag: "/figmaAssets/f1.png" },
+  { code: "FR", label: "Français", flag: "/figmaAssets/f2.png" },
+  { code: "ES", label: "Español", flag: "/figmaAssets/f3.png" },
+  { code: "IT", label: "Italiano", flag: "/figmaAssets/f4.png" },
+];
+
 
   return (
     <div className="bg-[#fcfcfc] w-full relative overflow-hidden">
@@ -91,7 +98,7 @@ const Navbar = () => {
           </button>
 
           {/* DESKTOP NAVIGATION */}
-          <nav className="hidden md:flex items-center gap-8 ml-32">
+          <nav className="hidden md:flex items-center gap-8 ml-72">
             {navigationItems.map((item, index) => {
               if (item.dropdown) {
                 return (
@@ -202,73 +209,43 @@ const Navbar = () => {
             </motion.div> */}
 
             {/* LANGUAGE DROPDOWN */}
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild>
-                <motion.div
-                  whileHover={{ scale: 1.05, boxShadow: "0 0 15px rgba(0,0,0,0.15)" }}
-                  whileTap={{ scale: 0.95 }}
-                  transition={{ type: "spring", stiffness: 300 }}
-                  className="rounded-full"
-                >
-                  <Button className="h-14 px-10 bg-[#111111] rounded-full font-[Poppins] font-semibold text-white text-base flex items-center gap-2 min-w-[160px] justify-between whitespace-nowrap">
-                    <span className="flex items-center gap-2">
-                      {language === "EN" && (
-                        <>
-                          <img src="/figmaAssets/f1.png" className="w-5 h-5 rounded-sm" />
-                          English
-                        </>
-                      )}
-                      {language === "FR" && (
-                        <>
-                          <img src="/figmaAssets/f2.png" className="w-5 h-5 rounded-sm" />
-                          Français
-                        </>
-                      )}
-                      {language === "ES" && (
-                        <>
-                          <img src="/figmaAssets/f3.png" className="w-5 h-5 rounded-sm" />
-                          Español
-                        </>
-                      )}
-                      {language === "IT" && (
-                        <>
-                          <img src="/figmaAssets/f4.png" className="w-5 h-5 rounded-sm" />
-                          Italiano
-                        </>
-                      )}
-                    </span>
-                    <ChevronDownIcon className="w-4 h-4" />
-                  </Button>
-                </motion.div>
-              </DropdownMenuTrigger>
+           <DropdownMenu>
+  <DropdownMenuTrigger asChild>
+    <motion.div
+      whileHover={{ scale: 1.05, boxShadow: "0 0 15px rgba(0,0,0,0.15)" }}
+      whileTap={{ scale: 0.95 }}
+      transition={{ type: "spring", stiffness: 300 }}
+      className="rounded-full"
+    >
+      <Button className="h-14 px-6 sm:px-10 bg-[#111111] rounded-full font-[Poppins] font-semibold text-white text-base flex items-center gap-2 min-w-[160px] justify-between whitespace-nowrap">
+        <span className="flex items-center gap-2">
+          <img
+            src={languages.find(l => l.code === language)?.flag}
+            className="w-5 h-5 rounded-sm"
+            alt={language}
+          />
+          {languages.find(l => l.code === language)?.label}
+        </span>
+        <ChevronDownIcon className="w-4 h-4" />
+      </Button>
+    </motion.div>
+  </DropdownMenuTrigger>
+
 
               {/* Language dropdown width matches button */}
-              <DropdownMenuContent className="bg-white shadow-lg border border-gray-200 mt-2 rounded-lg min-w-[160px]">
-                <DropdownMenuItem
-                  onClick={() => changeLanguage("EN")}
-                  className="cursor-pointer hover:bg-[#f2f2f2] font-[Poppins] text-base flex items-center gap-2 px-4 py-2 whitespace-nowrap"
-                >
-                  🇬🇧 English
-                </DropdownMenuItem>
-                <DropdownMenuItem
-                  onClick={() => changeLanguage("FR")}
-                  className="cursor-pointer hover:bg-[#f2f2f2] font-[Poppins] text-base flex items-center gap-2 px-4 py-2 whitespace-nowrap"
-                >
-                  🇫🇷 Français
-                </DropdownMenuItem>
-                <DropdownMenuItem
-                  onClick={() => changeLanguage("ES")}
-                  className="cursor-pointer hover:bg-[#f2f2f2] font-[Poppins] text-base flex items-center gap-2 px-4 py-2 whitespace-nowrap"
-                >
-                  🇪🇸 Español
-                </DropdownMenuItem>
-                <DropdownMenuItem
-                  onClick={() => changeLanguage("IT")}
-                  className="cursor-pointer hover:bg-[#f2f2f2] font-[Poppins] text-base flex items-center gap-2 px-4 py-2 whitespace-nowrap"
-                >
-                  🇮🇹 Italiano
-                </DropdownMenuItem>
-              </DropdownMenuContent>
+            <DropdownMenuContent className="bg-white shadow-lg border border-gray-200 mt-2 rounded-lg min-w-[160px]">
+  {languages.map((lang) => (
+    <DropdownMenuItem
+      key={lang.code}
+      onClick={() => changeLanguage(lang.code)}
+      className="cursor-pointer hover:bg-[#f2f2f2] font-[Poppins] text-base flex items-center gap-2 px-4 py-2 whitespace-nowrap"
+    >
+      <img src={lang.flag} className="w-5 h-5 rounded-sm" alt={lang.code} />
+      {lang.label}
+    </DropdownMenuItem>
+  ))}
+</DropdownMenuContent>
+
             </DropdownMenu>
           </div>
         </div>
@@ -373,47 +350,34 @@ const Navbar = () => {
 
             {/* MOBILE LANGUAGE BUTTON */}
             <DropdownMenu>
-              <DropdownMenuTrigger asChild>
-                <Button className="w-full h-12 bg-[#111111] rounded-full font-[Poppins] text-white flex justify-between items-center">
-                  <span>
-                    {language === "EN" && "English"}
-                    {language === "FR" && "Français"}
-                    {language === "ES" && "Español"}
-                    {language === "IT" && "Italiano"}
-                  </span>
-                  <ChevronDownIcon />
-                </Button>
-              </DropdownMenuTrigger>
+             <DropdownMenuTrigger asChild>
+  <Button className="w-full h-12 bg-[#111111] rounded-full font-[Poppins] text-white flex justify-between items-center">
+    <span className="flex items-center gap-2">
+      <img
+        src={languages.find(l => l.code === language)?.flag}
+        className="w-5 h-5 rounded-sm"
+        alt={language}
+      />
+      {languages.find(l => l.code === language)?.label}
+    </span>
+    <ChevronDownIcon />
+  </Button>
+</DropdownMenuTrigger>
 
-              <DropdownMenuContent className="bg-white shadow-lg border border-gray-200 mt-2 rounded-lg w-full min-w-full">
-                <DropdownMenuItem
-                  onClick={() => changeLanguage("EN")}
-                  className="font-[Poppins] px-4 py-2"
-                >
-                  🇬🇧 English
-                </DropdownMenuItem>
 
-                <DropdownMenuItem
-                  onClick={() => changeLanguage("FR")}
-                  className="font-[Poppins] px-4 py-2"
-                >
-                  🇫🇷 Français
-                </DropdownMenuItem>
+<DropdownMenuContent className="bg-white shadow-lg border border-gray-200 mt-0 rounded-lg w-40 min-w-full">
+  {languages.map((lang) => (
+    <DropdownMenuItem
+      key={lang.code}
+      onClick={() => changeLanguage(lang.code)}
+      className="font-[Poppins] px-4 py-2 flex items-center gap-2"
+    >
+      <img src={lang.flag} className="w-5 h-5 rounded-sm" alt={lang.code} />
+      {lang.label}
+    </DropdownMenuItem>
+  ))}
+</DropdownMenuContent>
 
-                <DropdownMenuItem
-                  onClick={() => changeLanguage("ES")}
-                  className="font-[Poppins] px-4 py-2"
-                >
-                  🇪🇸 Español
-                </DropdownMenuItem>
-
-                <DropdownMenuItem
-                  onClick={() => changeLanguage("IT")}
-                  className="font-[Poppins] px-4 py-2"
-                >
-                  🇮🇹 Italiano
-                </DropdownMenuItem>
-              </DropdownMenuContent>
             </DropdownMenu>
           </div>
         )}

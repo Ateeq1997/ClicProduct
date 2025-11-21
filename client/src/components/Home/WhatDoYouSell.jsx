@@ -168,26 +168,31 @@ const WhatDoYouSell = () => {
               ))}
 
               {/* Button */}
-              <motion.div
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                transition={{ type: "spring", stiffness: 300 }}
-                className="rounded-[200px] inline-block mx-auto w-full text-center mt-4 sm:mt-6"
-              >
-                <Button
-                  className="
-                    h-auto w-full 
-                    px-4 sm:px-6 py-[12px] sm:py-[15px] 
-                    bg-[#111111] 
-                    rounded-[200px] 
-                    text-white 
-                    text-[16px] sm:text-[18px] md:text-[22px] font-semibold
-                    [font-family:'Poppins',Helvetica]
-                  "
-                >
-                  {t("whatDoYouSell.seeFullDashboard")}
-                </Button>
-              </motion.div>
+{/* Button */}
+<motion.div
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  transition={{ type: "spring", stiffness: 300 }}
+  className="inline-flex justify-center mt-4 sm:mt-6 w-full"
+>
+  <Button
+    className="
+      h-auto 
+      px-6 py-[12px] sm:py-[15px] 
+      bg-[#111111] 
+      rounded-[200px] 
+      text-white 
+      text-[16px] sm:text-[18px] md:text-[22px] font-semibold
+      [font-family:'Poppins',Helvetica]
+      whitespace-nowrap
+      w-auto
+      max-w-full
+    "
+  >
+    {t("whatDoYouSell.seeFullDashboard")}
+  </Button>
+</motion.div>
+
 
             </div>
 

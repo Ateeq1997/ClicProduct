@@ -9,7 +9,7 @@ const SimplifyProjectSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="w-full bg-[#a3806214] backdrop-blur-[2px] backdrop-brightness-[100%] py-[80px] sm:py-[89px]">
+    <section className="w-full bg-[#a3806214] backdrop-blur-[2px] backdrop-brightness-[100%] py-[130px] sm:py-[89px]">
       <div className="max-w-[1440px] mx-auto px-6 sm:px-12 md:px-[92px]">
         <div className="flex flex-col md:flex-row items-center gap-12 md:gap-[58px]">
           {/* ===== Left Image with Play Icon ===== */}

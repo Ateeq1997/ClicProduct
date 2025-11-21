@@ -23,7 +23,7 @@ const RetailerHero = () => {
           <CardContent className="flex flex-col items-center justify-center gap-6 p-[30px] sm:p-[50px] md:p-[74px]">
             
             {/* ===== Heading ===== */}
-            <h2 className="w-full max-w-[1188px] sm:text-[60px] md:text-[79px] [-webkit-text-stroke:2px_#a38062] [font-family:'Poppins',Helvetica] font-bold text-white text-center tracking-[0] leading-[1.1]">
+    <h2 className="w-full max-w-[1188px] text-center [-webkit-text-stroke:2px_#a38062] font-poppins font-bold text-white text-[36px] sm:text-[52px] md:text-[64px] lg:text-[79px] tracking-[0] leading-[40px] sm:leading-[64px] md:leading-[80px] lg:leading-[87.7px]">
               {t("hero4.heading")}
             </h2>
 

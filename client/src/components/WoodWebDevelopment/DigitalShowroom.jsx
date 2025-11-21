@@ -24,7 +24,7 @@ const DigitalShowroom = () => {
   const imagesTextBelow = t("digitalShowroom1.images", { returnObjects: true })[0]?.text || "";
 
   return (
-    <section className="w-full max-w-[1140px] mx-auto text-center py-16 px-4 sm:px-6 md:px-8">
+    <section className="w-full max-w-[1140px] mx-auto text-center py-24 px-4 sm:px-6 md:px-8">
       {/* Heading */}
       <h2 className="[font-family:'Poppins',Helvetica] font-bold text-[#333333] text-4xl sm:text-5xl leading-tight sm:leading-[62px]">
         {t("digitalShowroom1.heading")}

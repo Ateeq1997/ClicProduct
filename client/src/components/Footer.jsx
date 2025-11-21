@@ -37,16 +37,42 @@ const Footer = () => {
             {t("footer.column1.description")}
           </p>
 
-          <div className="flex flex-col sm:flex-row mb-6 sm:mb-8 overflow-hidden rounded-full border border-[#ffffff40]">
-            <Input
-              type="email"
-              placeholder={t("footer.column1.newsletterPlaceholder")}
-              className="bg-white text-[#111111] h-[44px] sm:h-[48px] border-none rounded-none text-sm px-4 sm:px-5 flex-1 [font-family:'Poppins',Helvetica]"
-            />
-            <Button className="h-[44px] sm:h-[48px] bg-white text-[#111111] font-semibold text-sm px-4 sm:px-6 rounded-none border-t sm:border-t-0 sm:border-l border-[#0000001A]">
-              {t("footer.column1.newsletterButton")}
-            </Button>
-          </div>
+         <div className="flex flex-col sm:flex-row mb-6 sm:mb-8 overflow-hidden rounded-full border border-[#ffffff40]">
+  <Input
+    type="email"
+    placeholder={t("footer.column1.newsletterPlaceholder")}
+    className="
+      bg-white 
+      text-[#111111] 
+      h-[44px] sm:h-[48px] 
+      border-none 
+      rounded-none 
+      text-sm 
+      px-4 sm:px-5 
+      flex-1 
+      [font-family:'Poppins',Helvetica]
+      placeholder:text-center sm:placeholder:text-left
+    "
+  />
+  <Button
+    className="
+      h-[44px] sm:h-[48px] 
+      bg-white 
+      text-[#111111] 
+      font-semibold 
+      text-sm 
+      px-4 sm:px-6 
+      rounded-none 
+      border-t sm:border-t-0 sm:border-l 
+      border-[#0000001A]
+      hover:text-white
+      transition-colors
+    "
+  >
+    {t("footer.column1.newsletterButton")}
+  </Button>
+</div>
+
 
           <div className="flex gap-3 sm:gap-4 mt-3 flex-wrap">
             {Object.entries(social).map(([key, url]) => (

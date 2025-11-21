@@ -97,24 +97,30 @@
     "downFromYesterday": "Down from yesterday"
   },
   "poweredBy": {
-    "heading": "Powered by Nirwana.ai",
-    "paragraph": "Nirwana technology allows realistic, real-world previews of all your products without complex setups.",
+    "heading": "Powered by ClicProduct",
+    "paragraph": "ClicProduct technology allows realistic, real-world previews of all your products without complex setups.",
+     "readMore": "Read More",
+     "showLess": "Show Less",
     "rooms": {
       "living": {
         "title": "Living Room",
-        "description": "As one of the most-frequented spots in the home, a living room sets the tone for the rest of the house."
+        "description": "As one of the most-frequented spots in the home, a living room sets the tone for the rest of the house.",
+        "moreText": "The living room is the centerpiece of your home, designed for relaxation and gatherings. Visualize furniture, lighting, and decor in real-time to create a space you love."
       },
       "bedroom": {
         "title": "Bedroom",
-        "description": "Unleash your creativity to make it not only comfortable but also a pleasant place to start and end your day."
+        "description": "Unleash your creativity to make it not only comfortable but also a pleasant place to start and end your day.",
+        "moreText": "Your bedroom should feel comfortable and inspiring. Preview layouts, colors, and decor to make it your perfect personal retreat."
       },
       "office": {
         "title": "Office",
-        "description": "The home office design ideas featured here are maximized for efficiency, optimized for space, and improvised for comfort by Spacejoy designers."
+        "description": "The home office design ideas featured here are maximized for efficiency, optimized for space, and improvised for comfort by Spacejoy designers.",
+        "moreText": "A home office should balance productivity and style. Visualize furniture and lighting to maximize efficiency and comfort."
       },
       "kitchen": {
         "title": "Kitchen",
-        "description": "The kitchen is the heart of every home — a space where functionality meets style. With Nirwana.ai, you can preview how different materials, colors, and finishes will look in your kitchen before making any decision."
+        "description": "The kitchen is the heart of every home — a space where functionality meets style. With ClicProduct, you can preview how different materials, colors, and finishes will look in your kitchen before making any decision.",
+        "moreText": "The kitchen blends functionality with style. Preview materials, colors, and finishes to create a beautiful, practical space."
       }
     },
     "readMore": "Read More"
@@ -122,7 +128,7 @@
   "visualization_alt1": "Visualization Image 1",
   "visualization_alt2": "Visualization Image 2",
   "visualization_alt3": "Visualization Image 3",
-   "explore_heading": "Explore the Future of Visualization with Nirwana.ai",
+   "explore_heading": "Explore the Future of Visualization with ClicProduct",
   "how_heading": "How It Works",
   "how_step1_title": "Choose Your Product",
   "how_step1_desc": "Select what you sell (Marble, Wood, or Furniture) from the home page.",
@@ -264,47 +270,47 @@
   
   "marbleCTA": {
     "heading": "Ready to transform your marble sales?",
-    "button": "Get Started with Nirwana"
+    "button": "Get Started with ClicProduct"
   },
    "MarbleCTA": {
     "heading": "Start Building Your Marble Website Today",
-    "button": "Get Started with Nirwana"
+    "button": "Get Started with ClicProduct"
   },
   "WoodCTA": {
     "heading": "Ready to transform your Wood sales?",
-    "button": "Get Started with Nirwana"
+    "button": "Get Started with ClicProduct"
   },
   "WoodCTA1": {
     "heading": "Start Building Your Wood Website Today",
-    "button": "Get Started with Nirwana"
+    "button": "Get Started with ClicProduct"
   },
    "ManufacturerCTA": {
     "heading": "Ready to Simplify Your Marble Business?",
-    "button": "Get Started with Nirwana"
+    "button": "Get Started with ClicProduct"
   },
    "RetailsCTA": {
     "heading": "Transform the Way You Sell",
-    "button": "Get Started with Nirwana"
+    "button": "Get Started with ClicProduct"
   },
     "ArchitechCTA": {
     "heading": "Designed for Professionals Who Build",
-    "button": "Get Started with Nirwana"
+    "button": "Get Started with ClicProduct"
   },
       "RenovationCTA": {
     "heading": "Deliver Quality with Confidence",
-    "button": "Get Started with Nirwana"
+    "button": "Get Started with ClicProduct"
   },
       "ClicCTA": {
     "heading": "Deliver Quality with Confidence",
-    "button": "Get Started with Nirwana"
+    "button": "Get Started with ClicProduct"
   },
       "WebCTA": {
     "heading": "Start Building Your Marble Website Today",
-    "button": "Get Started with Nirwana"
+    "button": "Get Started with ClicProduct"
   },
      "Wood1CTA": {
     "heading": "Start Building Your Wood Website Today",
-    "button": "Get Started with Nirwana"
+    "button": "Get Started with ClicProduct"
   },
   "buildForMarble": {
     "heading": "Built for Real Marble Operations",

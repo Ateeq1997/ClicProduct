@@ -7,7 +7,7 @@ const ExploreVisualization = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="max-w-[1440px] mx-auto px-4 md:px-8 lg:px-[92px] py-16 mt-[250px]">
+    <section className="max-w-[1440px] mx-auto px-4 md:px-8 lg:px-[92px] py-6 mt-[50px]">
       <h2 className="[font-family:'Poppins',Helvetica] font-bold text-[#333333] text-4xl md:text-5xl lg:text-5xl text-center leading-tight mb-12">
         {t("explore_heading")}
       </h2>
