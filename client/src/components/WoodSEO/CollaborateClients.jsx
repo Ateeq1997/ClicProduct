@@ -88,7 +88,7 @@ const CollaborateClients = () => {
               object-cover rounded-md mx-auto
             "
             alt="Preview 1"
-            src="figmaAssets/s1.png"
+            src="figmaAssets/w4.jpg"
           />
 
           <img
@@ -98,7 +98,7 @@ const CollaborateClients = () => {
               object-cover rounded-md mx-auto
             "
             alt="Preview 2"
-            src="figmaAssets/s2.png"
+            src="figmaAssets/w3.jpg"
           />
         </div>
 
@@ -117,7 +117,7 @@ const CollaborateClients = () => {
               object-cover rounded-md mx-auto
             "
             alt="Preview 3"
-            src="figmaAssets/s3.png"
+            src="figmaAssets/w5.jpg"
           />
 
           <img

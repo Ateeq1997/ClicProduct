@@ -15,9 +15,25 @@ const RetailsCTA = () => {
         </h2>
 
         {/* Button with hover animation */}
-        <Button className="h-auto px-6 sm:px-8 py-[12px] sm:py-[15px] bg-white rounded-[200px] border border-solid border-[#00000061] [font-family:'Poppins',Helvetica] font-semibold text-[#111111] text-[18px] sm:text-[22px] transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:text-white hover:bg-[#111111]">
-          {t("RetailsCTA.button")}
-        </Button>
+      <Button
+  className="
+    inline-flex items-center justify-center 
+    h-auto px-4 sm:px-6 md:px-8 py-[12px] sm:py-[15px] 
+    bg-white rounded-[200px] border border-solid border-[#00000061] 
+    [font-family:'Poppins',Helvetica] font-semibold text-[#111111] 
+    text-[16px] sm:text-[18px] md:text-[22px] 
+    transition-all duration-300 ease-in-out 
+    hover:scale-105 hover:shadow-lg hover:text-white hover:bg-[#111111]
+    whitespace-nowrap
+    max-w-full
+    overflow-hidden
+    text-ellipsis
+  "
+>
+  {t("RetailsCTA.button")}
+</Button>
+
+
       </div>
     </section>
   );

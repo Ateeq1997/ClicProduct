@@ -2,6 +2,9 @@
 import React from "react";
 import "../../i18n"; // load i18n config
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
+
 
 const ContactForm = () => {
   const { t } = useTranslation();
@@ -54,13 +57,22 @@ const ContactForm = () => {
 
         {/* Submit */}
         <div className="flex justify-start md:justify-end">
-          <button
-            type="submit"
-            className="relative overflow-hidden bg-[#333333] text-white px-8 sm:px-12 py-3 sm:py-5 text-base sm:text-lg rounded-full font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl"
-          >
-            <span className="relative z-10">{t("contact.submit")}</span>
-            <span className="absolute inset-0 bg-gray-700 scale-x-0 origin-left transition-transform duration-300 hover:scale-x-100 z-0"></span>
-          </button>
+          {/* ===== Animated Button ===== */}
+        <motion.div
+          whileHover={{
+            scale: 1.08,
+            backgroundColor: "#ffffff",
+            color: "#000000",
+            boxShadow: "0 0 25px rgba(0,0,0,0.3)",
+          }}
+          whileTap={{ scale: 0.95 }}
+          transition={{ type: "spring", stiffness: 300 }}
+          className="rounded-[200px] mt-4"
+        >
+          <Button className="h-auto px-6 sm:px-8 py-[10px] sm:py-[12px] bg-black rounded-[200px] border border-solid border-[#00000061] font-poppins font-semibold text-[16px] sm:text-[18px] md:text-[20px] text-[#ffffff] transition-all duration-500 hover:bg-[#ffffff] hover:text-black">
+            {t("contact.submit")}
+          </Button>
+        </motion.div>
         </div>
       </form>
     </section>

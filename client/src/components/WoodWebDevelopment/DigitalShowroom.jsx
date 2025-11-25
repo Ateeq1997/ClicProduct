@@ -7,13 +7,13 @@ const DigitalShowroom = () => {
 
   const showroomImages = [
     {
-      src: "figmaAssets/s7.png",
+      src: "figmaAssets/w1.jpg",
       alt: "Showroom image",
       className: "w-[470px] h-[359px] bg-cover bg-center rounded-2xl",
       isBackground: true,
     },
     {
-      src: "figmaAssets/s8.png",
+      src: "figmaAssets/w3.jpg",
       alt: "Image",
       className: "w-[471px] h-[360px] object-cover rounded-2xl",
       isBackground: false,

@@ -96,15 +96,18 @@ const Footer = () => {
             {t("footer.links.title")}
           </h3>
 
-          <ul className="flex flex-col gap-2 sm:gap-3 text-[#DADADA] text-[13px] sm:text-[15px] [font-family:'Poppins',Helvetica]">
-            {links.map((item, index) => (
-              <li key={index}>
-                <Link href={footerRoutes[item]}>
-                  <span className="cursor-pointer hover:text-white transition">{item}</span>
-                </Link>
-              </li>
-            ))}
-          </ul>
+        <ul className="flex flex-col gap-2 sm:gap-3 text-[#DADADA] text-[13px] sm:text-[15px] [font-family:'Poppins',Helvetica]">
+  {links.map((item, index) => (
+    <li key={index}>
+      <Link
+        href={footerRoutes[item]}
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      >
+        <span className="cursor-pointer hover:text-white transition">{item}</span>
+      </Link>
+    </li>
+  ))}
+</ul>
         </div>
 
         {/* Column 3 — SERVICES */}
@@ -114,14 +117,18 @@ const Footer = () => {
           </h3>
 
           <ul className="flex flex-col gap-2 sm:gap-3 text-[#DADADA] text-[13px] sm:text-[15px] [font-family:'Poppins',Helvetica]">
-            {services.map((item, index) => (
-              <li key={index}>
-                <Link href={footerRoutes[item]}>
-                  <span className="cursor-pointer hover:text-white transition">{item}</span>
-                </Link>
-              </li>
-            ))}
-          </ul>
+  {services.map((item, index) => (
+    <li key={index}>
+      <Link
+        href={footerRoutes[item]}
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      >
+        <span className="cursor-pointer hover:text-white transition">{item}</span>
+      </Link>
+    </li>
+  ))}
+</ul>
+
         </div>
 
         {/* Line */}

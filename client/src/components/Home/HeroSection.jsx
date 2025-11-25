@@ -77,32 +77,22 @@ const HeroSection = () => {
 
           {/* Button */}
           <div className="flex justify-center gap-3 flex-wrap">
-            <motion.div
-              whileHover={{
-                scale: 1.05,
-                backgroundColor: "#f5f5f5",
-                boxShadow: "0 0 20px rgba(0,0,0,0.1)",
-              }}
-              whileTap={{ scale: 0.95 }}
-              transition={{ type: "spring", stiffness: 300 }}
-              className="rounded-[200px] inline-block"
-            >
-              <Button className="
-                h-auto 
-                px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-[15px]
-                bg-white 
-                rounded-[200px] 
-                border border-solid border-[#00000061] 
-                [font-family:'Poppins',Helvetica] 
-                font-semibold 
-                text-[#111111] 
-                text-[14px] sm:text-[16px] md:text-[20px] lg:text-[22px]
-                tracking-[0] 
-                transition-all duration-300
-              ">
-                {t("hero.button")}
-              </Button>
-            </motion.div>
+           {/* ===== Animated Button ===== */}
+                   <motion.div
+                     whileHover={{
+                       scale: 1.08,
+                       backgroundColor: "#000000",
+                       color: "#ffffff",
+                       boxShadow: "0 0 25px rgba(0,0,0,0.3)",
+                     }}
+                     whileTap={{ scale: 0.95 }}
+                     transition={{ type: "spring", stiffness: 300 }}
+                     className="rounded-[200px] mt-4"
+                   >
+                     <Button className="h-auto px-6 sm:px-8 py-[10px] sm:py-[12px] bg-white rounded-[200px] border border-solid border-[#00000061] font-poppins font-semibold text-[16px] sm:text-[18px] md:text-[20px] text-[#111111] transition-all duration-500 hover:bg-[#000000] hover:text-white">
+                       {t("hero6.button")}
+                     </Button>
+                   </motion.div>
           </div>
         </div>
       </div>

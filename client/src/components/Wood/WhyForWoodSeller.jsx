@@ -15,23 +15,28 @@ const WhyForWoodSellers = () => {
         sm:px-6 px-4
       "
     >
-      {/* Heading */}
-      <h2
-        className="
-          [font-family:'Poppins',Helvetica] font-bold text-[#111111]
-          text-center tracking-[0] leading-[75.5px] mb-16
-          text-[68px]
+   {/* Heading */}
+<h2
+  className="
+    [font-family:'Poppins',Helvetica] font-bold text-[#111111]
+    text-center tracking-[0] mb-16
 
-          /* Tablet */
-          md:text-[48px] md:leading-[55px]
+    /* Mobile (default) */
+    text-[32px] leading-[38px]
 
-          /* Mobile */
-          sm:text-[36px] sm:leading-[42px]
-          text-[30px] leading-[36px]
-        "
-      >
-        {t("whyWoodSellers.heading")}
-      </h2>
+    /* Small screens */
+    sm:text-[40px] sm:leading-[46px]
+
+    /* Tablet */
+    md:text-[52px] md:leading-[60px]
+
+    /* Large screens */
+    lg:text-[68px] lg:leading-[75px]
+  "
+>
+  {t("whyWoodSellers.heading")}
+</h2>
+
 
       {/* Features Grid */}
       <div

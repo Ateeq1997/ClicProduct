@@ -13,7 +13,7 @@ const DigitalShowroom = () => {
       belowText: t("digitalShowroom.images.0.text"),
     },
     {
-      src: "figmaAssets/image 15 (1).png",
+      src: "figmaAssets/image 16.png",
       alt: "Image",
       isBackground: false,
       belowText: t("digitalShowroom.images.1.text"),
@@ -51,11 +51,14 @@ const DigitalShowroom = () => {
                 style={{ backgroundImage: `url(${image.src})` }}
               />
             ) : (
-              <img
-                src={image.src}
-                alt={image.alt}
-                className="w-full h-auto rounded-2xl"
-              />
+             <div className="w-full rounded-2xl aspect-[470/359] overflow-hidden">
+  <img
+    src={image.src}
+    alt={image.alt}
+    className="w-full h-full object-cover"
+  />
+</div>
+
             )}
             <p className="mt-6 [font-family:'Poppins',Helvetica] text-[#4b4b4b] text-[18px] sm:text-[20px] leading-[28px] sm:leading-[30px] text-center">
               {image.belowText}

@@ -20,17 +20,22 @@ const CustomerJourneySection = () => {
         </p>
 
         {/* ===== Animated Button ===== */}
-        <motion.div
-          whileHover={{ scale: 1.05, boxShadow: "0 0 25px rgba(0,0,0,0.2)" }}
-          whileTap={{ scale: 0.95 }}
-          transition={{ type: "spring", stiffness: 250 }}
-        >
-          <Button className="bg-[#111111] hover:bg-[#333333] rounded-[200px] px-6 sm:px-8 py-[12px] sm:py-[15px] h-auto border border-solid border-[#00000061] transition-all duration-300">
-            <span className="[font-family:'Poppins',Helvetica] font-semibold text-white text-[18px] sm:text-[20px] lg:text-[22px]">
-              {t("customerJourney.button")}
-            </span>
-          </Button>
-        </motion.div>
+        {/* ===== Animated Button ===== */}
+                <motion.div
+                  whileHover={{
+                    scale: 1.08,
+                    backgroundColor: "#000000",
+                    color: "#ffffff",
+                    boxShadow: "0 0 25px rgba(0,0,0,0.3)",
+                  }}
+                  whileTap={{ scale: 0.95 }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                  className="rounded-[200px] mt-4"
+                >
+                  <Button className="h-auto px-6 sm:px-8 py-[10px] sm:py-[12px] bg-white rounded-[200px] border border-solid border-[#00000061] font-poppins font-semibold text-[16px] sm:text-[18px] md:text-[20px] text-[#111111] transition-all duration-500 hover:bg-[#000000] hover:text-white">
+                    {t("hero6.button")}
+                  </Button>
+                </motion.div>
       </div>
 
       {/* ===== Animated Image ===== */}

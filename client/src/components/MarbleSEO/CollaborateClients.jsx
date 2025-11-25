@@ -37,18 +37,29 @@ const CollaborateClients = () => {
       </p>
 
       {/* Two Images Side by Side */}
-      <div className="flex flex-col sm:flex-row gap-6 sm:gap-[51px] items-center justify-center">
-        <img
-          className="w-full max-w-[471px] h-[200px] sm:h-[280px] md:h-[360px] object-cover rounded-md"
-          alt="Collaboration preview 1"
-          src="figmaAssets/Image (1).png"
-        />
-        <img
-          className="w-full max-w-[471px] h-[200px] sm:h-[280px] md:h-[360px] object-cover rounded-md"
-          alt="Collaboration preview 2"
-          src="figmaAssets/image 15 (2).png"
-        />
-      </div>
+     <div className="flex flex-col sm:flex-row gap-6 sm:gap-[51px] items-center justify-center w-full">
+
+  {/* Image 1 */}
+  <div className="w-full max-w-[480px] h-[220px] sm:h-[320px] md:h-[380px] rounded-xl overflow-hidden">
+    <img
+      className="w-full h-full object-cover"
+      alt="Collaboration preview 1"
+      src="figmaAssets/m3.jpg"
+    />
+  </div>
+
+  {/* Image 2 */}
+  <div className="w-full max-w-[480px] h-[220px] sm:h-[320px] md:h-[380px] rounded-xl overflow-hidden">
+    <img
+      className="w-full h-full object-cover"
+      alt="Collaboration preview 2"
+      src="figmaAssets/image 15 (2).png"
+    />
+  </div>
+
+</div>
+
+
     </section>
   );
 };

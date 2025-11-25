@@ -11,10 +11,12 @@ const DashboardAndFeatures = () => {
   const metricsData = t("dashboard.metrics", { returnObjects: true });
 
   return (
-    <section
-      className="w-full max-w-[1440px] mx-auto px-[92px] py-20 
-                 lg:px-[92px] md:px-12 sm:px-6 px-4"
-    >
+  <section
+  className="w-full mx-auto py-20 
+             px-3 sm:px-5 md:px-8 lg:px-[92px] 
+             lg:max-w-[1440px]"
+>
+
       <div
         className="bg-[#a3806214] rounded-lg border border-solid border-[#00000024] 
                    backdrop-blur-[2px] backdrop-brightness-[100%] 
