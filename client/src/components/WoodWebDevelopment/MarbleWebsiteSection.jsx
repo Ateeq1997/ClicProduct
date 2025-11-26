@@ -58,7 +58,7 @@ const MarbleWebsiteSection = () => {
             transition={{ duration: 0.4, ease: "easeOut" }}
             className="absolute top-0 sm:top-0 left-[80px] sm:left-[143px] w-[305px] h-[400px] object-cover rounded-md shadow-lg"
             alt="Design example 2"
-            src="figmaAssets/w7.png"
+            src="figmaAssets/w3.jpg"
           />
         </div>
       </div>
