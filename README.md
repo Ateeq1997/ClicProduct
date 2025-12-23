@@ -74,5 +74,5 @@ UI development for visualization-based applications
 Clean project structure and reusable components
 
 Author
-Developed by Atee ur Rehman
+Developed by Ateeq ur Rehman
 Full stack developer
