@@ -66,6 +66,8 @@ http://localhost:5173/
 <img width="1894" height="912" alt="Screenshot 2025-12-23 185332" src="https://github.com/user-attachments/assets/2f11adf4-a164-4513-987e-6a9a9ec991b6" />
 <img width="1892" height="903" alt="Screenshot 2025-12-23 185349" src="https://github.com/user-attachments/assets/8451ef0f-9e28-4600-a71a-26c3e5cb8c51" />
 <img width="1898" height="911" alt="Screenshot 2025-12-23 185401" src="https://github.com/user-attachments/assets/9c540a04-6e10-4c24-96ff-055e1b73e7e2" />
+<img width="1909" height="911" alt="Screenshot 2025-12-23 185318" src="https://github.com/user-attachments/assets/a6bff326-c7c8-4f07-b4c9-f4fd9196c8c2" />
+<img width="1909" height="911" alt="Screenshot 2025-12-23 185318" src="https://github.com/user-attachments/assets/78cc7102-38ff-4426-a8ec-6c51583bc811" />
 
 What This Project Demonstrates
 Practical use of React in a real-world project
