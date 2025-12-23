@@ -25,7 +25,16 @@ Focused on comfort and creativity, this section highlights materials suitable fo
 Designed with efficiency and productivity in mind, showcasing professional and optimized interior layouts.
 
 ---
+The website supports **four languages**:
 
+- **English**
+- **Spanish**
+- **Italian**
+- **French**
+
+When a user selects a language, the **entire website content updates dynamically** to the selected language, providing a localized and user-friendly experience.
+
+---
 ## Tech Stack
 
 - **TypeScript** – 50.2%
